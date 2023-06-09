@@ -1,0 +1,947 @@
+# Heike Riegler <heike.riegler@julius-kuehn.de>, 2022.
+# Pia Piontkowitz <pia.piontkowitz@rub.de>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:23-07:00\n"
+"PO-Revision-Date: 2023-04-28 14:09+0000\n"
+"Last-Translator: Pia Piontkowitz <pia.piontkowitz@rub.de>\n"
+"Language-Team: German <http://translate.pkp.sfu.ca/projects/pkp-lib/admin/de/"
+">\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.systemInfo.settingName"
+msgstr "Name der Einstellung"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "Wert der Einstellung"
+
+msgid "admin.adminFunctions"
+msgstr "Administrationsaufgaben"
+
+msgid "admin.deleteCache"
+msgstr "Caches löschen"
+
+msgid "admin.deleteCache.description"
+msgstr ""
+"Cache Dateien aus dem System löschen. Dies sollte nur in Entwicklungs-"
+"Umgebungen getan werden."
+
+msgid "admin.clearDataCache"
+msgstr "Den Datenspeicher leeren"
+
+msgid "admin.clearTemplateCache"
+msgstr "Den Vorlagenspeicher leeren"
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"Ihre Konfigurationsdatei wurde erfolgreich aktualisiert. Beachten Sie bitte, "
+"dass Sie, falls Ihre Seite nicht mehr richtig arbeitet, eventuell die "
+"Konfiguration manuell wiederherstellen müssen, indem Sie direkt <tt>config."
+"inc.php</tt> bearbeiten."
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "Sind Sie sicher, dass Sie den Vorlagenspeicher leeren wollen?"
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"Sind Sie sicher, dass Sie alle Benutzer/innensitzungen schließen wollen? "
+"Alle Benutzer/innen, die gerade arbeiten (auch Sie selbst), müssen sich "
+"danach neu einloggen."
+
+msgid "admin.contentsOfConfigFile"
+msgstr "Inhalt der Konfigurationsdatei"
+
+msgid "admin.contexts.confirmDelete"
+msgstr ""
+"Sind Sie sicher, dass Sie {$contextName} und den gesamten zugehörigen Inhalt "
+"dauerhaft löschen wollen?"
+
+msgid "admin.currentVersion"
+msgstr "Aktuelle Version"
+
+msgid "admin.dateInstalled"
+msgstr "Installiert am"
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"Der Inhalt Ihrer aktualisierten Konfiguration wird nachstehend angezeigt. "
+"Öffnen Sie <tt>config.inc.php</tt> mit einem geeigneten Texteditor und "
+"ersetzen Sie den Inhalt durch den Text im nachstehenden Textfeld."
+
+msgid "admin.displayNewSystemConfig"
+msgstr "Neue Konfiguration anzeigen"
+
+msgid "admin.expireSessions"
+msgstr "Benutzer/innensitzungen schließen"
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"Alle Nutzer/innen, inkl. Ihnen, werden sofort aus der Applikation ausgeloggt "
+"und müssen sich erneut einloggen."
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"Diese Sprache ist die primäre Sprache dieser Website. Sie können sie erst "
+"deaktivieren, wenn Sie eine andere primäre Regionalausstellung ausgewählt "
+"haben."
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"Sind Sie sicher, dass Sie die primäre Regionaleinstellung der Seite ändern "
+"wollen? Nutzernamen, die für die primäre Regionaleinstellung der Seite "
+"benötigt werden, werden dort, wo sie fehlen, von der bestehenden primären "
+"Regionaleinstellung übernommen."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"Sind Sie sicher, dass Sie diese Regionaleinstellung neu laden wollen? "
+"Dadurch werden alle regionalspezifischen Daten (wie z.B. angepasste E-Mail-"
+"Vorlagen) gelöscht."
+
+msgid "admin.languages.installedLocales"
+msgstr "Eingerichtete Regionaleinstellungen"
+
+msgid "admin.languages.installLanguages"
+msgstr "Regionaleinstellungen verwalten"
+
+msgid "admin.languages.availableLocales"
+msgstr "Verfügbare Regionaleinstellungen"
+
+msgid "admin.languages.installLocale"
+msgstr "Regionaleinstellungen installieren"
+
+msgid "admin.languages.installLocales"
+msgstr "Installieren"
+
+msgid "admin.languages.installNewLocales"
+msgstr "Neue Regionaleinstellungen installieren"
+
+msgid "admin.languages.languageSettings"
+msgstr "Spracheinstellungen"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr "Keine weiteren Regionaleinstellungen verfügbar."
+
+msgid "admin.languages.reload"
+msgstr "Regionaleinstellung neu laden"
+
+msgid "admin.languages.uninstall"
+msgstr "Regionaleinstellung deinstallieren"
+
+msgid "admin.phpInfo"
+msgstr "Ausführliche Informationen zu PHP"
+
+msgid "admin.scheduledTask"
+msgstr "Geplante Aufgabe"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "Geplante Aufgabe wurde gestartet."
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "Geplante Aufgabe wurde beendet."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "Geplante Aufgabe hat keine Logdatei erzeugt."
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "DOIs über die angegebene Registrierungsagentur abliefern"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"Ihre {$softwareName}-Installation hat diese Aufgabe automatisch ausgeführt "
+"und beendet. Sie können die Logdatei hier herunterladen: {$url}"
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr ""
+"Eine E-Mail an alle Redakteur/innen schicken um sie an ihre ausstehenden "
+"Aufgaben zu erinnern"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr ""
+"Identifizierung der zu erinnernden Redakteur/innen im Kontext {$contextId}"
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"{$count} Jobs erstellt, um redaktionelle E-Mail-Erinnerungen an Benutzer/"
+"innen {$userIds} im Kontext {$contextId} zu senden"
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr ""
+"Sind Sie sicher, dass Sie alle Logdateien zu geplanten Aufgaben löschen "
+"möchten?"
+
+msgid "admin.scheduledTask.clearLogs"
+msgstr "Logdateien zur Ausführung geplanter Aufgaben löschen"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr "Alle Protokolle der ausgeführten geplanten Aufgabenprozesse löschen."
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "Aufgabenprotokolle löschen"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "Die zur Veröffentlichung vorgesehenen Beiträge jetzt veröffentlichen"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Erinnerung an Begutachtung"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "Redaktionsreport Benachrichtigung"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Erinnerung an Ende des Abonnements"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr "Unvalidierte abgelaufene Benutzer/innen entfernen"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr ""
+"Ältere fehlgeschlagene Aufgaben aus der Liste der fehlgeschlagenen Aufgaben "
+"entfernen."
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "Ausstehende Aufgaben in der Warteschlange abarbeiten"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "DB-IP city lite Datenbank aktualisieren"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"Umbenennung der DB-IP city lite Datenbank-Datei {$sourceFilename} zu "
+"{$targetFilename} fehlgeschlagen."
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "Task zum Laden der Nutzungsstatistik-Datei"
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"Das Verzeichnis {$directory} ist nicht leer. Dies könnte auf einen zuvor "
+"fehlgeschlagenen Prozess oder auf einen gleichzeitig laufenden Prozess "
+"hinweisen. Diese Datei wird automatisch erneut verarbeitet."
+
+msgid "admin.scheduledTask.usageStatsLoader.openFileFailed"
+msgstr ""
+"Die Datei {$file} konnte nicht geöffnet werden und wurde zurückgewiesen."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"Die Datei {$file} hat ein altes Protokolldateiformat, das nicht verarbeitet "
+"werden kann, und wird daher zurück in das Verzeichnis \"Stage\" geschoben."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr ""
+"Die Protokolldatei {$file} wurde übersprungen, da die Statistiken für diesen "
+"Monat bereits berechnet wurden. Um die Statistiken für einen früheren Monat "
+"neu zu berechnen, müssen Sie alle Protokolldateien dieses Monats "
+"wiederherstellen und das CLI-Tool verwenden, um die Statistiken neu zu "
+"verarbeiten."
+
+msgid "admin.scheduledTask.usageStatsLoader.wrongLoglineFormat"
+msgstr ""
+"Die Zeile {$lineNumber} in der Protokolldatei {$file} hat das falsche Format "
+"und wird daher übersprungen."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry"
+msgstr ""
+"Ungültiger Protokolleintrag in Zeile {$lineNumber} in der Protokolldatei "
+"{$file}: {$Fehler}"
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.time"
+msgstr "Die Zeit ist kein gültiges Datum."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.contextId"
+msgstr "Kontext ID ist keine ganze Zahl."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.submissionId"
+msgstr "Einreichungs-ID ist keine ganze Zahl."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.representationId"
+msgstr "Repräsentations-ID ist keine ganze Zahl."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.assocType"
+msgstr "Assoc type wird nicht unterstützt."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.fileType"
+msgstr "Dateityp wird nicht unterstützt."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.country"
+msgstr "Land ist keine aus zwei Buchstaben bestehende Zeichenfolge."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.region"
+msgstr ""
+"Region ist keine aus bis zu drei alphanumerischen Zeichen bestehende "
+"Zeichenfolge."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.institutionIds"
+msgstr "Institutions-ID ist kein Array."
+
+msgid "admin.scheduledTask.usageStatsLoader.insertError"
+msgstr ""
+"Bei der Verarbeitung der Protokolldatei {$file} ist in der Zeile "
+"{$lineNumber} ein Fehler aufgetreten: {$msg}"
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr ""
+"Der Hintergrundauftrag, der die Protokolldatei {$file} verarbeitet und die "
+"Statistikdaten speichert, wurde eingeleitet."
+
+msgid "admin.server.apacheVersion"
+msgstr "Apache-Version"
+
+msgid "admin.server.dbDriver"
+msgstr "Datenbanktreiber"
+
+msgid "admin.server.dbVersion"
+msgstr "Version des Datenbankservers"
+
+msgid "admin.serverInformation"
+msgstr "Serverinformationen"
+
+msgid "admin.server.phpVersion"
+msgstr "PHP-Version"
+
+msgid "admin.server.platform"
+msgstr "OS-Plattform"
+
+msgid "admin.settings"
+msgstr "Einstellungen"
+
+msgid "admin.settings.about"
+msgstr "Beschreibung Über uns"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Massen-E-Mails"
+
+msgid "admin.settings.contactEmail"
+msgstr "E-Mail-Adresse des Hauptkontakts"
+
+msgid "admin.settings.contactName"
+msgstr "Name des Hauptkontakts"
+
+msgid "admin.settings.introduction"
+msgstr "Einführung"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "Mindestlänge des Passworts"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "Massen-E-Mails einschränken"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "Rollen deaktivieren"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "Nur ein Administrator darf diese Einstellung ändern."
+
+msgid "admin.settings.siteLanguage"
+msgstr "Sprache der Website"
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr ""
+"Ungültiges Format für die Formatvorlage der Website. Gültiges Format ist ."
+"css."
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "Formatvorlage der Website"
+
+msgid "admin.settings.siteLogo"
+msgstr "Logo der Website"
+
+msgid "admin.settings.siteTitle"
+msgstr "Titel der Website"
+
+msgid "admin.settings.siteTheme"
+msgstr "Thema der Website"
+
+msgid "admin.siteAdmin"
+msgstr "Administration der Website"
+
+msgid "admin.siteManagement"
+msgstr "Management der Website"
+
+msgid "admin.siteSettings"
+msgstr "Einstellungen der Website"
+
+msgid "admin.siteSetup"
+msgstr "Einrichtung der Website"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"Die Konfigurationsdatei <tt>config.inc.php</tt> ist nicht vorhanden, nicht "
+"lesbar oder ungültig."
+
+msgid "admin.systemInformation"
+msgstr "Systeminformationen"
+
+msgid "admin.systemInformation.description"
+msgstr ""
+"Informationen über die Version und Konfigurationseinstellungen der Anwendung "
+"und des Servers ansehen."
+
+msgid "admin.systemInformation.view"
+msgstr "Systeminformationen ansehen"
+
+msgid "admin.versionBuild"
+msgstr "Build"
+
+msgid "admin.version.checkForUpdates"
+msgstr "Nach Aktualisierungen suchen"
+
+msgid "admin.version.downloadPackage"
+msgstr "Herunterladen"
+
+msgid "admin.version.downloadPatch"
+msgstr "Patch herunterladen"
+
+msgid "admin.versionHistory"
+msgstr "Bisherige Versionen"
+
+msgid "admin.version.latest"
+msgstr "Neueste Version"
+
+msgid "admin.versionMajor"
+msgstr "Hauptversion"
+
+msgid "admin.versionMinor"
+msgstr "Unterversion"
+
+msgid "admin.version.moreInfo"
+msgstr "Nähere Informationen"
+
+msgid "admin.versionRevision"
+msgstr "Revision"
+
+msgid "admin.version.updateAvailable"
+msgstr "Eine aktuellere Version ist verfügbar"
+
+msgid "admin.version.upToDate"
+msgstr "Ihr System ist auf dem aktuellen Stand"
+
+msgid "admin.version"
+msgstr "Version"
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr ""
+"Der Basispfad {$path} muss im Verzeichnis der öffentlichen Dateien liegen."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "Der Ordner {$path} ist kein Verzeichnis oder ist nicht lesbar."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr ""
+"Die Datei {$filename} konnte nicht von {$currentFilePath} nach "
+"{$destinationPath} verschoben werden"
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "Die Datei {$filename} wurde verarbeitet und archiviert."
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "Fileloader"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die gz-Sourcedatei {$filePath} "
+"konnte nicht mit gzopen geöffnet werden."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die Zieldatei {$filePath} konnte "
+"nicht mit fopen geöffnet werden."
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die gz-Sourcedatei {$file} konnte "
+"nicht mit gzread gelesen werden."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die Zieldatei {$filePath} konnte "
+"nicht mit fwrite geschrieben werden."
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die geöffnete Zieldatei {$filePath} "
+"konnte nicht mit fclose geschlossen werden."
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die geöffnete gz-Sourcedatei "
+"{$filePath} konnte nicht mit gzclose geschlossen werden."
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr ""
+"Datei konnte nicht dekomprimiert werden. Die dekomprimierte gz-Sourcedatei "
+"{$filePath} konnte nicht mit unlink entfernt werden."
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die gz-Zieldatei {$filePath} konnte "
+"nicht mit gzopen geöffnet werden."
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die Sourcedatei {$filePath} konnte "
+"nicht mit fopen geöffnet werden."
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die Sourcedatei {$filePath} konnte "
+"nicht mit fread gelesen werden."
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die gz-Zieldatei {$filePath} konnte "
+"nicht mit gzwrite geschrieben werden."
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die geöffnete Sourcedatei {$filePath} "
+"konnte nicht mit fclose geschlossen werden."
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die geöffnete gz-Zieldatei {$filePath}"
+" konnte nicht mit gzclose geschlossen werden."
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr ""
+"Datei konnte nicht komprimiert werden. Die komprimierte Sourcedatei "
+"{$filePath} konnte nicht mit unlink entfernt werden."
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "Es sind keine Regionaleinstellungen zum Download verfügbar."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "Benutzung:"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "command [arguments]"
+
+msgid "admin.cli.tool.available.commands"
+msgstr "Verfügbare Befehle für den '{$namespace}' Namensraum:"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr ""
+"Aufträge in der Warteschlange können nicht ausgeführt werden, da der "
+"Wartungsmodus der Anwendung aktiviert ist."
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr ""
+"Alle Aufträge aus der Warteschlange aufzählen. Wenn Sie die Ergebnisse in "
+"Seiten aufteilen möchten, verwenden Sie die Parameter --page= und --"
+"perPage=. Geben Sie das --failed an, um fehlgeschlagene Aufträge aufzulisten."
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr ""
+"Löscht einen bestimmten Auftrag in der Warteschlange anhand seiner Id. Wenn "
+"Sie alle löschen möchten, verwenden Sie den Parameter --all. Wenn Sie alle "
+"Aufträge aus einer bestimmten Warteschlange löschen möchten, verwenden Sie "
+"den Parameter --queue="
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr ""
+"Fügen Sie einen Testauftrag in die Testwarteschlange ein. Verwenden Sie die "
+"optionalen Parameter --only= und verwenden Sie 'failed' oder 'success', um "
+"einen fehlgeschlagenen oder erfolgreichen Auftrag zu versenden."
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr ""
+"Startet einen unendlichen Daemon-Arbeitsprozess, der kontinuierlich Aufträge "
+"verarbeitet. Verwenden Sie die Option --help, um die verfügbaren Optionen "
+"für diesen Befehl anzuzeigen."
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr ""
+"Alle fehlgeschlagenen Aufträge aufzählen. Setzen Sie die Parameter --"
+"queue=QUEUE_NAME und --connection=CONNECTION_NAME, um die Liste zu filtern. "
+"Verwenden Sie auch die Parameter/Flags --redispatch und --clear, um alle/"
+"bestimmte fehlgeschlagene Aufträge wieder in die Warteschlange zu stellen "
+"oder zu löschen."
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr ""
+"Verfügbare Aufträge in die Warteschlange stellen. Verwenden Sie den "
+"Parameter --queue=QUEUE_NAME, wenn Sie einen Auftrag in eine bestimmte "
+"Warteschlange einreihen möchten. Sie können auch einfach --test verwenden, "
+"um den Testauftrag auszuführen, und --once, um einen Auftrag nach dem "
+"anderen auszuführen."
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr "{$jobCount} Aufträge aus der Warteschlange {$queueName} ausgeführt."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr ""
+"In der Warteschlange {$queueName} sind keine Aufträge zur Ausführung "
+"verfügbar."
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr ""
+"Die Gesamtzahl der Aufträge in der Warteschlange anzeigen. Verwenden Sie das "
+"Flag --failed, um alle fehlgeschlagenen Aufträge anzuzeigen."
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "Command-Nutzung der Aufträge anzeigen"
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "Nutzungsparameter der Aufträge anzeigen"
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "Option konnte nicht leer sein! Überprüfen Sie die Nutzungsmethode."
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "Fehlgeschlagene Aufträge in der Warteschlange"
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "Aufträge in der Warteschlange"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "ID"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "Warteschlange"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "Verbindung"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "Anzeigename des Auftrags"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "Versuche"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr "Reserviert in"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "Verfügbar in"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "Kreiert in"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "Fehlgeschlagen in"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "Ausnahmemitteilung"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "Seitenzahlen"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "Aktuell"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "Vorherige"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "Nächste"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr ""
+"Sie sollten mindestens eine Auftrags-ID '--all' oder '--queue=' verwenden, "
+"um diesen Befehl zu benutzen"
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr ""
+"Versendeter Testauftrag, der an das Fehlschlagen in der Warteschlange "
+"{$queueName} gebunden ist"
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr ""
+"Versendeter Testauftrag, der an den Erfolg in der Warteschlange {$queueName} "
+"gebunden ist"
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr ""
+"Ungültige Testauftragsoption. Für die Option '--only' kann nur 'failed' oder "
+"'success' angegeben werden."
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "Ungültige Auftrags-ID"
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "Auftrag wurde gelöscht!"
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "Keine Aufträge zum löschen gefunden."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "Es war nicht möglich, alle Aufträge zu löschen."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "Alle Aufträge gelöscht!"
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr ""
+"{$jobsCount} fehlgeschlagene Aufträge erfolgreich von der Fehlerliste "
+"entfernt."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "{$jobsCount} Aufträge erfolgreich zurück in die Warteschlange gesendet."
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "{$total} fehlgeschlagene Aufträge"
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "{$total} Aufträge in der Warteschlange"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "Option {$option} existiert nicht."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "Meinten Sie einen der folgenden Punkte?"
+
+msgid "admin.jobs.totalCount"
+msgstr ""
+"Es sind insgesamt <strong>{$total}</strong> Aufträge in der Warteschlange"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "Es gibt insgesamt <strong>{$total}</strong> fehlgeschlagene Aufträge."
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "Aufträge in der Warteschlange ansehen"
+
+msgid "navigation.tools.jobs"
+msgstr "Aufträge"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "Fehlgeschlagene Aufträge"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "Details der fehlgeschlagenen Aufträge"
+
+msgid "navigation.tools.jobs.description"
+msgstr ""
+"Alle Aufträge in der Warteschlange des Systems ansehen und fehlgeschlagene "
+"Versuche verfolgen."
+
+msgid "navigation.tools.jobs.view"
+msgstr "Aufträge ansehen"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "Fehlgeschlagene Aufträge ansehen"
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "Details des fehlgeschlagenen Auftrags {$id} ansehen"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "Attribute"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "Attribute Wert"
+
+msgid "admin.jobs.list.id"
+msgstr "ID"
+
+msgid "admin.jobs.list.displayName"
+msgstr "Auftrag"
+
+msgid "admin.jobs.list.queue"
+msgstr "Warteschlange"
+
+msgid "admin.jobs.list.connection"
+msgstr "Verbindung"
+
+msgid "admin.jobs.list.attempts"
+msgstr "Versuche"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "Kreiert in"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "Fehlgeschlagen in"
+
+msgid "admin.jobs.list.payload"
+msgstr "Nutzlastdaten"
+
+msgid "admin.jobs.list.exception"
+msgstr "Ausnahme"
+
+msgid "admin.jobs.list.actions"
+msgstr "Aktionen"
+
+msgid "admin.jobs.failedAt"
+msgstr "Fehlgeschlagen in {$failedAt}"
+
+msgid "admin.jobs.createdAt"
+msgstr "Kreiert in {$createdAt}"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "Erneut versuchen"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "Alle fehlgeschlagenen Aufträge in die Warteschlange zurückschicken"
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr ""
+"Der Auftrag zum Laden der Nutzungsstatistikdaten aus der Datei {$file} ist "
+"fehlgeschlagen, und die Datei konnte nicht von {$archivedFilePath} nach "
+"{$stagingPath} verschoben werden."
+
+msgid "admin.job.compileMetrics.error"
+msgstr ""
+"Der Auftrag zum Laden der Nutzungsstatistikdaten aus der Datei {$file} ist "
+"fehlgeschlagen. Die Datei wurde in das Verzeichnis \"Stage\" verschoben."
+
+msgid "admin.settings.statistics.collection"
+msgstr "Datensammlung"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "Einstellen, welche Art von Nutzungsstatistiken gesammelt werden sollen."
+
+msgid "admin.settings.statistics.storage"
+msgstr "Datenspeicherung"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr ""
+"Einstellen, welche Nutzungsstatistiken auf dem Server gespeichert werden "
+"sollen."
+
+msgid "admin.settings.statistics.sushi"
+msgstr "Sushi Protokoll"
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr ""
+"Das <a href=\"https://www.projectcounter.org/counter-sushi/\">COUNTER 5 "
+"SUSHI</a> Protokoll einrichten, ein branchenweit anerkanntes Format für die "
+"Verteilung von Nutzungsstatistiken."
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "Monatliche oder tägliche Statistiken"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr ""
+"Ob tägliche oder monatliche Nutzungsstatistiken geführt werden sollen. "
+"Tägliche Statistiken können die Größe Ihrer Datenbank erheblich erhöhen."
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "Tägliche und monatliche Statistiken führen"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "Nur monatliche Statistiken führen"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "Protokolle komprimieren"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr ""
+"Statistiken werden aus Zugriffsprotokolldateien erstellt, die nach ihrer "
+"Verarbeitung nach <code>{$path}</code> verschoben werden. Sollen die "
+"Protokolldateien nach ihrer Verarbeitung in <code>gz</code>-Dateien "
+"komprimiert werden? Die Komprimierung von Protokolldateien kann "
+"Speicherplatz auf dem Server sparen."
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "Die Protokolldateien an ihrem Platz lassen"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "Protokolldateien komprimieren"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr ""
+"Zugriff auf die COUNTER SUSHI Statistik-API auf Manager/innen und Admins "
+"beschränken"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "Plattform"
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr ""
+"Gemäß dem COUNTER SUSHI-Protokoll muss in jedem Statistikbericht die "
+"\"Plattform\" angegeben werden, die die Statistiken liefert. Standardmäßig "
+"wird die Zeitschrift als Plattform für alle Statistiken angegeben. Wenn "
+"jedoch alle Zeitschriften auf dieser Website von ein und demselben Anbieter "
+"herausgegeben, besitzt oder betrieben werden, können Sie die Website als "
+"Plattform angeben."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Website als Plattform für alle Zeitschriften verwenden."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "Plattform ID"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr ""
+"So identifizieren Sie diese Plattform in COUNTER SUSHI-Berichten. Die "
+"Plattform-ID darf höchstens 17 Zeichen lang sein und kann Buchstaben (a-z, "
+"A-Z), Ziffern (0-9), Unterstriche (_), Punkte (.) und Schrägstriche (/) "
+"enthalten. Die Plattform-ID wird in mehreren Spalten verwendet und sollte so "
+"kurz wie möglich sein und dennoch erkennbar bleiben. Die Plattform-ID "
+"basiert in der Regel auf dem Namen eines Herausgebers oder einer Plattform, "
+"einem Domänennamen oder einer bekannten, eindeutigen Abkürzung."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr ""
+"Eine Plattform-ID muss angegeben werden, wenn die Website als SUSHI-"
+"Plattform identifiziert werden soll."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr "work command Optionen"
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "Nutzung: [--options1 --options2= ...]"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr "Verfügbare Optionen für work command"
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr "Name der Warteschlangenverbindung zu work[default: '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr "Name der Warteschlange zu work[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr "Name des worker[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr ""
+"Anzahl der zu wartenden Sekunden, bevor ein Auftrag, der eine unerwartete "
+"Ausnahme gefunden hat, erneut ausgeführt werden soll[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "Das Speicherlimit in megabytes[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr ""
+"Anzahl der Sekunden, die ein Unterprozess laufen kann[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr ""
+"Anzahl der Sekunden, die geschlafen werden soll, wenn kein Auftrag verfügbar "
+"ist[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr ""
+"Anzahl der Versuche für einen Auftrag, bevor er als fehlgeschlagen "
+"protokolliert wird[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr ""
+"Erzwingen, dass der worker auch im Wartungsmodus läuft[default : {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "Anhalten, wenn die Warteschlange leer ist[default : {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr ""
+"Die Anzahl der Aufträge, die vor dem Anhalten verarbeitet werden sollen["
+"default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr ""
+"Die maximale Anzahl von Sekunden, die der worker laufen soll[default : "
+"'{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr ""
+"Anzahl der Sekunden für die Pause zwischen Aufträgen[default : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "Worker-Daemon für die Test-Warteschlange ausführen"

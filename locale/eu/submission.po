@@ -1,0 +1,368 @@
+# Josu Aramberri <josu.aramberri@gmail.com>, 2022.
+# Josu Acosta <josuacostacalvo@gmail.com>, 2023.
+# Ricardo Gómez-López <ricardogomezlopez@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-03 14:12+0000\n"
+"Last-Translator: Ricardo Gómez-López <ricardogomezlopez@gmail.com>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/ojs/submission/"
+"eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "submission.submit.userGroup"
+msgstr "Bidalketa egiteko rola…"
+
+msgid "submission.upload.selectComponent"
+msgstr "Artikuluaren osagaia aukeratu"
+
+msgid "submission.title"
+msgstr "Artikuluaren izenburua"
+
+msgid "submission.title.tip"
+msgstr ""
+"Bidalketa-mota \"irudia\", \"testua\" edo bestelako multimedia-mota bat "
+"izaten da, \"softwarea\" edo \"fitxategi interaktiboa\" barne. Mesedez, "
+"aukeratu zure bidalketarako egokiena. Adibideak aurki ditzakezu hemen: <a "
+"target=\"_blank\" href=\"http://dublincore.org/documents/2001/04/12/"
+"usageguide/generic.shtml#type\">http://dublincore.org/documents/2001/04/12/"
+"usageguide/generic.shtml#type</a>"
+
+msgid "submission.submit.newSubmissionMultiple"
+msgstr "Hasi bidalketa berri bat hemen"
+
+msgid "submission.submit.newSubmissionSingle"
+msgstr "Bidalketa berria"
+
+msgid "grid.action.workflow"
+msgstr "Bidalketaren argitaratze-prozesua"
+
+msgid "submission.abstract.wordCount.description"
+msgstr "Laburpenak gehienez {$wordCount} hitz izan behar ditu."
+
+msgid "submission.submit.noContext"
+msgstr ""
+
+msgid "submission.issueEntry"
+msgstr "Metadatuak"
+
+msgid "submission.submit.whatNext.description"
+msgstr ""
+
+msgid "grid.action.galleyInIssueEntry"
+msgstr "Galerada alearen sarreran agertzen da"
+
+msgid "grid.action.issueEntry"
+msgstr "Ikusi bidalketa honen metadatuak"
+
+msgid "submission.event.articleGalleyMadeAvailable"
+msgstr ""
+
+msgid "submission.event.articleGalleyMadeUnavailable"
+msgstr ""
+
+msgid "submission.event.publicIdentifiers"
+msgstr "Bidalketaren identifikatzaile publikoak eguneratuta."
+
+msgid "grid.issueEntry.availableGalley.title"
+msgstr "Formatua onartzea"
+
+msgid "grid.issueEntry.availableGalley.removeMessage"
+msgstr ""
+
+msgid "grid.issueEntry.availableGalley.message"
+msgstr ""
+
+msgid "grid.action.availableArticleGalley"
+msgstr ""
+
+msgid "submission.galleyFiles"
+msgstr ""
+
+msgid "submission.proofReadingDescription"
+msgstr ""
+
+msgid "grid.action.approveProof"
+msgstr ""
+
+msgid "grid.action.pageProofApproved"
+msgstr ""
+
+msgid "submission.submit.titleAndSummary"
+msgstr "Izenburua eta laburpena"
+
+msgid "submission.submit.upload.description"
+msgstr ""
+"Igo bidalketa honi lotutako fitxategi guztiak, artikulua, multimedia, datu-"
+"sortak, artelanak, etab. barne."
+
+msgid "submission.pageProofs"
+msgstr "Proba-zuzenketa"
+
+msgid "workflow.review.externalReview"
+msgstr "Ebaluazioa"
+
+msgid "submission.event.issueMetadataUpdated"
+msgstr ""
+
+msgid "submission.upload.fileContents"
+msgstr "Artikuluaren osagaia"
+
+msgid "submission.complete"
+msgstr "Onartua"
+
+msgid "submission.incomplete"
+msgstr "Onarpenaren zain"
+
+msgid "submission.submit.submissionChecklist"
+msgstr "Bidalketarako egiaztatu beharrekoen zerrenda"
+
+msgid "submission.submit.privacyStatement"
+msgstr "Pribatutasun-adierazpena"
+
+msgid "submission.submit.contributorRole"
+msgstr "Kolaboratzailearen rola"
+
+msgid "submission.citationFormat.notFound"
+msgstr ""
+
+msgid "submission.metadataDescription"
+msgstr ""
+
+msgid "section.any"
+msgstr "Atal guztiak"
+
+msgid "submission.sectionOptions"
+msgstr ""
+
+msgid "catalog.browseTitles"
+msgstr "{$numTitles} zenbakiak"
+
+msgid "catalog.category.heading"
+msgstr "Zenbaki guztiak"
+
+msgid "galley.editPublishedDisabled"
+msgstr ""
+
+msgid "galley.publicationNotFound"
+msgstr ""
+
+msgid "publication.assignToissue"
+msgstr "Ale bati esleitu"
+
+msgid "publication.assignedToIssue"
+msgstr ""
+
+msgid "publication.changeIssue"
+msgstr "Aldatu zenbakia"
+
+msgid "publication.datePublished.description"
+msgstr ""
+"Argitalpen-data automatikoki ezarriko da zenbakia argitaratzen denean. Ez "
+"sartu argitalpen-datarik, ez bada artikulua beste leku batean argitaratuta "
+"dagoela aurrez eta aurreko data jarri behar diozula."
+
+msgid "publication.invalidSection"
+msgstr ""
+
+msgid "publication.inactiveSection"
+msgstr ""
+
+msgid "publication.invalidIssue"
+msgstr ""
+
+msgid "publication.publish.confirmation"
+msgstr ""
+"Argitaratzeko eskakizun guztiak bete dira. Ziur zaude hau argitaratu nahi "
+"duzula?"
+
+msgid "publication.publish.confirmation.futureIssue"
+msgstr ""
+
+msgid "publication.publish.confirmation.backIssue"
+msgstr ""
+
+msgid "publication.publish.confirmation.datePublishedInPast"
+msgstr ""
+
+msgid "publication.required.issue"
+msgstr ""
+
+msgid "publication.publishedIn"
+msgstr "<a href=\"{$issueUrl}\">{$issueName}</a> zenbakian argitaratua."
+
+msgid "publication.scheduledIn"
+msgstr ""
+"<a href=\"{$issueUrl}\">{$issueName}</a>. zenbakian argitaratzeko "
+"programatua."
+
+msgid "publication.unscheduledIn"
+msgstr "Hau ez da ale batean argitaratzeko programatu."
+
+msgid "publication.selectIssue"
+msgstr "Hautatu zenbaki bat argitalpena programatzeko"
+
+msgid "submission.publication"
+msgstr "Argitalpena"
+
+msgid "publication.status.published"
+msgstr "Argitaratua"
+
+msgid "submission.status.scheduled"
+msgstr "Programatua"
+
+msgid "publication.status.unscheduled"
+msgstr "Programatu gabe"
+
+msgid "submission.publications"
+msgstr "Argitalpenak"
+
+msgid "publication.copyrightYearBasis.issueDescription"
+msgstr ""
+"Copyright-urtea automatikoki ezarriko da hau zenbaki batean argitaratzen "
+"denean."
+
+msgid "publication.copyrightYearBasis.submissionDescription"
+msgstr "Copyright-urtea argitaratze-dataren arabera ezarriko da automatikoki."
+
+msgid "publication.datePublished"
+msgstr "Argitaratze-data"
+
+msgid "publication.editDisabled"
+msgstr "Bertsio hau argitaratu da eta ezin da editatu."
+
+msgid "publication.event.published"
+msgstr "Bidalketa argitaratu da."
+
+msgid "publication.event.scheduled"
+msgstr "Bidalketa argitaratzeko programatu da."
+
+msgid "publication.event.unpublished"
+msgstr ""
+
+msgid "publication.event.versionPublished"
+msgstr "Bertsio berri bat argitaratu da."
+
+msgid "publication.event.versionScheduled"
+msgstr "Bertsio berri bat programatu da argitaratzeko."
+
+msgid "publication.event.versionUnpublished"
+msgstr ""
+
+msgid "publication.invalidSubmission"
+msgstr ""
+
+msgid "publication.publish"
+msgstr "Argitaratu"
+
+msgid "publication.publish.requirements"
+msgstr ""
+
+msgid "publication.required.declined"
+msgstr ""
+
+msgid "publication.required.reviewStage"
+msgstr ""
+
+msgid "submission.license.description"
+msgstr ""
+
+msgid "submission.copyrightHolder.description"
+msgstr ""
+"Copyrighta {$copyright}i esleituko zaio automatikoki argitaratzen denean."
+
+msgid "submission.copyrightOther.description"
+msgstr ""
+
+msgid "publication.unpublish"
+msgstr ""
+
+msgid "publication.unpublish.confirm"
+msgstr ""
+
+msgid "publication.unschedule.confirm"
+msgstr ""
+
+msgid "publication.version.details"
+msgstr ""
+
+msgid "submission.queries.production"
+msgstr "Ekoizpenari buruzko eztabaidak"
+
+msgid "editor.submission.decision.backToReview"
+msgstr ""
+
+msgid "editor.submission.decision.backToReview.description"
+msgstr ""
+
+msgid "editor.submission.decision.backToReview.log"
+msgstr ""
+
+msgid "editor.submission.decision.backToReview.completed"
+msgstr "Ebaluatzeko birbidalia"
+
+msgid "editor.submission.decision.backToReview.completed.description"
+msgstr "Bidalketa, {$title}, ebaluazio-fasera itzuli da."
+
+msgid "editor.submission.decision.backToReview.notifyAuthorsDescription"
+msgstr ""
+
+msgid "editor.submission.decision.sendExternalReview.notifyAuthorsDescription"
+msgstr ""
+
+msgid "editor.submission.decision.promoteFiles.externalReview"
+msgstr "Hautatu ebaluazio-fasera bidali behar diren fitxategiak."
+
+msgid "doi.submission.issueMissing.publication"
+msgstr ""
+
+msgid "doi.submission.issueMissing.representation"
+msgstr ""
+
+msgid "doi.submission.incorrectContext"
+msgstr ""
+
+msgid "submission.layout.viewGalley"
+msgstr ""
+
+msgid "galley.cantEditPublished"
+msgstr ""
+
+msgid "submission.copyright.description"
+msgstr ""
+"Mesedez, irakurri eta ulertu aldizkari honetara lan bat bidaltzeko copyright-"
+"baldintzak."
+
+msgid "submission.wizard.notAllowed.description"
+msgstr ""
+
+msgid "submission.wizard.noSectionAllowed.description"
+msgstr ""
+
+msgid "submission.wizard.sectionClosed.message"
+msgstr ""
+
+msgid "submission.sectionNotFound"
+msgstr ""
+
+msgid "submission.sectionRestrictedToEditors"
+msgstr ""
+
+msgid "submission.submit.form.authorRequired"
+msgstr ""
+
+msgid "submission.submit.form.titleRequired"
+msgstr "Mesedez, sartu zure artikuluaren izenburua."
+
+msgid "submission.submit.form.abstractRequired"
+msgstr "Mesedez, sartu zure artikuluaren laburpena."
+
+msgid "submission.submit.form.wordCountAlert"
+msgstr ""
+
+msgid "submission.submit.form.contributorRoleRequired"
+msgstr "Mesedez, sartu kolaboratzailearen rola."

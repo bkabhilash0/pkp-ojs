@@ -1,0 +1,57 @@
+# Petro Bilous <petrobilous@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:04:55+00:00\n"
+"PO-Revision-Date: 2023-04-29 14:49+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/ojs/"
+"generic-announcementFeed/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.announcementfeed.displayName"
+msgstr "Плагін каналу оголошень"
+
+msgid "plugins.generic.announcementfeed.description"
+msgstr ""
+"Цей плагін створює канали вебсиндикації RSS / Atom для оголошень журналів."
+
+msgid "plugins.generic.announcementfeed.settings"
+msgstr "Налаштування"
+
+msgid "plugins.generic.announcementfeed.settings.all"
+msgstr "Показувати посилання на стрічки на всіх сторінках журналу."
+
+msgid "plugins.generic.announcementfeed.settings.homepage"
+msgstr ""
+"Показувати посилання на стрічки лише на домашній сторінці та сторінці "
+"анонсів."
+
+msgid "plugins.generic.announcementfeed.settings.announcement"
+msgstr "Показувати посилання на стрічки лише на сторінці анонсів."
+
+msgid "plugins.generic.announcementfeed.settings.recentAnnouncements1"
+msgstr "Скоротити стрічку до"
+
+msgid "plugins.generic.announcementfeed.settings.recentAnnouncements2"
+msgstr "найновіших анонсів."
+
+msgid "plugins.generic.announcementfeed.settings.recentItemsRequired"
+msgstr ""
+"Будь ласка, введіть додатнє ціле число для кількості найновіших анонсів."
+
+msgid "plugins.generic.announcementfeed.atom.altText"
+msgstr "Логотип Atom"
+
+msgid "plugins.generic.announcementfeed.rss1.altText"
+msgstr "Логотип RSS1"
+
+msgid "plugins.generic.announcementfeed.rss2.altText"
+msgstr "Логотип RSS2"

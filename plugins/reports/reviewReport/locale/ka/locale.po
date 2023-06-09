@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-08 09:55+0000\n"
+"Last-Translator: Dimitri Gogelia <dimitri.gogelia@iliauni.edu.ge>\n"
+"Language-Team: Georgian <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/ka_GE/>\n"
+"Language: ka_GE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "მიმომხილველი"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "ანგარიშგების პლაგინი"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"ეს პლაგინი ახორციელებს CSV ანგარიშგებას, რომელიც შეიცავს ჟურნალის "
+"მიმოხილვითი დავალებების ჩამონათვალს."
+
+msgid "plugins.reports.reviews.round"
+msgstr "რაუნდი"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "წარდგენის სათაური"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ახალი შენატანის იდენტიფიკატორი"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "თარიღი მინჭებულია"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "თარიღი"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "თარიღი დადასტურებულია"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "თარიღი აღიარებულია"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "დასრულების თარიღი"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "თარიღი შეხსენებულია"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "ვადაგადაცილებული დღეების გადახედვა"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "ვადაგადაცილებული დღეები"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "რეკომენდაცია"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "კომენტარები წარდგენის შესახებ"

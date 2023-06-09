@@ -1,0 +1,143 @@
+# Petro Bilous <petrobilous@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:09+00:00\n"
+"PO-Revision-Date: 2023-04-27 07:49+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"reviewer/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "reviewer.reviewSteps.request"
+msgstr "1. Запит"
+
+msgid "reviewer.reviewSteps.guidelines"
+msgstr "2. Довідник"
+
+msgid "reviewer.reviewSteps.download"
+msgstr "3. Завантажити та рецензувати"
+
+msgid "reviewer.reviewSteps.completion"
+msgstr "4. Завершення"
+
+msgid "reviewer.step1.request"
+msgstr "Запит на рецензію"
+
+msgid "reviewer.step1.requestBoilerplate"
+msgstr ""
+"Ви були обрані як потенційний рецензент наступного матеріалу. Нижче наведено "
+"опис матеріалу та терміни розгляду. Ми сподіваємось, що ви зможете взяти "
+"участь у рецензуванні."
+
+msgid "reviewer.step1.viewAllDetails"
+msgstr "Показати усю інформацію про матеріал"
+
+msgid "reviewer.submission.reviewerFiles"
+msgstr "Файли рецензента"
+
+msgid "reviewer.submission.declineReview"
+msgstr "Відхилити запит на рецензію"
+
+msgid "reviewer.submission.declineReviewMessage"
+msgstr ""
+"Ви можете навести редактору причини вашої відмови від рецензування цього "
+"матеріалу в полі, яке розташоване нижче."
+
+msgid "reviewer.submission.acceptReview"
+msgstr "Погодитися на рецензування, перейти до кроку №2"
+
+msgid "reviewer.submission.continueToStepThree"
+msgstr "Перейти до кроку №3"
+
+msgid "reviewer.submission.submitReview"
+msgstr "Надіслати рецензію"
+
+msgid "reviewer.submission.saveReviewForLater"
+msgstr "Зберегти на потім"
+
+msgid "reviewer.submission.reviewerGuidelines"
+msgstr "Довідник рецензента"
+
+msgid "reviewer.submission.enterCompetingInterests"
+msgstr ""
+"Цей видавець має політику щодо розкриття потенційних конкуруючих інтересів "
+"своїх рецензентів. Будь ласка, ознайомтеся з цією політикою."
+
+msgid "reviewer.submission.noCompetingInterests"
+msgstr "У мене немає конфлікту інтересів"
+
+msgid "reviewer.submission.hasCompetingInterests"
+msgstr "Я може бути конфлікт інтересів (зазначте нижче)"
+
+msgid "reviewer.submission.competingInterests"
+msgstr "Конфлікт інтересів"
+
+msgid "reviewer.submission.guidelines"
+msgstr "Довідник рецензентів"
+
+msgid "reviewer.submission.noGuidelines"
+msgstr "Цей видавець не створив жодного довідника рецензента."
+
+msgid "reviewer.submission.downloadDescription"
+msgstr ""
+"Натискайте на імена файлів нижче, щоб завантажити файли, пов'язані з цим "
+"матеріалом."
+
+msgid "reviewer.submission.reviewDescription"
+msgstr ""
+"Введіть (або вставте) вашу рецензію цього матеріалу у форму, розашовану "
+"нижче."
+
+msgid "reviewer.submission.uploadDescription"
+msgstr ""
+"Завантажте файли, які варто переглянути редакторові та/або автору, включаючи "
+"відкоректовані версії оригінальних файлів для рецензії."
+
+msgid "reviewer.complete"
+msgstr "Рецензію надіслано"
+
+msgid "reviewer.confirmSubmit"
+msgstr "Ви впевнені, що хочете надіслати цю рецензію?"
+
+msgid "reviewer.complete.whatNext"
+msgstr ""
+"Дякуємо, що завершили рецензування цього матеріалу. Вашу рецензію успішно "
+"надіслано. Ми цінуємо ваш внесок у якість роботи, яку ми публікуємо; "
+"редактор може знову зв'язатися з вами для отримання додаткової інформації, "
+"якщо це буде необхідно."
+
+msgid "reviewer.aboutDueDates"
+msgstr "Про терміни виконання"
+
+msgid "reviewer.aboutDueDates.text"
+msgstr ""
+"Редактор просить вас прийняти або відхилити запит на рецензію до закінчення "
+"терміну відповіді на запит та завершити рецензію до закінчення терміну "
+"рецензування."
+
+msgid "submission.comments.canShareWithAuthor"
+msgstr "Для автора та редактора"
+
+msgid "submission.comments.cannotShareWithAuthor"
+msgstr "Лише для редактора"
+
+msgid "submission.comments.sendCopyToReviewers"
+msgstr ""
+"Надіслати копію цього сповіщення електронною поштою як приховану копію таким "
+"рецензентам."
+
+msgid "submission.comments.sendToReviewers"
+msgstr "Відправити рецензентам"
+
+msgid "user.authorization.submissionReviewer"
+msgstr ""
+"Поточного користувача не призначено рецензентом для документа, щодо якого "
+"надіслано запит."

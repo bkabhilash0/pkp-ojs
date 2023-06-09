@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-11 14:53+0000\n"
+"Last-Translator: Teodora Fildishevska <t.fildishevska@gmail.com>\n"
+"Language-Team: Macedonian <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/mk_MK/>\n"
+"Language: mk_MK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Забелешки за поднесок"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Препорака"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Денови по истечен рок на одговор"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Денови по истечен рок на рецензија"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Датум на потсетување"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Датум на завршување"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Датум на признавање"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Датум на потврда"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Датум на известување"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Датум на доделување"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ИД на поднесок"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Наслов на поднесок"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Рунда"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Овој плагин имплементира CSV извештај кој содржи листа со задачи за "
+"рецензија за списание."
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Извештај за рецензии"

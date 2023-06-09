@@ -1,0 +1,64 @@
+.-pkpClearfix {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+// Style a <button> element to look like an inline link
+.-linkButton {
+	padding: 0;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+	text-align: inherit;
+	color: @primary;
+	text-decoration: underline;
+	cursor: pointer;
+
+	&:hover,
+	&:focus {
+		color: @primary-lift;
+	}
+
+	&:disabled {
+		color: @text-light;
+	}
+}
+
+// Implement [hidden] support for browsers that don't support it
+[hidden] {
+	display: none;
+}
+
+/**
+ * Width containers
+ *
+ * Prevent content from expanding too wide. Usually used
+ * at the page level for content in a page.
+ */
+// TemplateManager::PAGE_WIDTH_NORMAL
+.width {
+	max-width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// TemplateManager::PAGE_WIDTH_NARROW
+.width--narrow {
+	max-width: 35rem;
+}
+
+// TemplateManager::PAGE_WIDTH_WIDE
+.width--wide {
+	max-width: 1200px;
+}
+
+// TemplateManager::PAGE_WIDTH_FULL
+.width--full {
+	max-width: none;
+}

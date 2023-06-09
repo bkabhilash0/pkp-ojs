@@ -1,0 +1,58 @@
+# TAKASHI IMAGIRE <imagire@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:04:58+00:00\n"
+"PO-Revision-Date: 2021-12-11 17:15+0000\n"
+"Last-Translator: TAKASHI IMAGIRE <imagire@gmail.com>\n"
+"Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/plugins/"
+"custom-block-manager-plugin/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.customBlockManager.displayName"
+msgstr "カスタムブロック管理"
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "ブロック名"
+
+msgid "plugins.generic.customBlockManager.addBlock"
+msgstr "ブロックの追加"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "コンテンツ"
+
+msgid "plugins.generic.customBlock.nameSuffix"
+msgstr "(カスタムブロックプラグイン)"
+
+msgid "plugins.generic.customBlock.description"
+msgstr "これはユーザーが生成したブロックです。"
+
+msgid "plugins.generic.customBlock.showName.description"
+msgstr "ブロックの内容の上に、このブロックの名前を表示します。"
+
+msgid "plugins.generic.customBlock.showName"
+msgstr "名前の表示"
+
+msgid "plugins.generic.customBlock.nameRegEx"
+msgstr "カスタムブロック名には、アルファベット、数字、ハイフン/アンダースコアしか含められません。"
+
+msgid "plugins.generic.customBlock.nameRequired"
+msgstr "カスタムブロック名は必須です。"
+
+msgid "plugins.generic.customBlockManager.noneCreated"
+msgstr "カスタムブロックは作成されていません。"
+
+msgid "plugins.generic.customBlockManager.customBlocks"
+msgstr "カスタムブロック"
+
+msgid "plugins.generic.customBlockManager.description"
+msgstr "このプラグインは、カスタムサイドバーブロックを管理（追加、編集、削除）できます。"
+
+msgid "plugins.generic.customBlockManager.manage"
+msgstr "カスタムブロックの管理"

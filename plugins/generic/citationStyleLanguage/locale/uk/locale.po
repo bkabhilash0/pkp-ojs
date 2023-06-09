@@ -1,0 +1,138 @@
+# Petro Bilous <petrobilous@ukr.net>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T13:44:52+00:00\n"
+"PO-Revision-Date: 2023-04-26 14:49+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/plugins/"
+"citation-style-language-plugin/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.citationStyleLanguage.displayName"
+msgstr "Мова стилю бібліографічних посилань"
+
+msgid "plugins.generic.citationStyleLanguage.description"
+msgstr ""
+"Дозволити читачам отримати бібліографічне посилання на опубліковану статтю в "
+"одному з декількох форматів, підтримуваних мовою стилю посилання."
+
+msgid "plugins.generic.citationStyleLanguage.style.acm-sig-proceedings"
+msgstr "ACM (Association for Computing Machinery)"
+
+msgid "plugins.generic.citationStyleLanguage.style.acs-nano"
+msgstr "ACS (American Chemical Society)"
+
+msgid "plugins.generic.citationStyleLanguage.style.apa"
+msgstr "APA (American Psychological Association)"
+
+msgid "plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas"
+msgstr "ABNT (Associação Brasileira de Normas Técnicas)"
+
+msgid "plugins.generic.citationStyleLanguage.style.chicago-author-date"
+msgstr "Chicago"
+
+msgid "plugins.generic.citationStyleLanguage.style.harvard-cite-them-right"
+msgstr "Harvard"
+
+msgid "plugins.generic.citationStyleLanguage.style.ieee"
+msgstr "IEEE (Institute of Electrical and Electronics Engineers)"
+
+msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
+msgstr "MLA (Modern Language Association)"
+
+msgid "plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography"
+msgstr "Turabian"
+
+msgid "plugins.generic.citationStyleLanguage.style.vancouver"
+msgstr "Vancouver"
+
+msgid "plugins.generic.citationStyleLanguage.download.bibtex"
+msgstr "BibTeX"
+
+msgid "plugins.generic.citationStyleLanguage.download.ris"
+msgstr "Endnote / Zotero / Mendeley (RIS – Research Information Systems)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Завантажувані формати"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr ""
+"Оберіть, які завантажувані формати ви хочете запропонувати своїм читачам. "
+"Завантажувані формати зазвичай використовуються для імпорту в інші програми "
+"керування бібліографією, наприклад EndNote або Zotero."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Додаткові формати посилань"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Оберіть, які додаткові формати ви хочете запропонувати своїм читачам."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Основний формат посилань"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr ""
+"Оберіть формат посилань, який ви хочете відображати усталено на посадковій "
+"сторінці вашої статті."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr ""
+"Деякі формати цитування вимагають дані про географічне розташування видавця, "
+"наприклад \"Лондон, Велика Британія\"."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Місцезнаходження видавця"
+
+msgid "plugins.generic.citationStyleLanguage.style.ama"
+msgstr "AMA (American Medical Association)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseChapterAuthor"
+msgstr "Автори глав"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseEditor"
+msgstr "Редактори"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseTranslator"
+msgstr "Перекладачі"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseTranslator"
+msgstr "Виберіть ролі, які слід визначати як перекладачів."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseChapterAuthor"
+msgstr "Виберіть ролі, які слід визначати як авторів глав."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroups"
+msgstr "Особи, які зробили свій внесок у роботу"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseAuthor"
+msgstr "Автори"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseAuthor"
+msgstr "Виберіть ролі, які слід визначати як авторів."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseEditor"
+msgstr "Виберіть ролі, які слід визначати як редакторів."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp"
+msgstr ""
+"Оберіть формат посилань, який ви хочете відображати усталено на посадковій "
+"сторінці вашої книги."
+
+msgid "plugins.generic.citationStyleLanguage.description.omp"
+msgstr ""
+"Дозволити читачам отримати бібліографічне посилання на опубліковану книгу в "
+"одному з декількох форматів, підтримуваних мовою стилю посилання."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroupsDescription"
+msgstr ""
+"У деяких стилях цитування особи, які зробили свій внесок у роботу, повинні "
+"бути ідентифіковані по-різному залежно від їхньої ролі. Будь ласка, визначте "
+"відповідні ролі."

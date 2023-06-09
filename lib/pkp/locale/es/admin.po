@@ -1,0 +1,942 @@
+# Jordi LC <jordi.lacruz@uab.cat>, 2021, 2023.
+# Juan Francisco Vinueza Cobos <tallergrafico@ucuenca.edu.ec>, 2022.
+# Marc Bria <marc.bria@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27T09:47:22-07:00\n"
+"PO-Revision-Date: 2023-04-28 14:09+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Spanish <http://translate.pkp.sfu.ca/projects/pkp-lib/admin/"
+"es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.systemInfo.settingName"
+msgstr "Nombre de configuración"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "Valor de configuración"
+
+msgid "admin.adminFunctions"
+msgstr "Funciones administrativas"
+
+msgid "admin.deleteCache"
+msgstr "Borrar caché"
+
+msgid "admin.deleteCache.description"
+msgstr ""
+"Borrar caché del sistema. Esto solo debería efectuarse en ambientes de "
+"desarrollo."
+
+msgid "admin.clearDataCache"
+msgstr "Borrar caché de datos"
+
+msgid "admin.clearTemplateCache"
+msgstr "Borrar caché de la plantilla"
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"El archivo de configuración se ha actualizado con éxito. Es posible que, si "
+"su sitio ya no funciona correctamente, tenga que arreglar la configuración "
+"de forma manual mediante la edición de <tt>config.inc.php</tt> directamente."
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "¿Seguro que quieres borrar la caché de las plantillas confeccionadas?"
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"¿Está seguro de que desea que todas las sesiones de los usuarios/as "
+"caduquen? Todos los usuarios/as que actualmente estén registrados en el "
+"sistema estarán obligados a volver a iniciar sesión (usted incluido)."
+
+msgid "admin.contentsOfConfigFile"
+msgstr "Contenidos del fichero de configuración"
+
+msgid "admin.contexts.confirmDelete"
+msgstr ""
+"¿Seguro que quiere eliminar permanentemente {$contextName} y todo su "
+"contenido?"
+
+msgid "admin.currentVersion"
+msgstr "Versión actual"
+
+msgid "admin.dateInstalled"
+msgstr "Fecha de instalación"
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"Los contenidos de su configuración actualizada se muestran a continuación. "
+"Para aplicar los cambios de configuración debe abrir <tt>config.inc.php</tt> "
+"en un editor de texto adecuado y reemplazar el contenido por los contenidos "
+"del campo de texto que aparecen a continuación."
+
+msgid "admin.displayNewSystemConfig"
+msgstr "Mostrar nueva configuración"
+
+msgid "admin.expireSessions"
+msgstr "Caducidad de las sesiones"
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"Se cerrará inmediatamente todas las sesiones de la aplicación, incluida la "
+"suya, y tendrán que volver a iniciar sesión."
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"La configuración regional es el idioma principal del sitio. No se puede "
+"deshabilitar hasta que elija otra configuración regional principal."
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"¿Está seguro de que quiere cambiar el idioma principal del sitio? Los "
+"nombres de usuario/a, que son necesarios en el idioma principal del sitio, "
+"se copiarán desde el idioma principal actual donde no existan."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"¿Está seguro de que quiere volver a cargar esta configuración regional? Esta "
+"opción borrará los datos de configuración específica existentes, como las "
+"plantillas de correo electrónico personalizadas."
+
+msgid "admin.languages.installedLocales"
+msgstr "Ficheros de idioma instalados"
+
+msgid "admin.languages.installLanguages"
+msgstr "Gestionar ficheros de idioma"
+
+msgid "admin.languages.availableLocales"
+msgstr "Idiomas disponibles"
+
+msgid "admin.languages.installLocale"
+msgstr "Instalar configuración regional"
+
+msgid "admin.languages.installLocales"
+msgstr "Instalar"
+
+msgid "admin.languages.installNewLocales"
+msgstr "Instalar nuevos ficheros de idioma"
+
+msgid "admin.languages.languageSettings"
+msgstr "Configuración de idioma"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr ""
+"No existen archivos locales adicionales disponibles para la instalación."
+
+msgid "admin.languages.reload"
+msgstr "Volver a cargar ficheros de idiomas"
+
+msgid "admin.languages.uninstall"
+msgstr "Desinstalar fichero de idiomas"
+
+msgid "admin.phpInfo"
+msgstr "Información PHP ampliada"
+
+msgid "admin.scheduledTask"
+msgstr "Tarea programada"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "Se ha iniciado la tarea."
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "Se ha detenido la tarea."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "La tarea no ha generado ningún registro."
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "Depositar los DOI en la agencia de registro configurada"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"Su instalación de {$softwareName} ejecutó y finalizó automáticamente esta "
+"tarea y puede descargarse el archivo de registro aquí: {$url}"
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr ""
+"Enviar un correo electrónico a cada editor/a recordándole sus tareas "
+"pendientes"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr "Identificando editores/as para recordar en el contexto {$contextId}"
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"Se han distribuido {$count} recordatorios editoriales por correo para "
+"{$userIds} en el contexto {$contextId}\""
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr ""
+"Está seguro de que quiere eliminar todos los registros de ejecución de "
+"tareas programados?"
+
+msgid "admin.scheduledTask.clearLogs"
+msgstr "Limpiar el registro de ejecución de tareas programadas"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr ""
+"Eliminar todos los registros de procesos de tareas programadas que se hayan "
+"ejecutado."
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "Eliminar registros de tareas"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "Publicar los envíos programados para su publicación"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Recordatorio de revisión"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "Notificación de informe editorial"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Recordatorio de caducidad de subscripción"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr "Eliminar usuarios caducados y no validados"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr "Eliminar los trabajos más antiguos de la lista de trabajos fallidos."
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "Procesar los trabajos pendientes"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "Actualizar la base de datos de ciudades de DB-IP Lite"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"Ha fallado la operación de cambio de nombre del archivo de la base de datos "
+"de ciudades de DB-IP Lite de {$sourceFilename} a {$targetFilename}."
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "Tarea de carga de archivo de estadísticas de uso"
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"El directorio {$directory} no está vacío. Esto podría indicar un proceso "
+"previo fallido, o un proceso en ejecución concurrente. Este archivo se "
+"reprocesará automáticamente."
+
+msgid "admin.scheduledTask.usageStatsLoader.openFileFailed"
+msgstr "El archivo {$file} no pudo abrirse y fue rechazado."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"El archivo {$file} está en un formato de registro antiguo que no puede ser "
+"procesado, así que se devolverá al directorio de preparación (stage)."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr ""
+"Se omitirá el archivo de registro {$file} pues las estadísticas de ese mes "
+"ya se habían calculado. Para recalcular las estadísticas de un mes anterior, "
+"debe restaurar todos los archivos de registro del mes y usar la herramienta "
+"de línea de comandos para volver a procesar las estadísticas."
+
+msgid "admin.scheduledTask.usageStatsLoader.wrongLoglineFormat"
+msgstr ""
+"Se omitirá la línea {$lineNumber} en el archivo de registro {$file} porque "
+"tiene un formato incorrecto."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry"
+msgstr ""
+"Entrada de registro inválida en la línea {$lineNumber} del archivo de "
+"registro {$file}: {$error}"
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.time"
+msgstr "La hora (Time) no tiene un formato de fecha válido."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.contextId"
+msgstr "El ID de contexto (Context ID) no es un número entero."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.submissionId"
+msgstr "El ID de envío (Sumbission ID) no es un número entero."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.representationId"
+msgstr "El ID de representación (Representation ID) no es un número entero."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.assocType"
+msgstr "El tipo asociado (Assoc type) no es compatible."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.fileType"
+msgstr "El tipo de archivo (File type) no es compatible."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.country"
+msgstr "El país (Country) debe ser una cadena alfabética de dos caracteres."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.region"
+msgstr ""
+"La región (Region) debe ser una cadena alfanumérica de hasta tres caracteres."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.institutionIds"
+msgstr "Los ID de instituciones (Institution IDs) deben ser una array."
+
+msgid "admin.scheduledTask.usageStatsLoader.insertError"
+msgstr ""
+"Error al procesar el archivo de registro {$file} en la línea {$lineNumber}: "
+"{$msg}"
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr ""
+"Se ha enviado el trabajo a segundo plano para procesar el archivo de "
+"registro {$file} y almacenar los datos estadísticos."
+
+msgid "admin.server.apacheVersion"
+msgstr "Versión Apache"
+
+msgid "admin.server.dbDriver"
+msgstr "Driver de la base de datos"
+
+msgid "admin.server.dbVersion"
+msgstr "Versión del servidor de bases de datos"
+
+msgid "admin.serverInformation"
+msgstr "Información del servidor"
+
+msgid "admin.server.phpVersion"
+msgstr "Versión PHP"
+
+msgid "admin.server.platform"
+msgstr "Plataforma SO"
+
+msgid "admin.settings"
+msgstr "Ajustes"
+
+msgid "admin.settings.about"
+msgstr "Descripción del sitio"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Correos electrónicos masivos"
+
+msgid "admin.settings.contactEmail"
+msgstr "Correo electrónico del contacto principal"
+
+msgid "admin.settings.contactName"
+msgstr "Nombre del contacto principal"
+
+msgid "admin.settings.introduction"
+msgstr "Introducción"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "Longitud mínima de la contraseña"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "Restringir correos electrónicos masivos"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "Desactivar roles"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "Solo un administrador/a puede modificar este ajuste."
+
+msgid "admin.settings.siteLanguage"
+msgstr "Idioma"
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr ""
+"Formato inválido de hoja de estilo del sitio. El formato aceptado es .css."
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "Hoja de estilo del sitio"
+
+msgid "admin.settings.siteLogo"
+msgstr "Logo del sitio"
+
+msgid "admin.settings.siteTitle"
+msgstr "Título"
+
+msgid "admin.settings.siteTheme"
+msgstr "Tema del sitio"
+
+msgid "admin.siteAdmin"
+msgstr "Administración del sitio"
+
+msgid "admin.siteManagement"
+msgstr "Gestión del sitio"
+
+msgid "admin.siteSettings"
+msgstr "Configuración del sitio"
+
+msgid "admin.siteSetup"
+msgstr "Configuración del sitio"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"El archivo de configuración <tt>config.inc.php</tt> no existe, no se puede "
+"leer o no es válido."
+
+msgid "admin.systemInformation"
+msgstr "Información del sistema"
+
+msgid "admin.systemInformation.description"
+msgstr ""
+"Ver información sobre la versión y la configuración de la aplicación y del "
+"servidor."
+
+msgid "admin.systemInformation.view"
+msgstr "Ver información del sistema"
+
+msgid "admin.versionBuild"
+msgstr "Crear"
+
+msgid "admin.version.checkForUpdates"
+msgstr "Buscar actualizaciones"
+
+msgid "admin.version.downloadPackage"
+msgstr "Descargar"
+
+msgid "admin.version.downloadPatch"
+msgstr "Descargar parche"
+
+msgid "admin.versionHistory"
+msgstr "Historial de versiones"
+
+msgid "admin.version.latest"
+msgstr "Última versión"
+
+msgid "admin.versionMajor"
+msgstr "Principal"
+
+msgid "admin.versionMinor"
+msgstr "Secudario"
+
+msgid "admin.version.moreInfo"
+msgstr "Más información"
+
+msgid "admin.versionRevision"
+msgstr "Revisión"
+
+msgid "admin.version.updateAvailable"
+msgstr "Hay una nueva versión disponible"
+
+msgid "admin.version.upToDate"
+msgstr "Su sistema está actualizado"
+
+msgid "admin.version"
+msgstr "Versión"
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr ""
+"La ruta base {$path} debe estar dentro del directorio de archivos públicos."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "La carpeta {$path} no es un directorio o no se puede leer."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr ""
+"El archivo {$filename} no se pudo mover de {$currentFilePath} a "
+"{$destinationPath}"
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "El archivo {$filename} se ha procesado y archivado."
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "Cargador de archivos"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"abrir con \"gzopen\"."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr ""
+"No se pudo descomprimir el archivo porque el destino {$filePath} no se pudo "
+"abrir con \"fopen\"."
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$file} no se pudo leer "
+"con \"gzread\"."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr ""
+"No se pudo descomprimir el archivo porque el destino {$filePath} no se pudo "
+"escribir con \"fwrite\"."
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr ""
+"No se pudo descomprimir el archivo porque el destino {$filePath} no se pudo "
+"cerrar con \"fclose\"."
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"cerrar con \"gzclose\"."
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"eliminar con \"unlink\"."
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr ""
+"No se pudo descomprimir el archivo porque el destino {$filePath} no se pudo "
+"abrir con \"gzopen\"."
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"abrir con \"fopen\"."
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"leer con \"fread\"."
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr ""
+"No se pudo comprimir el archivo porque el destino gz-file {$filePath} no se "
+"pudo escribir con gzwrite."
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"cerrar con \"fclose\"."
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr ""
+"No se pudo descomprimir el archivo porque el destino {$filePath} no se pudo "
+"cerrar con \"gzclose\"."
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr ""
+"No se pudo descomprimir el archivo porque el origen {$filePath} no se pudo "
+"eliminar con \"unlink\"."
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "No hay traducciones disponibles para descargar."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "Uso:"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "comando [argumentos]"
+
+msgid "admin.cli.tool.available.commands"
+msgstr "Comandos disponibles para el espacio de nombres `{$namespace}`:"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr ""
+"No se pueden ejecutar trabajos en cola cuando el modo de mantenimiento de la "
+"aplicación está activado."
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr ""
+"Listar todos los trabajos en cola. Si quiere paginar los resultados, use los "
+"parámetros --page= y --perPage=. Utilice la bandera --failed para listar los "
+"trabajos fallidos."
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr ""
+"Eliminar un trabajo específico de la cola basado en su Id. Si desea eliminar "
+"todos los trabajos, use el parámetro --all. Si desea eliminar todos los "
+"trabajos de una cola específica, pase el parámetro --queue="
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr ""
+"Añadir un trabajo a la cola de pruebas. Usa los parámetros opcionales --"
+"only= y pasa 'failed' o 'success' para enviar un trabajo fallido o exitoso."
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr ""
+"Ejecutar un proceso infinito del demonio que continuará procesando trabajos. "
+"Usa el parámetro --help para ver las opciones disponibles asociadas con este "
+"comando."
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr ""
+"Listar todos los trabajos fallidos. Establecer el parámetro --"
+"queue=NOMBRE_DE_COLA y --connection=NOMBRE_DE_CONEXIÓN para filtrar la "
+"lista. También se puede pasar el parámetro --redispatch o --clear para "
+"reintroducir los trabajos fallidos en la cola o borrar algunos o todos los "
+"trabajos fallidos."
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr ""
+"Procesar los trabajos disponibles en la cola. Si desea enviar un trabajo a "
+"una cola específica, pase el parámetro --queue=NOMBRE_DE_COLA. También puede "
+"pasar --test para ejecutar el trabajo de prueba y --once para ejecutar un "
+"trabajo a la vez"
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr ""
+"Se han completado la ejecución de {$jobCount} trabajos en la cola llamada "
+"{$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr "No hay trabajos disponibles para ejecutar en la cola {$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr ""
+"Mostrar el total de trabajos en cola. Usa el parámetro --failed para ver el "
+"total de trabajos fallidos."
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "Mostrar el uso del comando Trabajos (Jobs)"
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "Mostrar el uso de los parámetros del comando Trabajos (Jobs)"
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "\"Option\" no puede estar vacía. Verifica el método de uso."
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "Trabajos fallidos de la cola"
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "Trabajos en cola"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "ID"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "Cola"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "Conexión"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "Nombre del trabajo"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "Intentos"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr "Reservado"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "Disponible en"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "Creado en"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "Error"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "Mensaje de error"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "Paginación"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "Actual"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "Anterior"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "Siguiente"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr ""
+"Para usar este comando, debe introducir al menos un ID de trabajo (Job ID), '"
+"--all' o '--queue='"
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr ""
+"El trabajo de prueba ejecutado y fallido está vinculado a la cola "
+"{$queueName}"
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr ""
+"El trabajo de prueba ejecutado con exito está vinculado a la cola "
+"{$queueName}"
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr ""
+"Opción no válida para un trabajo de prueba. La opción '--only=' solo permite "
+"los valores 'failed' o 'success'."
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "ID de trabajo inválido"
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "El trabajo fue eliminado!"
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "No hay trabajos para eliminar."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "Fue imposible eliminar todos los trabajos."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "Se han eliminado todos los trabajos!"
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr "{$jobsCount} trabajos eliminados correctamente de la lista de fallidos."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "{$jobsCount} trabajos reasignados con éxito a la cola."
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "Hay {$total} trabajos fallidos"
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "Hay {$total} trabajos en cola"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "La opción {$option} no existe."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "¿Se refería a uno de los siguientes?"
+
+msgid "admin.jobs.totalCount"
+msgstr "Hay un total de <strong>{$total}</strong> trabajo(s) en la cola"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "Hay un total de <strong>{$total}</strong> trabajo/s fallidos."
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "Ver los trabajos en cola"
+
+msgid "navigation.tools.jobs"
+msgstr "Trabajos"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "Trabajos fallidos"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "Detalles de los trabajos fallidos"
+
+msgid "navigation.tools.jobs.description"
+msgstr ""
+"Ver todos los trabajos en cola y realizar un seguimiento de los intentos "
+"fallidos."
+
+msgid "navigation.tools.jobs.view"
+msgstr "Ver trabajos"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "Ver trabajos fallidos"
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "Ver detalles del trabajo fallido:{$id}"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "Atributo"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "Valor del atributo"
+
+msgid "admin.jobs.list.id"
+msgstr "ID"
+
+msgid "admin.jobs.list.displayName"
+msgstr "Trabajo"
+
+msgid "admin.jobs.list.queue"
+msgstr "Cola"
+
+msgid "admin.jobs.list.connection"
+msgstr "Conexión"
+
+msgid "admin.jobs.list.attempts"
+msgstr "Intentos"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "Creado en"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "Error"
+
+msgid "admin.jobs.list.payload"
+msgstr "Carga"
+
+msgid "admin.jobs.list.exception"
+msgstr "Excepción"
+
+msgid "admin.jobs.list.actions"
+msgstr "Acciones"
+
+msgid "admin.jobs.failedAt"
+msgstr "Creado en {$failedAt}"
+
+msgid "admin.jobs.createdAt"
+msgstr "Creado en {$createdAt}"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "Intentar de nuevo"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "Añadir a la cola los trabajos fallidos"
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr ""
+"El trabajo que carga los datos estadísticos del archivo {$archivo} ha "
+"fallado, y el archivo no se pudo mover de {$archivedFilePath} a "
+"{$stagingPath}."
+
+msgid "admin.job.compileMetrics.error"
+msgstr ""
+"El trabajo que carga los datos estadísticos del archivo {$archivo} ha "
+"fallado. El archivo se ha movido al directorio \"stage\"."
+
+msgid "admin.settings.statistics.collection"
+msgstr "Recolección de datos"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "Configurar qué tipo de estadísticas de uso se deben recopilar."
+
+msgid "admin.settings.statistics.storage"
+msgstr "Almacenamiento de datos"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr "Configurar qué estadísticas de uso deben almacenarse en el servidor."
+
+msgid "admin.settings.statistics.sushi"
+msgstr "Protocolo Sushi"
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr ""
+"Configurar el protocolo <a href=\"https://www.projectcounter.org/"
+"counter-sushi/\">COUNTER 5 SUSHI</a>, un formato reconocido en la industria "
+"para distribuir estadísticas de uso."
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "Estadísticas diarias o mensuales"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr ""
+"Indicar si se quiere realizar un seguimiento de las estadísticas de uso "
+"diarias o mensuales. Rastrear diariamente las estadísticas puede aumentar "
+"considerablemente el tamaño de la base de datos."
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "Almacenar estadísticas diarias y mensuales"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "Solo almacenar las estadísticas mensuales"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "Comprimir registros (logs)"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr ""
+"Las estadísticas se generan a partir de archivos de registro de acceso que "
+"se mueven a <code>{$path}</code> una vez que se han procesado. ¿Deberían "
+"comprimirse los archivos de registro en archivos <code>.gz</code> una vez "
+"que se hayan procesado? Comprimir los archivos de registro puede ahorrar "
+"espacio en disco en el servidor."
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "Dejar los archivos de registro (logs) en su lugar"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "Comprimir los archivos de registro (logs)"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr ""
+"Solo permitir el acceso a la API de estadísticas COUNTER SUSHI a los "
+"gestores (managers) y administradores"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "Plataforma"
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr ""
+"Según el protocolo COUNTER SUSHI, cada informe debe identificar la "
+"\"plataforma\" que proporciona las estadísticas. Por defecto, la revista/"
+"editorial/repositorio se designará como la plataforma para todas las "
+"estadísticas. Sin embargo, si todas las revistas/editoriales/repositorios de "
+"este sitio son publicadas, son propiedad o están operadas por el mismo "
+"proveedor, es posible que desee designar en su lugar el sitio como "
+"plataforma."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr ""
+"Usar este sitio como plataforma para todas las revistas/editoriales/"
+"repositorios."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "ID de plataforma"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr ""
+"Indicar cómo se debe identificar esta plataforma en los informes COUNTER "
+"SUSHI. El ID de la plataforma debe ser de 17 caracteres o menos y puede "
+"contener letras (a-z, A-Z), dígitos (0-9), guiones bajos (_), puntos (.) y "
+"barras inclinadas (/). El ID de la plataforma se usará en varias columnas y "
+"debe ser lo más corto posible y al mismo tiempo reconocible. El ID de la "
+"plataforma suele estar basado en el nombre del editor o la plataforma, un "
+"nombre de dominio o una abreviatura conocida y única."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr ""
+"Se requiere un ID de plataforma cuando se identifica el sitio como la "
+"plataforma SUSHI."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr "opciones del comando de trabajo"
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "uso : [--opción1 --opción2= ...]"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr "Opciones disponibles para el comando de trabajo"
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr ""
+"Nombre de la conexión a la cola que se debe ejecutar[por defecto : "
+"'{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr "Nombre de la cola que se debe ejecutar[por defecto : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr "Nombre del trabajador (worker)[por defecto : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr ""
+"Número de segundos a esperar antes de reintentar un trabajo que se ha "
+"encontrado con una excepción no capturada[por defecto : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "Límite de memoria en megabytes[por defecto : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr ""
+"Número de segundos que puede durar la ejecución de un proceso hijo/a[default "
+": '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr ""
+"Número de segundos que debe dormir (sleep) cuando no hay trabajos "
+"disponibles[por defecto: '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr ""
+"Número de intentos de un trabajo antes de registrar que ha fallado[por "
+"defecto: '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr ""
+"Forzar al \"worker\" a correr incluso en modo de mantenimiento[por defecto: "
+"{$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "Parar cuando la cola esté vacía[default : {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr ""
+"Número de trabajos que debe procesar antes de detenerse[por defecto: "
+"'{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr ""
+"Duración máxima de segundos que el \"worker\" puede correr[por defecto: "
+"'{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr ""
+"Número de segundos de descanso entre trabajos[por defecto: '{$default}']\""
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "Ejecutar el demonio (daemon) de trabajos para la cola de pruebas"

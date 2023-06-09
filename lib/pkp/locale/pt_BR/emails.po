@@ -1,0 +1,341 @@
+# Diego José Macêdo <diegojmacedo@gmail.com>, 2021.
+# Felipe Geremia Nievinski <fgnievinski@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02T16:17:19-08:00\n"
+"PO-Revision-Date: 2021-12-29 12:24+0000\n"
+"Last-Translator: Diego José Macêdo <diegojmacedo@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <http://translate.pkp.sfu.ca/projects/ojs/"
+"emails/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+#, fuzzy
+msgid "emails.submissionAck.subject"
+msgstr "Obrigado pela submissão para {$contextName}"
+
+#, fuzzy
+msgid "emails.submissionAck.body"
+msgstr ""
+"<p>Prezado(a) {$recipientName},</p>\n"
+"<br />\n"
+"<p></p>obrigado por submeter o manuscrito, &quot;{$submissionTitle}&quot; ao "
+"periódico {$contextName}. Com o sistema de gerenciamento de periódicos on-"
+"line que estamos usando, você poderá acompanhar seu progresso através do "
+"processo editorial efetuando login no site do periódico:</p>\n"
+"<br />\n"
+"<p>URL da Submissão: {$submissionUrl}</p>\n"
+"<p>Usuário: {$recipientUsername}</p>\n"
+"<br />\n"
+"<p>Se você tiver alguma dúvida, entre em contato conosco. Agradecemos por "
+"considerar este periódico para publicar o seu trabalho.</p>\n"
+"<br />\n"
+"{$contextSignature}"
+
+msgid "emails.submissionAck.description"
+msgstr ""
+
+#, fuzzy
+msgid "emails.reviewAck.subject"
+msgstr "Agradecimento pela avaliação"
+
+#, fuzzy
+msgid "emails.reviewAck.body"
+msgstr ""
+"{$recipientName}:<br />\n"
+"<br />\n"
+"Agradeço por enviar o parecer da submissão &quot;{$submissionTitle},&quot; "
+"para o periódico {$contextName}. Nós apreciamos sua contribuição para manter "
+"a qualidade dos trabalhos que publicamos."
+
+msgid "emails.decision.notifyReviewers.subject"
+msgstr ""
+
+msgid "emails.decision.notifyReviewers.body"
+msgstr ""
+
+msgid "emails.decision.notifyOtherAuthors.subject"
+msgstr ""
+
+msgid "emails.decision.notifyOtherAuthors.body"
+msgstr ""
+
+#, fuzzy
+msgid "emails.editorDecisionSendToExternal.subject"
+msgstr "Decisão do Editor"
+
+#, fuzzy
+msgid "emails.editorDecisionSendToExternal.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Nós chegamos a uma decisão referente a sua submissão para o periódico "
+"{$contextName}, &quot;{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"Nossa decisão é de: Enviar para avaliação<br />\n"
+"<br />\n"
+"URL da submissão: {$submissionUrl}"
+
+#, fuzzy
+msgid "emails.editorDecisionSendToProduction.subject"
+msgstr "Próximas etapas para publicar sua submissão"
+
+#, fuzzy
+msgid "emails.editorDecisionSendToProduction.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"A edição de texto da sua submissão, &quot;{$submissionTitle},&quot; está "
+"completa. Agora ela está sendo enviada para diagramação.<br />\n"
+"<br />\n"
+"URL da submissão: {$submissionUrl}"
+
+#, fuzzy
+msgid "emails.editorDecisionRevisions.subject"
+msgstr "Sua submissão foi avaliada e nós o encorajamos a enviar revisões"
+
+#, fuzzy
+msgid "emails.editorDecisionRevisions.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Nós chegamos a uma decisão referente a sua submissão para o periódico "
+"{$contextName}, &quot;{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"Nossa decisão é de: Revisões Requeridas"
+
+#, fuzzy
+msgid "emails.editorDecisionResubmit.subject"
+msgstr "Sua submissão foi avaliada - por favor, revise e reenvie"
+
+#, fuzzy
+msgid "emails.editorDecisionResubmit.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Nós chegamos a uma decisão referente a sua submissão para o periódico "
+"{$contextName}, &quot;{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"Nossa decisão é de: Ressubmeter para Avaliação"
+
+#, fuzzy
+msgid "emails.editorDecisionDecline.subject"
+msgstr "Sua submissão foi recusada"
+
+#, fuzzy
+msgid "emails.editorDecisionDecline.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Nós chegamos a uma decisão referente a sua submissão para o periódico "
+"{$contextName}, &quot;{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"Nossa decisão é de: Rejeitar a Submissão"
+
+#, fuzzy
+msgid "emails.editorRecommendation.subject"
+msgstr "Recomendação do Editor"
+
+#, fuzzy
+msgid "emails.editorRecommendation.body"
+msgstr ""
+"<p> Caro {$editors}, </p> <p> Após considerar os comentários dos "
+"avaliadores, gostaria de fazer a seguinte recomendação em relação à "
+"submissão {$submitTitle}. </p> <p> Minha recomendação é: <br /> "
+"{$recommendation}. </p> <p> Visite o <a href=\"{$submissionUrl}\">fluxo de "
+"trabalho editorial </a> para agir de acordo com esta recomendação. </p> <p> "
+"Sinta-se à vontade para entrar em contato comigo em caso de dúvidas. </p> "
+"<p> Atenciosamente, </p> <p> {$senderName} </p>"
+
+#, fuzzy
+msgid "emails.copyeditRequest.subject"
+msgstr ""
+"A submissão {$submissionId} está pronto para uma tarefa edição ao Editor de "
+"Texto para {$contextAcronym}"
+
+#, fuzzy
+msgid "emails.copyeditRequest.body"
+msgstr ""
+"{$recipientName}: <br />\n"
+"<br />\n"
+"Peço que você realize a revisão textual de &quot;{$submissionTitle}&quot; "
+"para {$contextName} seguindo estas etapas. <br />\n"
+"1. Clique no URL da Submissão abaixo. <br />\n"
+"2. Abra todos os arquivos disponíveis em \"Arquivos de Versão Final\" e faça "
+"sua revisão textual, adicionando quaisquer discussões em \"Discussão da "
+"edição de texto\" conforme necessário. <br />\n"
+"3. Salve os arquivos revisados e faça o carregamento no painel \"Texto "
+"editado\". <br />\n"
+"4. Notifique o Editor de que todos os arquivos foram preparados e que o "
+"processo de \"Editoração\" pode começar. <br />\n"
+"<br />\n"
+"URL de {$contextName}: {$contextUrl} <br />\n"
+"URL de Submissão: {$submitUrl} <br />\n"
+"Nome de usuário: {$recipientUsername}"
+
+msgid "emails.editorDecisionNewReviewRound.subject"
+msgstr ""
+
+msgid "emails.editorDecisionNewReviewRound.body"
+msgstr ""
+
+msgid "emails.editorDecisionRevertDecline.subject"
+msgstr ""
+
+msgid "emails.editorDecisionRevertDecline.body"
+msgstr ""
+
+msgid "emails.editorDecisionRevertInitialDecline.subject"
+msgstr ""
+
+msgid "emails.editorDecisionRevertInitialDecline.body"
+msgstr ""
+
+#, fuzzy
+msgid "emails.editorDecisionInitialDecline.subject"
+msgstr "Sua submissão foi recusada"
+
+#, fuzzy
+msgid "emails.editorDecisionInitialDecline.body"
+msgstr ""
+"<p> Prezado(a) {$recipientName}, </p> <p> Lamento informar que, após avaliar "
+"sua submissão <strong>{$submissionTitle}</strong>, o editor concluiu que ela "
+"não atende aos nossos requisitos para publicação em <strong>{$contextName}</"
+"strong>. </p> \n"
+"<p>Portanto a nossa decisão é: <strong>Recusar Submissão</strong></p>\n"
+"<p>Desejo-lhe sucesso se você considerar enviar trabalhos para outro "
+"periódico. </p> <p> Atenciosamente, </p> {$signature}"
+
+msgid "emails.editorialReminder.subject"
+msgstr ""
+
+msgid "emails.editorialReminder.body"
+msgstr ""
+
+msgid "discussion.notification.description"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromProduction.subject"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromProduction.body"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromCopyediting.subject"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromCopyediting.body"
+msgstr ""
+
+msgid "emails.editorDecisionCancelReviewRound.subject"
+msgstr ""
+
+msgid "emails.editorDecisionCancelReviewRound.body"
+msgstr ""
+
+msgid "emails.reviewResendRequest.subject"
+msgstr ""
+
+msgid "emails.reviewResendRequest.body"
+msgstr ""
+
+msgid "emails.footer.unsubscribe"
+msgstr ""
+
+msgid "emails.footer.unsubscribe.discussion"
+msgstr ""
+
+msgid "emails.footer.unsubscribe.automated"
+msgstr ""
+
+msgid "emailTemplate.variable.unsubscribe"
+msgstr ""
+
+#, fuzzy
+msgid "emails.discussion.subject"
+msgstr "Uma mensagem sobre {$contextName}"
+
+msgid "emails.discussion.body"
+msgstr "Insira a sua mensagem por gentileza."
+
+msgid "emails.versionCreated.subject"
+msgstr ""
+
+msgid "emails.versionCreated.body"
+msgstr ""
+
+msgid "emails.reviewComplete.subject"
+msgstr ""
+
+msgid "emails.reviewComplete.body"
+msgstr ""
+
+msgid "emails.reviewEdit.subject"
+msgstr ""
+
+msgid "emails.reviewEdit.body"
+msgstr ""
+
+#, fuzzy
+msgid "emails.reviewConfirm.subject"
+msgstr "Disponível para realizar avaliação"
+
+#, fuzzy
+msgid "emails.reviewConfirm.body"
+msgstr ""
+"Prezados editores, <br />\n"
+"<br />\n"
+"eu tenho disponibilidade para dar um parecer para a submissão, &quot;"
+"{$submissionTitle}&quot;, para o periódico {$contextName}. Agradeço por "
+"lembrar de mim, e pretendo enviar o parecer até {$reviewDueDate}, se não "
+"antes.<br />\n"
+"<br />\n"
+"Atenciosamente,\n"
+"<br />\n"
+"{$senderName}"
+
+msgid "emails.submissionSavedForLater.subject"
+msgstr ""
+
+msgid "emails.submissionSavedForLater.body"
+msgstr ""
+
+msgid "emails.submissionNeedsEditor.subject"
+msgstr ""
+
+msgid "emails.submissionNeedsEditor.body"
+msgstr ""
+
+msgid "emails.submissionAckNotUser.description"
+msgstr ""
+"Quando habilitada, esta mensagem é enviado automaticamente para os autores "
+"informados durante o processo de submissão, que não seja o autor que está "
+"submetendo o manuscrito."
+
+msgid "emails.submissionAckNotAuthor.subject"
+msgstr "Confirmação de submissão"
+
+#, fuzzy
+msgid "emails.submissionAckNotAuthor.body"
+msgstr ""
+"<p>Prezado(a) {$recipientName},</p>\n"
+"<br />\n"
+"<p>Você foi designado coautor em uma submissão ao periódico {$contextName}. "
+"O remetente, {$submitterName}, forneceu os seguintes detalhes:</"
+"p><p>{$submissionTitle}<br />{$authorsWithAffiliation}</p><p>Se algum desses "
+"detalhes estiver incorreto ou você não deseja ser designado nesta submissão, "
+"entre em contato conosco.</p><p>Agradecemos por considerar este periódico "
+"para publicar o seu trabalho.</p><br /><p>Atenciosamente,</"
+"p>{$contextSignature}"
+
+#, fuzzy
+#~ msgid "emails.reviewAck.description"
+#~ msgstr ""
+#~ "Mensagem enviada pelo Editor de Seção ao Avaliador para confirmar "
+#~ "recebimento e agradecer o avaliador pela conclusão da avaliação."

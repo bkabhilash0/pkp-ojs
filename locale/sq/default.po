@@ -1,0 +1,130 @@
+# Rudin Dakli <rdakli@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-21 17:56+0000\n"
+"Last-Translator: Rudin Dakli <rdakli@gmail.com>\n"
+"Language-Team: Albanian <http://translate.pkp.sfu.ca/projects/ojs/default/sq/"
+">\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "section.default.title"
+msgstr "Artikujt"
+
+msgid "section.default.abbrev"
+msgstr "ART"
+
+msgid "section.default.policy"
+msgstr ""
+
+msgid "default.genres.article"
+msgstr "Teksti i Artikullit"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+
+msgid "default.contextSettings.privacyStatement"
+msgstr ""
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr ""
+"Kjo revistë siguron qasje të menjëhershme të hapur në përmbajtjen e saj "
+"nisur nga parimi që vendosja e kërkimit shkencor në dispozicion të publikut, "
+"pa kushte mbështet një shkëmbim më të madh global të njohurive."
+
+msgid "default.contextSettings.forReaders"
+msgstr ""
+
+msgid "default.contextSettings.forAuthors"
+msgstr ""
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+
+msgid "default.contextSettings.lockssLicense"
+msgstr ""
+
+msgid "default.contextSettings.clockssLicense"
+msgstr ""
+
+msgid "default.groups.name.manager"
+msgstr "Manaxheri i Revistës"
+
+msgid "default.groups.plural.manager"
+msgstr ""
+
+msgid "default.groups.abbrev.manager"
+msgstr ""
+
+msgid "default.groups.name.editor"
+msgstr ""
+
+msgid "default.groups.plural.editor"
+msgstr ""
+
+msgid "default.groups.abbrev.editor"
+msgstr ""
+
+msgid "default.groups.name.guestEditor"
+msgstr ""
+
+msgid "default.groups.plural.guestEditor"
+msgstr ""
+
+msgid "default.groups.abbrev.guestEditor"
+msgstr ""
+
+msgid "default.groups.name.sectionEditor"
+msgstr ""
+
+msgid "default.groups.plural.sectionEditor"
+msgstr ""
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr ""
+
+msgid "default.groups.name.subscriptionManager"
+msgstr ""
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr ""
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr ""
+
+msgid "default.genres.researchInstrument"
+msgstr ""
+
+msgid "default.genres.researchMaterials"
+msgstr ""
+
+msgid "default.genres.researchResults"
+msgstr ""
+
+msgid "default.genres.transcripts"
+msgstr ""
+
+msgid "default.genres.dataAnalysis"
+msgstr ""
+
+msgid "default.genres.dataSet"
+msgstr ""
+
+msgid "default.genres.sourceTexts"
+msgstr ""
+
+msgid "default.groups.name.externalReviewer"
+msgstr ""
+
+msgid "default.groups.plural.externalReviewer"
+msgstr ""
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr ""

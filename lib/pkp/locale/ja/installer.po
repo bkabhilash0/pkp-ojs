@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-08 12:54+0000\n"
+"Last-Translator: Bjorn-Ole Kamm <pkp_trans@b-ok.de>\n"
+"Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"installer/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "installer.additionalLocales"
+msgstr "追加言語"
+
+msgid "installer.administratorAccount"
+msgstr "管理者アカウント"
+
+msgid "installer.administratorAccountInstructions"
+msgstr ""
+"このユーザアカウントはサイト管理者になり、システムのすべてにアクセスできるよ"
+"うになります。ユーザアカウントの追加はインストール後に行うことができます。"
+
+msgid "installer.checkNo"
+msgstr "<span class=\"pkp_form_error formError\">いいえ</span>"
+
+msgid "installer.checkYes"
+msgstr "はい"
+
+msgid "installer.configFileError"
+msgstr ""
+"設定ファイル <tt>config.inc.php</tt> が存在しないか，あるいは読み込めません。"
+
+msgid "installer.connectionCharset"
+msgstr "通信文字セット"
+
+msgid "installer.contentsOfConfigFile"
+msgstr "設定ファイルの内容"
+
+msgid "installer.databaseDriver"
+msgstr "データベースドライバー"
+
+msgid "installer.databaseDriverInstructions"
+msgstr ""
+"<strong>括弧中に挙げたデータベースドライバは必要となるPHP拡張を持っていないよ"
+"うなので，それらを選択した場合にはインストールが失敗するだろう。</"
+"strong><br />これら未サポートのデータベースドライバは単に理論的な目的で紹介さ"
+"れているだけにすぎず，動作はしないだろう。"
+
+msgid "installer.databaseHost"
+msgstr "ホスト"
+
+msgid "installer.databaseHostInstructions"
+msgstr ""
+"TCP/IP経由ではなくドメインソケットを使用する場合は、ホスト名を空欄のままにし"
+"てください。これはMySQLでは必要ありません。MySQLでは、\"localhost\"が指定され"
+"ると、自動的にソケットが使用されるからです。しかし、PostgreSQLなどのほかの"
+"データベースではこのように設定する必要があります。"
+
+msgid "installer.databaseName"
+msgstr "データベース名"
+
+msgid "installer.databasePassword"
+msgstr "パスワード"
+
+msgid "installer.databaseSettings"
+msgstr "データベース設定"
+
+msgid "installer.databaseUsername"
+msgstr "ユーザー名"
+
+msgid "installer.filesDir"
+msgstr "アップロードファイル用ディレクトリ"
+
+msgid "installer.fileSettings"
+msgstr "ファイル設定"
+
+msgid "installer.form.clientCharsetRequired"
+msgstr "クライアント文字セットを選択する必要があります。"
+
+msgid "installer.form.databaseDriverRequired"
+msgstr "データベースドライバを選択する必要があります。"
+
+msgid "installer.form.databaseNameRequired"
+msgstr "データベース名は必須です。"
+
+msgid "installer.form.emailRequired"
+msgstr "管理者アカウントの有効なメールアドレスは必須です。"
+
+msgid "installer.form.filesDirRequired"
+msgstr "アップロードファイルを格納するディレクトリは必須です。"
+
+msgid "installer.form.localeRequired"
+msgstr "言語を選択する必要があります。"
+
+msgid "installer.form.passwordRequired"
+msgstr "管理者アカウントのパスワードは必須です。"
+
+msgid "installer.form.passwordsDoNotMatch"
+msgstr "管理者のパスワードが一致しません。"
+
+msgid "installer.form.separateMultiple"
+msgstr "複数の値はコンマで区切ってください"
+
+msgid "installer.form.usernameAlphaNumeric"
+msgstr ""
+"管理者のユーザ名に使用できるのは、英数字、下線、ハイフンのみであり、最初と最"
+"後の文字は英数字でなければなりません。"
+
+msgid "installer.form.usernameRequired"
+msgstr "管理者アカウントのユーザ名は必須です。"
+
+msgid "installer.form.timeZoneRequired"
+msgstr ""
+
+msgid "installer.installationWrongPhp"
+msgstr ""
+"<br/><strong>警告: PHPのバージョンがインストールのための最小要件を満たしてい"
+"ません。もっと新しい版のPHPへアップグレードすることを推奨します。</strong>"
+
+msgid "installer.installErrorsOccurred"
+msgstr "インストール中にエラーが発生しました"
+
+msgid "installer.installerSQLStatements"
+msgstr "インストール用のSQL文"
+
+msgid "installer.installFileError"
+msgstr ""
+"インストールファイル<tt>dbscripts/xml/install.xml</tt> が存在しない，または読"
+"み込めません。"
+
+msgid "installer.installFilesDirError"
+msgstr ""
+"アップロードファイル用に指定されたディレクトリが存在しない、または、書き込み"
+"ができません。"
+
+msgid "installer.installParseDBFileError"
+msgstr "データベースインストールファイル <tt>{$file}</tt> のパースエラー。"
+
+#, fuzzy
+msgid "installer.installMigrationError"
+msgstr "<tt>{$class}</tt>マイグレーションクラスの実行エラーが発生します。"
+
+msgid "installer.installParseEmailTemplatesFileError"
+msgstr "メールテンプレートファイル <tt>{$file}</tt> のパースエラー。"
+
+msgid "installer.installParseFilterConfigFileError"
+msgstr "フィルター設定ファイル <tt>{$file}</tt> のパースエラー。"
+
+msgid "installer.unsupportedUpgradeError"
+msgstr ""
+"アップグレードはサポートされていません。詳細については、 docs/UPGRADE-"
+"UNSUPPORTED を参照してください。"
+
+msgid "installer.timezoneInstructions"
+msgstr ""
+
+msgid "installer.additionalLocalesInstructions"
+msgstr ""
+
+msgid "installer.locale"
+msgstr "言語"
+
+msgid "installer.locale.maybeIncomplete"
+msgstr "マークがついているロケールは完全ではありません。"
+
+msgid "installer.localeSettings"
+msgstr "言語の設定"
+
+msgid "installer.oaiSettings"
+msgstr "OAI設定"
+
+msgid "installer.oaiRepositoryIdInstructions"
+msgstr ""
+"識別子は <a href=\"http://www.openarchives.org/\" target=\"_blank\">Open "
+"Archives Initiative</a> Protocol for Metadata Harvesting (OAI-PMH) を使用して"
+"サイトからメタデータをインデクスする際に識別するために使用されます。"
+
+msgid "installer.oaiRepositoryId"
+msgstr "OAIリポジトリ識別子"
+
+msgid "installer.publicFilesDirError"
+msgstr "公開ファイルディレクトリが存在しない、または、書き込みができません。"
+
+msgid "installer.releaseNotes"
+msgstr "リリースノート"
+
+msgid "installer.preInstallationInstructionsTitle"
+msgstr "インストール前の手順"
+
+msgid "installer.preInstallationInstructions"
+msgstr ""
+"\n"
+"\t\t<p>1. 以下のファイルとディレクトリ（配下のすべてのコンテンツを含む）を書"
+"き込みができるようにする必要があります。</p>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><tt>config.inc.php</tt>は書き込み可（オプション）: "
+"{$writable_config}</li>\n"
+"\t\t\t<li><tt>public/</tt>は書き込み可: {$writable_public}</li>\n"
+"\t\t\t<li><tt>cache/</tt>は書き込み可: {$writable_cache}</li>\n"
+"\t\t\t<li><tt>cache/t_cache/</tt>は書き込み可: {$writable_templates_cache}</"
+"li>\n"
+"\t\t\t<li><tt>cache/t_compile/</tt> は書き込み可: "
+"{$writable_templates_compile}</li>\n"
+"\t\t\t<li><tt>cache/_db</tt>は書き込み可: {$writable_db_cache}</li>\n"
+"\t\t</ul>\n"
+"\n"
+"\t\t<p>2. アップロードファイルを格納するためのディレクトリを作成して、書き込"
+"みができるようにする必要があります（以下の「ファイル設定」を参照してくださ"
+"い）。</p>\n"
+"\t"
+
+msgid "installer.configureXSLMessage"
+msgstr ""
+"<p>PHP のインストールで XSL モジュールが有効になっていません。 有効にする"
+"か、 config.inc.php ファイルで xslt_command パラメータを設定します。</p>"
+
+msgid "installer.beacon"
+msgstr "ビーコン"
+
+msgid "installer.beacon.enable"
+msgstr ""
+"統計情報およびセキュリティ警告のみを目的とした一意のサイト ID と OAI ベース "
+"URL をPKP に提供してください。"
+
+msgid "installer.unsupportedPhpError"
+msgstr ""
+"ご使用のサーバーの PHP バージョンは、このソフトウェアではサポートされていませ"
+"ん。 インストール要件については、docs/README を参照してください。"
+
+#~ msgid "installer.clientCharsetInstructions"
+#~ msgstr "ブラウザとデータを送受信する際に使用するエンコーディング。"
+
+#~ msgid "installer.clientCharset"
+#~ msgstr "クライアント文字セット"

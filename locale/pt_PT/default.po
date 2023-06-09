@@ -1,0 +1,220 @@
+# Carla Marques <carla.marques@usdb.uminho.pt>, 2022.
+# José Carvalho <jcarvalho@keep.pt>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:30+00:00\n"
+"PO-Revision-Date: 2022-12-26 09:02+0000\n"
+"Last-Translator: José Carvalho <jcarvalho@keep.pt>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.pkp.sfu.ca/projects/"
+"ojs/default/pt_PT/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "section.default.title"
+msgstr "Artigos"
+
+msgid "section.default.abbrev"
+msgstr "ART"
+
+msgid "section.default.policy"
+msgstr "Política padrão da secção"
+
+msgid "default.genres.article"
+msgstr "Texto do Artigo"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+"<p>Os autores são convidados a fazer uma submissão a esta revista. Todas as "
+"submissões serão avaliadas por um editor para determinar se atendem aos "
+"objetivos e escopo desta revista. Os trabalhos considerados adequados serão "
+"enviados para avaliação por pares antes de determinar se serão aceites ou "
+"rejeitados.</p><p>Antes de fazer uma submissão, os autores são responsáveis "
+"por obter permissão para publicar qualquer material incluído na submissão, "
+"como fotos, documentos e conjuntos de dados. Todos os autores identificados "
+"na submissão devem consentir em ser identificados como autores. Quando "
+"apropriado, a investigação deve ser aprovada por um comité de ética "
+"apropriado de acordo com os requisitos legais do país do estudo.</p><p>Um "
+"editor pode rejeitar uma submissão se ela não atender aos padrões mínimos de "
+"qualidade. Antes de submeter, certifique-se de que o desenho do estudo e o "
+"argumento da investigação estejam estruturados e articulados adequadamente. "
+"O título deve ser conciso e o resumo deve ser autossuficiente. Isso "
+"aumentará a probabilidade dos avaliadores concordarem em avaliar o artigo. "
+"Quando estiver satisfeito de que sua submissão atende a esse padrão, siga a "
+"lista de verificação abaixo para preparar sua submissão.</p>"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>Todas as submissões devem atender aos seguintes requisitos.</"
+"p><ul><li>Esta submissão atende aos requisitos descritos nas <a href="
+"\"{$submissionGuidelinesUrl}\">Instruções aos autores</a>.</li ><li>Esta "
+"submissão não foi publicada anteriormente, nem foi submetida a outra revista "
+"para consideração.</li><li>Todas as referências foram verificadas quanto à "
+"exatidão e integridade.</li><li>Todas as tabelas e figuras foram numeradas e "
+"rotuladas.</li><li>Foi obtida permissão para publicar todas as fotos, "
+"conjuntos de dados e outros materiais fornecidos com esta submissão.</li></"
+"ul>"
+
+msgid "default.contextSettings.privacyStatement"
+msgstr ""
+"<p>Os nomes e endereços fornecidos nesta revista serão usados exclusivamente "
+"para os serviços prestados por esta publicação, não sendo disponibilizados "
+"para outras finalidades ou a terceiros.</p>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr ""
+"Esta revista oferece acesso aberto imediato ao seu conteúdo, seguindo o "
+"princípio de que disponibilizar gratuitamente o conhecimento científico ao "
+"público proporciona maior democratização mundial do conhecimento."
+
+msgid "default.contextSettings.forReaders"
+msgstr ""
+"Convidamos os leitores a registarem-se no serviço de notificação de "
+"publicação da revista. Clique em <a href=\"{$indexUrl}/{$contextPath}/user/"
+"register\">Registo</a> no menu superior da página. O registo permitirá ao "
+"leitor receber o Sumário via e-mail a cada nova edição. A lista procura "
+"também reivindicar um nível básico de apoio ou de leitura. Leia a <a href="
+"\"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement\">Política "
+"de Privacidade</a> da revista, que assegura aos leitores que os nomes e "
+"endereços fornecidos não serão utilizados para outros fins."
+
+msgid "default.contextSettings.forAuthors"
+msgstr ""
+"Deseja submeter artigos à revista? Convidamos todos a conferir a secção <a "
+"href=\"{$indexUrl}/{$contextPath}/about\">Sobre a Revista</a> e ler as "
+"políticas de secção, bem como as <a href=\"{$indexUrl}/{$contextPath}/about/"
+"submissions#authorGuidelines\">Instruções para Autores</a>. É necessário que "
+"os autores se <a href=\"{$indexUrl}/{$contextPath}/user/register\">registem</"
+"a> no sistema antes de submeter um artigo; caso já tenha se registado basta "
+"<a href=\"{$indexUrl}/{$contextPath}/login\">aceder</a> ao sistema e iniciar "
+"o processo de 5 passos de submissão."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"Convidamos as bibliotecas a listar revistas de Acesso Aberto nos seus "
+"catálogos de revistas eletrónicas. Este sistema de publicação é desenvolvido "
+"também para ser hospedado e operado por bibliotecas de investigação em apoio "
+"ao trabalho de publicação de revistas de corpo académico. Para mais "
+"informações sobre o Open Journal Systems - OJS, e a administração e "
+"publicação de revistas com revisão por pares visite o <a href=\"https://pkp."
+"sfu.ca\">Public Knowledge Project</a>."
+
+msgid "default.contextSettings.lockssLicense"
+msgstr ""
+"Esta revista utiliza o sistema LOCKSS para criar um sistema de arquivo "
+"distribuído entre as bibliotecas participantes e permite às mesmas criar "
+"arquivos permanentes da revista para a preservação e restauro. <a href="
+"\"https://www.lockss.org\">Saiba mais...</a>"
+
+msgid "default.contextSettings.clockssLicense"
+msgstr ""
+"Esta revista utiliza o sistema CLOCKSS para criar um sistema de arquivo "
+"distribuído entre as bibliotecas participantes e permite que estas "
+"bibliotecas criem arquivos permanentes da revista para fins de preservação e "
+"restauro. <a href=\"https://clockss.org\">Mais ...</a>"
+
+msgid "default.groups.name.manager"
+msgstr "Editor-gestor"
+
+msgid "default.groups.plural.manager"
+msgstr "Editores-gestores"
+
+msgid "default.groups.abbrev.manager"
+msgstr "EG"
+
+msgid "default.groups.name.editor"
+msgstr "Editor da Revista"
+
+msgid "default.groups.plural.editor"
+msgstr "Editores da Revista"
+
+msgid "default.groups.abbrev.editor"
+msgstr "ER"
+
+msgid "default.groups.name.guestEditor"
+msgstr "Editor Convidado"
+
+msgid "default.groups.plural.guestEditor"
+msgstr "Editores Convidados"
+
+msgid "default.groups.abbrev.guestEditor"
+msgstr "EC"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "Editor de Secção"
+
+msgid "default.groups.plural.sectionEditor"
+msgstr "Editores de Secção"
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr "ES"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "Gestor de Subscrições"
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr "Gestores de Subscrições"
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr "GS"
+
+msgid "default.genres.researchInstrument"
+msgstr "Instrumento de Pesquisa"
+
+msgid "default.genres.researchMaterials"
+msgstr "Instrumentos de Pesquisa"
+
+msgid "default.genres.researchResults"
+msgstr "Resultados de Pesquisa"
+
+msgid "default.genres.transcripts"
+msgstr "Transcrições"
+
+msgid "default.genres.dataAnalysis"
+msgstr "Análise de Dados"
+
+msgid "default.genres.dataSet"
+msgstr "Conjunto de Dados"
+
+msgid "default.genres.sourceTexts"
+msgstr "Fontes do Texto"
+
+msgid "default.groups.name.externalReviewer"
+msgstr "Revisor"
+
+msgid "default.groups.plural.externalReviewer"
+msgstr "Revisores"
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr "R"
+
+#~ msgid "default.contextSettings.checklist.notPreviouslyPublished"
+#~ msgstr ""
+#~ "A contribuição é original e inédita e não se encontra sob revisão ou para "
+#~ "publicação junto de outra revista. Caso contrário, deve-se justificar em "
+#~ "\"Comentários ao Editor\"."
+
+#~ msgid "default.contextSettings.checklist.fileFormat"
+#~ msgstr ""
+#~ "Os ficheiros para submissão encontram-se em formato Microsoft Word, "
+#~ "OpenOffice ou RTF."
+
+#~ msgid "default.contextSettings.checklist.submissionAppearance"
+#~ msgstr ""
+#~ "O texto está em espaço simples; usa fonte de 12 pontos; emprega itálico "
+#~ "em vez de sublinhado (exceto em endereços URL); as figuras e tabelas "
+#~ "estão inseridas no texto, não no final do documento na forma de anexos."
+
+#~ msgid "default.contextSettings.checklist.bibliographicRequirements"
+#~ msgstr ""
+#~ "O texto segue os padrões de estilo e requisitos bibliográficos descritos "
+#~ "em <a href=\"{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines"
+#~ "\">Instruções para Autores</a>, na secção Sobre a Revista."
+
+#~ msgid "default.contextSettings.checklist.addressesLinked"
+#~ msgstr "Quando disponíveis, foram fornecidos URLs para as referências."

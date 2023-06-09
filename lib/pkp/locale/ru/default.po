@@ -1,0 +1,200 @@
+# Pavel Pisklakov <ppv1979@mail.ru>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:00+00:00\n"
+"PO-Revision-Date: 2023-05-01 13:49+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/pkp-lib/default/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "default.groups.name.siteAdmin"
+msgstr "Администратор сайта"
+
+msgid "default.groups.plural.siteAdmin"
+msgstr "Администраторы сайта"
+
+msgid "default.groups.name.productionEditor"
+msgstr "Выпускающий редактор"
+
+msgid "default.groups.plural.productionEditor"
+msgstr "Выпускающие редакторы"
+
+msgid "default.groups.abbrev.productionEditor"
+msgstr "ВыпРед"
+
+msgid "default.groups.name.copyeditor"
+msgstr "Литературный редактор"
+
+msgid "default.groups.plural.copyeditor"
+msgstr "Литературные редакторы"
+
+msgid "default.groups.abbrev.copyeditor"
+msgstr "ЛитРед"
+
+msgid "default.groups.name.proofreader"
+msgstr "Корректор"
+
+msgid "default.groups.plural.proofreader"
+msgstr "Корректоры"
+
+msgid "default.groups.abbrev.proofreader"
+msgstr "Корр"
+
+msgid "default.groups.name.designer"
+msgstr "Дизайнер"
+
+msgid "default.groups.plural.designer"
+msgstr "Дизайнеры"
+
+msgid "default.groups.abbrev.designer"
+msgstr "Дизайн"
+
+msgid "default.groups.name.internalReviewer"
+msgstr "Внутренний рецензент"
+
+msgid "default.groups.plural.internalReviewer"
+msgstr "Внутренние рецензенты"
+
+msgid "default.groups.abbrev.internalReviewer"
+msgstr "ВнутрР"
+
+msgid "default.groups.name.marketing"
+msgstr "Координатор по маркетингу и продажам"
+
+msgid "default.groups.plural.marketing"
+msgstr "Координаторы по маркетингу и продажам"
+
+msgid "default.groups.abbrev.marketing"
+msgstr "МиП"
+
+msgid "default.groups.name.funding"
+msgstr "Координатор по фондам"
+
+msgid "default.groups.plural.funding"
+msgstr "Координаторы по фондам"
+
+msgid "default.groups.abbrev.funding"
+msgstr "КФ"
+
+msgid "default.groups.name.indexer"
+msgstr "Индексатор"
+
+msgid "default.groups.plural.indexer"
+msgstr "Индексаторы"
+
+msgid "default.groups.abbrev.indexer"
+msgstr "Инд"
+
+msgid "default.groups.name.layoutEditor"
+msgstr "Верстальщик"
+
+msgid "default.groups.plural.layoutEditor"
+msgstr "Верстальщики"
+
+msgid "default.groups.abbrev.layoutEditor"
+msgstr "Верст"
+
+msgid "default.groups.name.author"
+msgstr "Автор"
+
+msgid "default.groups.plural.author"
+msgstr "Авторы"
+
+msgid "default.groups.abbrev.author"
+msgstr "Авт"
+
+msgid "default.groups.name.translator"
+msgstr "Переводчик"
+
+msgid "default.groups.plural.translator"
+msgstr "Переводчики"
+
+msgid "default.groups.abbrev.translator"
+msgstr "Перев"
+
+msgid "default.groups.name.reader"
+msgstr "Читатель"
+
+msgid "default.groups.plural.reader"
+msgstr "Читатели"
+
+msgid "default.groups.abbrev.reader"
+msgstr "Чит"
+
+msgid "default.genres.other"
+msgstr "Другое"
+
+msgid "default.genres.multimedia"
+msgstr "Мультимедиа"
+
+msgid "default.genres.image"
+msgstr "Изображение"
+
+msgid "default.genres.styleSheet"
+msgstr "Таблица стилей HTML"
+
+msgid "default.contextSettings.emailSignature"
+msgstr ""
+"<br><br>—<br><p>Это автоматически отправленное письмо от <a href=\""
+"{$contextUrl}\">{$contextName}</a>.</p>"
+
+msgid "default.submission.step.beforeYouBegin"
+msgstr ""
+"<p>Благодарим вас за подачу заявки в «{$contextName}». Вам будет предложено "
+"загрузить файлы, указать соавторов и предоставить такую информацию, как "
+"название и аннотация. <p><p>Пожалуйста, ознакомьтесь с нашими <a href=\""
+"{$submissionGuidelinesUrl}\" target=\"_blank\">Правилами подачи материалов</"
+"a>, если вы еще не сделали этого. При заполнении форм указывайте как можно "
+"больше деталей, чтобы помочь нашим редакторам оценить вашу работу.</"
+"p><p>После начала работы вы можете сохранить свою заявку и вернуться к ней "
+"позже. Вы сможете просмотреть и исправить любую информацию перед "
+"отправкой.</p>"
+
+msgid "default.submission.step.uploadFiles"
+msgstr ""
+"<p>Загрузите любые файлы, которые могут понадобиться нашей редакции для "
+"оценки вашей работы. В дополнение к основной работе вы можете отправить "
+"наборы данных, заявления о конфликте интересов или другие дополнительные "
+"файлы, если они будут полезны нашим редакторам.</p>"
+
+msgid "default.submission.step.contributors"
+msgstr ""
+"<p>Добавьте информацию обо всех соавторах этого материала. Участникам, "
+"добавленным здесь, будет отправлено подтверждение подачи материала по "
+"электронной почте, а также копия всех редакционных решений, принятых по "
+"данному материалу.</p><p>Если с соавтором невозможно связаться по "
+"электронной почте, поскольку он должен оставаться анонимным или не имеет "
+"учетной записи электронной почты, пожалуйста, не указывайте придуманный "
+"адрес электронной почты. Вы сможете добавить информацию об этом соавторе в "
+"сообщение редактору на более позднем этапе процесса подачи материала.</p>"
+
+msgid "default.submission.step.details"
+msgstr ""
+"<p>Пожалуйста, введите следующую информацию, чтобы помочь нам работать с "
+"вашим материалом в нашей системе.</p>"
+
+msgid "default.submission.step.forTheEditors"
+msgstr ""
+"<p>Пожалуйста, укажите следующую информацию, чтобы помочь нашей редакции "
+"работать с вашим материалом.</p><p>При вводе метаданных укажите информацию, "
+"которая, по вашему мнению, будет наиболее полезна для специалиста, "
+"работающего с вашим материалом. Эту информацию можно будет изменить до "
+"публикации.</p>"
+
+msgid "default.submission.step.review"
+msgstr ""
+"<p>Просмотрите введенную вами информацию, прежде чем завершить отправку "
+"материала. Вы можете изменить любую представленную здесь информацию, нажав "
+"на кнопку редактирования в верхней части конкретного раздела.</p><p>После "
+"того как вы завершите отправку материала, его рассмотрением займется один из "
+"членов нашей редакции. Пожалуйста, убедитесь, что информация, которую вы "
+"ввели здесь, является максимально точной.</p>"

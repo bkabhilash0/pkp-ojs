@@ -1,0 +1,73 @@
+{
+	"title": "Email Template",
+	"description": "A saved email message that can be sent by the application during registration, submission, peer review and all other operations of the application.",
+	"type": "object",
+	"required": [
+		"contextId",
+		"body",
+		"name",
+		"subject"
+	],
+	"properties": {
+		"_href": {
+			"type": "string",
+			"format": "uri",
+			"readOnly": true,
+			"apiSummary": true
+		},
+		"alternateTo": {
+			"type": "string",
+			"description": "The `key` of another email template. This is used to assign a custom template to a `Mailable`. The value of `alternateTo` must match the email template key of a `Mailable`.",
+			"apiSummary": true
+		},
+		"body": {
+			"type": "string",
+			"description": "The email template to be used in the email's main body content.",
+			"multilingual": true,
+			"apiSummary": true,
+			"validation": [
+				"nullable"
+			]
+		},
+		"contextId": {
+			"type": "integer",
+			"description": "The ID of the context (journal/press) this email is related to. Only used for custom email templates. Default is `null`.",
+			"apiSummary": true,
+			"writeDisabledInApi": true,
+			"validation": [
+				"nullable",
+				"min:0"
+			]
+		},
+		"id": {
+			"type": "integer",
+			"description": "The email template ID.",
+			"apiSummary": true,
+			"readOnly": true
+		},
+		"key": {
+			"type": "string",
+			"description": "A unique key for this email template.",
+			"apiSummary": true
+		},
+		"name": {
+			"type": "string",
+			"description": "A name for this email template.",
+			"multilingual": true,
+			"apiSummary": true,
+			"validation": [
+				"nullable",
+				"max:255"
+			]
+		},
+		"subject": {
+			"type": "string",
+			"description": "The subject of the email to be used in the email's subject header.",
+			"multilingual": true,
+			"apiSummary": true,
+			"validation": [
+				"nullable"
+			]
+		}
+	}
+}

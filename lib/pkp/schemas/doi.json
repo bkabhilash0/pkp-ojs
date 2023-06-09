@@ -1,0 +1,50 @@
+{
+  "title": "DOI",
+  "description": "The Digital Object Identifier (DOI) is a persistent ID assigned to published items.",
+  "required": [
+	"contextId",
+	"doi"
+  ],
+  "properties": {
+	"contextId": {
+	  "type": "integer",
+	  "description": "The context this DOI was created by.",
+	  "apiSummary": true,
+	  "writeDisabledInApi": true
+	},
+	"doi": {
+	  "type": "string",
+	  "description": "The DOI itself, such as `10.1234/5a6b-7c8d`.",
+	  "apiSummary": true,
+	  "validation": [
+		"regex:/^\\d+(.\\d+)+\\//"
+	  ]
+	},
+	"id": {
+	  "type": "integer",
+	  "description": "An internal id used to track the DOI.",
+	  "apiSummary": true,
+	  "readOnly": true
+	},
+	"resolvingUrl": {
+	  "type": "string",
+	  "description": "The full URL to resolve the DOI, such as `https://doi.org/10.1234/5a6b-7c8d`.",
+	  "apiSummary": true,
+	  "readOnly": true
+	},
+	"status": {
+	  "type": "integer",
+	  "description": "The status of the DOI, such as whether it has been successfully deposited. Must match the value of one of the following: `Doi::STATUS_UNREGISTERED`, `Doi::STATUS_SUBMITTED`, `Doi::STATUS_REGISTERED`, `Doi::STATUS_ERROR`, `Doi::STATUS_STALE`.",
+	  "apiSummary": true,
+	  "default": 1,
+	  "validation": [
+		"in:1,2,3,4,5"
+	  ]
+	},
+	"registrationAgency": {
+	  "type": "string",
+	  "description": "The agency with which the DOI is registered. If the DOI was manually marked registered, this will be `null`.",
+	  "apiSummary": true
+	}
+  }
+}

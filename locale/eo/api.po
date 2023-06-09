@@ -1,0 +1,78 @@
+# Włodzimierz Opoka <wlodzimierz.opoka@uj.edu.pl>, 2022.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-05 03:21+0000\n"
+"Last-Translator: Włodzimierz Opoka <wlodzimierz.opoka@uj.edu.pl>\n"
+"Language-Team: Esperanto <http://translate.pkp.sfu.ca/projects/ojs/api/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "api.announcements.400.contextsNotMatched"
+msgstr "Tiu ĉi anonco ne apartenas al tiu ĉi ĵurnalo."
+
+msgid "api.emails.403.disabled"
+msgstr "La retpoŝtaj atentigoĵ ne estas ebligitaj por tiu ĉi ĵurnalo."
+
+msgid "api.submissions.400.wrongContext"
+msgstr ""
+
+msgid "api.submissions.403.cantChangeContext"
+msgstr ""
+
+msgid "api.submissions.403.unpublishedIssues"
+msgstr ""
+
+msgid "api.contexts.403.requestedDisabledContexts"
+msgstr ""
+
+msgid "api.contexts.403.notAllowed"
+msgstr ""
+
+msgid "api.contexts.403.contextsDidNotMatch"
+msgstr ""
+
+msgid "api.contexts.403.requiresContext"
+msgstr ""
+
+msgid "api.contexts.403.notAllowedEdit"
+msgstr ""
+
+msgid "api.contexts.403.notAllowedDelete"
+msgstr ""
+
+msgid "api.contexts.404.contextNotFound"
+msgstr "La petita ĵurnalo ne estas trovita."
+
+msgid "api.dois.403.contextsNotMatched"
+msgstr ""
+
+msgid "api.dois.400.noRegistrationAgencyConfigured"
+msgstr "Neniu DOI-registrejo estas agordita por tiu ĉi ĵurnalo."
+
+msgid "api.dois.400.depositFailed"
+msgstr ""
+
+msgid "api.emailTemplates.403.notAllowedChangeContext"
+msgstr "Vi ne havas permeson movi tiun ĉi retpoŝtan ŝablonon al alia ĵurnalo."
+
+msgid "api._payments.400.invalidPaymentMethod"
+msgstr "La pagmetodo, kiun vi elektis ne estas subtenata."
+
+msgid "api.publications.403.contextsDidNotMatch"
+msgstr "La publikaĵo, kiun vi petis ne estas parto de tiu ĉi ĵurnalo."
+
+msgid "api.publications.403.submissionsDidNotMatch"
+msgstr ""
+
+msgid "api.submissionFiles.400.badRepresentationAssocType"
+msgstr ""
+
+msgid "api.submission.400.inactiveSection"
+msgstr ""
+
+msgid "api.dois.400.contextsNotMatched"
+msgstr "La DOI, kiun vi petis ne estas parto tiu ĉi ĵurnalo."

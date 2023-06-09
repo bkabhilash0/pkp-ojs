@@ -1,0 +1,192 @@
+# Antti-Jussi Nygård <ajnyga@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:47+00:00\n"
+"PO-Revision-Date: 2023-02-28 23:31+0000\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
+"Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/pkp-lib/default/"
+"fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "default.groups.name.siteAdmin"
+msgstr "Sivuston ylläpitäjä"
+
+msgid "default.groups.plural.siteAdmin"
+msgstr "Sivuston ylläpitäjät"
+
+msgid "default.groups.name.productionEditor"
+msgstr "Tuotantotoimittaja"
+
+msgid "default.groups.plural.productionEditor"
+msgstr "Tuotantotoimittajat"
+
+msgid "default.groups.abbrev.productionEditor"
+msgstr "TuotT"
+
+msgid "default.groups.name.copyeditor"
+msgstr "Tekninen toimittaja"
+
+msgid "default.groups.plural.copyeditor"
+msgstr "Tekniset toimittajat"
+
+msgid "default.groups.abbrev.copyeditor"
+msgstr "TT"
+
+msgid "default.groups.name.proofreader"
+msgstr "Oikolukija"
+
+msgid "default.groups.plural.proofreader"
+msgstr "Oikolukijat"
+
+msgid "default.groups.abbrev.proofreader"
+msgstr "OL"
+
+msgid "default.groups.name.designer"
+msgstr "Suunnittelija"
+
+msgid "default.groups.plural.designer"
+msgstr "Suunnittelijat"
+
+msgid "default.groups.abbrev.designer"
+msgstr "S"
+
+msgid "default.groups.name.internalReviewer"
+msgstr "Sisäinen arvioija"
+
+msgid "default.groups.plural.internalReviewer"
+msgstr "Sisäiset arvioijat"
+
+msgid "default.groups.abbrev.internalReviewer"
+msgstr "SA"
+
+msgid "default.groups.name.marketing"
+msgstr "Markkinointi- ja myyntikoordinaattori"
+
+msgid "default.groups.plural.marketing"
+msgstr "Markkinointi- ja myyntikoordinaattorit"
+
+msgid "default.groups.abbrev.marketing"
+msgstr "MM"
+
+msgid "default.groups.name.funding"
+msgstr "Rahoituskoordinaattori"
+
+msgid "default.groups.plural.funding"
+msgstr "Rahoituskoordinaattorit"
+
+msgid "default.groups.abbrev.funding"
+msgstr "RK"
+
+msgid "default.groups.name.indexer"
+msgstr "Indeksoija"
+
+msgid "default.groups.plural.indexer"
+msgstr "Indeksoijat"
+
+msgid "default.groups.abbrev.indexer"
+msgstr "IND"
+
+msgid "default.groups.name.layoutEditor"
+msgstr "Taittaja"
+
+msgid "default.groups.plural.layoutEditor"
+msgstr "Taittajat"
+
+msgid "default.groups.abbrev.layoutEditor"
+msgstr "T"
+
+msgid "default.groups.name.author"
+msgstr "Kirjoittaja"
+
+msgid "default.groups.plural.author"
+msgstr "Kirjoittajat"
+
+msgid "default.groups.abbrev.author"
+msgstr "K"
+
+msgid "default.groups.name.translator"
+msgstr "Kääntäjä"
+
+msgid "default.groups.plural.translator"
+msgstr "Kääntäjät"
+
+msgid "default.groups.abbrev.translator"
+msgstr "Käänt"
+
+msgid "default.groups.name.reader"
+msgstr "Lukija"
+
+msgid "default.groups.plural.reader"
+msgstr "Lukijat"
+
+msgid "default.groups.abbrev.reader"
+msgstr "Luk"
+
+msgid "default.genres.other"
+msgstr "Muu"
+
+msgid "default.genres.multimedia"
+msgstr "Multimedia"
+
+msgid "default.genres.image"
+msgstr "Kuva"
+
+msgid "default.genres.styleSheet"
+msgstr "HTML-muotoinen tyylitiedosto"
+
+msgid "default.contextSettings.emailSignature"
+msgstr ""
+"<br><br>—<br><p>Tämä on automaattinen viesti — <a href=\"{$contextUrl}\""
+">{$contextName}</a>.</p>"
+
+msgid "default.submission.step.beforeYouBegin"
+msgstr ""
+"<p>Kiitos käsikirjoituksen lähettämisestä. Sinua pyydetään lataamaan "
+"tiedostoja, tunnistamaan kirjoittajia ja antamaan kuvailutietoja, kuten "
+"otsikko ja abstrakti.</p><p>Ole hyvä ja lue meidän <a href="
+"\"{$submissionGuidelinesUrl}\" target=\"_blank\">kirjoittajaohjeet</a> "
+"mikäli et ole jo tehnyt niin. Anna käsikirjoituksestasi mahdollisimman "
+"täydelliset tiedot helpottaaksesi meidän työtämme.</p><p>Voit tallentaa "
+"lomakkeen ja palata täyttämään sen loppuun myöhemmin. Voit korjata mitä "
+"tahansa antamiasi tietoja ennen käsikirjoituksen lopullista lähetystä.</p>"
+
+msgid "default.submission.step.uploadFiles"
+msgstr ""
+"<p>Anna käsikirjoitukseen liittyvät tiedostot, jotka haluat lähettää "
+"toimittajille. Pääasiallisen käsikirjoitustiedoston lisäksi tämä voi "
+"tarkoittaa data-aineistoja, erilaisia lausuntoja tai mitä tahansa liitteitä, "
+"joista on apua toimittajien päätöksenteolle.</p>"
+
+msgid "default.submission.step.contributors"
+msgstr ""
+"<p>Lisää kaikkien käsikirjoitukseen liittyvien tekijöiden tiedot. Tähän "
+"lisättäville tekijöille lähetetään sähköpostivahvistus käsikirjoituksen "
+"lähetyksestä sekä kopio kaikista toimituksellisista päätöksistä.</p><p>Jos "
+"tekijällä ei ole sähköpostiosoitetta, älä käytä keksittyä osoitetta. Voit "
+"lisätä tiedot tällaisesta tekijästä myöhemmässä vaiheessa toimittajille "
+"osoitetussa viestissä.</p>"
+
+msgid "default.submission.step.details"
+msgstr ""
+"<p>Anna seuraavat tiedot käsikirjoituksesi käsittelyn helpottamiseksi.</p>"
+
+msgid "default.submission.step.forTheEditors"
+msgstr ""
+"<p>Anna seuraavat tiedot käsikirjoituksesi käsittelyn helpottamiseksi.</"
+"p><p>Lisätessäsi kuvailutietoja, pyri kuvailemaan käsikirjoituksesi "
+"ajatellen sen käsittelyä toimitustyön aikana. Tietoja voidaan muuttaa ennen "
+"käsikirjoituksen julkaisua.</p>"
+
+msgid "default.submission.step.review"
+msgstr ""
+"<p>Käy läpi antamasi tiedot ennen käsikirjoituksen lähettämistä. Voit "
+"muuttaa mitä tahansa tietoja painamalla muokkaa-nappia osion kohdalla</"
+"p><p>Kun lähetät käsikirjoituksen, toimituskunnan jäsen osoitetaan "
+"käsittelemään sitä. Varmista, että antamasi tiedot ovat oikein.</p>"

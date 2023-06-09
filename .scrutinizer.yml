@@ -1,0 +1,37 @@
+filter:
+  excluded_paths:
+    - 'tests/'
+  dependency_paths:
+    - 'lib/pkp/lib/'
+tools:
+  php_sim:
+    enabled: true
+    min_mass: 16
+  php_pdepend:
+    enabled: true
+    suffixes:
+      - php
+  php_analyzer:
+    enabled: true
+    extensions:
+      - php
+  php_changetracking:
+    enabled: true
+    bug_patterns:
+      - '\bfix(?:es|ed)?\b'
+    feature_patterns:
+      - '\badd(?:s|ed)?\b'
+      - '\bimplement(?:s|ed)?\b'
+build:
+  dependencies:
+    before:
+      - 'git submodule update --init --recursive'
+      - 'wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93902cd7576b67264ad91c8a2700e2/web/installer -O - -q | php -- --quiet'
+      - 'php composer.phar --working-dir=lib/pkp install --no-dev'
+      - 'php composer.phar --working-dir=plugins/paymethod/paypal install --no-dev'
+      - 'php composer.phar --working-dir=plugins/generic/citationStyleLanguage install --no-dev'
+  nodes:
+    analysis:
+      tests:
+        override:
+          - php-scrutinizer-run

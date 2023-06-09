@@ -1,0 +1,67 @@
+# Artashes Mirzoyan <amirzoyan@sci.am>, 2022.
+# Tigran Zargaryan <tigran@flib.sci.am>, 2022.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-03 11:31+0000\n"
+"Last-Translator: Tigran Zargaryan <tigran@flib.sci.am>\n"
+"Language-Team: Armenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/hy_AM/>\n"
+"Language: hy_AM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Մեկնաբանություններ ներկայացնելու վերաբերյալ"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Հանձնարարական"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Արձագանքի ժամկետանց օրեր"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Գրախոսման ժամկետանց օրեր"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Հիշեցման ամսաթիվը"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Ավարտման ամսաթիվը"
+
+msgid "plugins.reports.reviews.unconsidered"
+msgstr "Չքննարկված"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Ստացման հաստատման ամսաթիվը"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Հաստատման ամսաթիվը"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Ծանուցման ամսաթիվը"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Նշանակման ամսաթիվ"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Գրախոսող"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "Ներկայացման ID"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Ներկայացման վերնագիր"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Կլոր"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Այս փլագինը իրականացնում է CSV հաշվետվություն, որը պարունակում է ամսագրի "
+"վերանայման առաջադրանքների ցանկը:"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Վերանայման հաշվետվություն"

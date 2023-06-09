@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:34+00:00\n"
+"PO-Revision-Date: 2023-04-29 17:01+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/webFeed/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Модуль «Веб-канал»"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"Создает каналы в форматах RSS/Atom.<br>Модуль также содержит блок боковой "
+"панели, который позволяет отображать ссылки на каналы в боковой панели "
+"вашего приложения"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Настройки"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Показать ссылки на каналы только на страницах выпуска."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Показать ссылки на каналы только на главной странице."
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Показать ссылки на каналы на всех страницах приложения."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Показать материалы в текущем опубликованном выпуске."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Показать фиксированное количество последних опубликованных материалов."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Количество последних опубликованных материалов для показа"
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr ""
+"Пожалуйста введите положительное целое число для количества последних "
+"опубликованных материалов."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Логотип Atom"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "Логотип RSS1"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "Логотип RSS2"
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr ""
+"Показать ссылки на каналы только на главной странице и на страницах выпуска."
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Последние публикации"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr ""
+"Включать идентификаторы (ISBN, ключевые слова, категории и т.д.) в текст "
+"канала?"

@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:35+00:00\n"
+"PO-Revision-Date: 2023-04-27 17:49+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/plugins/"
+"webFeed/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Плагін вебканалу"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"Цей плагін створює канали вебсиндикації RSS / Atom. <br>Плагін також включає "
+"блок бічної панелі, який дозволяє відображати посилання на канали на бічній "
+"панелі вашої програми"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Налаштування"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Відображати покликання на вебканал лише на сторінках випуску."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Відображати покликання на вебканал лише на головній сторінці."
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Відображати покликання на вебканал на всіх сторінках програми."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Відображати матеріали в поточному опублікованому випуску."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Відображати фіксовану кількість останніх публікацій."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Кількість публікацій для відображення"
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr ""
+"Будь ласка, укажіть додатнє ціле число кількості останніх опублікованих "
+"матеріалів."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Логотип Atom"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "Логотип RSS1"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "Логотип RSS2"
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr ""
+"Відображати покликання на вебканал лише на головній сторінці та сторінках "
+"випусків."
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Останні публікації"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr ""
+"Додати ідентифікатори (номер ISBN, ключові слова, категорії тощо) у зведення "
+"каналу?"

@@ -1,0 +1,619 @@
+# Petro Bilous <petrobilous@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:08+00:00\n"
+"PO-Revision-Date: 2023-05-02 16:13+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"editor/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "editor.submissionArchive.confirmDelete"
+msgstr "Ви впевнені, що хочете остаточно видалити це подання?"
+
+msgid "editor.activityLog"
+msgstr "Журнал активності"
+
+msgid "editor.submissionLibrary"
+msgstr "Бібліотека матеріалів"
+
+msgid "editor.submission.workflowDecision.submission"
+msgstr "Рішення записано"
+
+msgid "editor.submission.workflowDecision.submission.declined"
+msgstr "Подання відхилено."
+
+msgid "editor.submission.workflowDecision.submission.accepted"
+msgstr "Подання прийнято."
+
+msgid "editor.submission.workflowDecision.submission.published"
+msgstr "Подання опубліковано."
+
+msgid "editor.submission.workflowDecision.submission.reviewRound"
+msgstr "Надіслати на новий раунд рецензування."
+
+msgid "editor.submission.workflowDecision.submission.production"
+msgstr "Надіслано у виробництво."
+
+msgid "editor.submission.workflowDecision.submission.underReview"
+msgstr "Подання прийнято на рецензування."
+
+msgid "editor.submission.workflowDecision.changeDecision"
+msgstr "Змінити рішення"
+
+msgid "editor.submission.workflowDecision.disallowedDecision"
+msgstr "У вас немає дозволу записувати це рішення щодо цього подання."
+
+msgid "editor.submission.workflowDecision.invalidEditor"
+msgstr ""
+"Редактора не було впізнано і, можливо, він не має дозволу на запис рішення "
+"щодо цього подання."
+
+msgid "editor.submission.workflowDecision.invalidRecipients"
+msgstr "Ви не можете надіслати електронний лист таким одержувачам: {$names}."
+
+msgid "editor.submission.workflowDecision.invalidReviewRound"
+msgstr "Цей раунд рецензування знайти не вдалося."
+
+msgid "editor.submission.workflowDecision.invalidReviewRoundStage"
+msgstr ""
+"Було надано раунд рецензування, але це рішення не приймається на стадії "
+"рецензування."
+
+msgid "editor.submission.workflowDecision.invalidReviewRoundSubmission"
+msgstr "Цей раунд рецензування не є частиною цього подання."
+
+msgid "editor.submission.workflowDecision.invalidStage"
+msgstr ""
+"Подання не перебуває на відповідній стадії робочого процесу для прийняття "
+"цього рішення."
+
+msgid "editor.submission.workflowDecision.noUnassignedDecisions"
+msgstr ""
+"Ви повинні бути призначені до цього подання, щоб записати редакційне рішення."
+
+msgid "editor.submission.workflowDecision.requiredReviewRound"
+msgstr ""
+"Для прийняття цього рішення необхідно надати ідентифікатор раунду "
+"рецензування."
+
+msgid "editor.submission.workflowDecision.requiredDecidingEditor"
+msgstr ""
+"Рекомендацію не може бути надано, якщо на цю стадію не призначено редактора, "
+"який може прийняти остаточне рішення."
+
+msgid "editor.submission.workflowDecision.submissionInvalid"
+msgstr ""
+"Рішення щодо цього подання ухвалити не вдалося. Ідентифікатор подання "
+"відсутній або не відповідає запитаному поданню."
+
+msgid "editor.submission.workflowDecision.typeInvalid"
+msgstr "Це рішення знайти не вдалося. Укажіть розпізнаний тип рішення."
+
+msgid "editor.review.notInitiated"
+msgstr "Рецензування ще не розпочалося."
+
+msgid "editor.submission.copyediting.personalMessageToUser"
+msgstr "Повідомлення користувачу"
+
+msgid "editor.submission.externalReviewDescription"
+msgstr "Виберіть файли нижче, щоб надіслати їх на стадію рецензування."
+
+msgid "editor.submission.fileAuditor.form.fileRequired"
+msgstr "Ви маєте вибрати принаймні один файл, щоб призначити користувача."
+
+msgid "editor.submission.fileAuditor.form.messageRequired"
+msgstr "Ви повинні включити особисте повідомлення."
+
+msgid "editor.submission.fileAuditor.skipEmail"
+msgstr "Не надсилати електронного листа аудитору"
+
+msgid "editor.submission.fileAuditor.form.userRequired"
+msgstr "Ви маєте вибрати користувача для призначення."
+
+msgid "editor.submission.uploadSelectFiles"
+msgstr "Завантажити/Вибрати файли"
+
+msgid "editor.submission.selectFiles"
+msgstr "Вибрати файли"
+
+msgid "editor.submission.revisions"
+msgstr "Версії"
+
+msgid "editor.submission.review.reviewersDescription"
+msgstr ""
+"Використовуйте <em>+Додати рецензента</em>, щоб запросити читачів "
+"рецензувати файли матеріалів. Значок записника вказує на те, що було "
+"надіслано рецензію, яка потім позначається <em>Прийнята</em> після розгляду. "
+"Коли відгуки прострочені, з'являється значок червоного конверту для "
+"нагадування рецензентам."
+
+msgid "editor.submission.addReviewer"
+msgstr "Додати рецензента"
+
+msgid "editor.submission.findAndSelectReviewer"
+msgstr "Обрати рецензента"
+
+msgid "editor.submission.findAndSelectUser"
+msgstr "Обрати користувача"
+
+msgid "editor.submission.fileList.includeAllStages"
+msgstr "Показати файли з усіх доступних стадій робочого процесу."
+
+msgid "editor.submission.review.currentFiles"
+msgstr "Поточні файли рецензії для раунду {$round}"
+
+msgid "editor.submission.backToSearch"
+msgstr "Повернутися до пошуку"
+
+msgid "editor.review.createReviewer"
+msgstr "Створити нового рецензента"
+
+msgid "editor.review.enrollReviewer.short"
+msgstr "Записати існуючого користувача"
+
+msgid "editor.review.unassignReviewer"
+msgstr "Скасувати призначення рецензента"
+
+msgid "editor.review.cancelReviewer"
+msgstr "Відмінити рецензента"
+
+msgid "editor.review.reinstateReviewer"
+msgstr "Відновити рецензента"
+
+msgid "editor.review.resendRequestReviewer"
+msgstr "Повторно надіслати запит на рецензування"
+
+msgid "editor.submissionReview.reviewType"
+msgstr "Тип рецензування"
+
+msgid "editor.submissionReview.sendEmail"
+msgstr "Надіслати сповіщення електронною поштою автору(-ам): {$authorName}"
+
+msgid "editor.submissionReview.sendEmail.editors"
+msgstr "Надіслати сповіщення електронною поштою редактору(-ам): {$editorNames}"
+
+msgid "editor.submissionReview.skipEmail"
+msgstr "Не надсилати сповіщення електронною поштою"
+
+msgid "editor.submissionReview.open"
+msgstr "Відкрите"
+
+msgid "editor.submissionReview.anonymous"
+msgstr "Анонімний рецензент / розкритий автор"
+
+msgid "editor.submissionReview.doubleAnonymous"
+msgstr "Анонімний рецензент / анонімний автор"
+
+msgid "editor.submissionReview.restrictFiles"
+msgstr "Файли для рецензування"
+
+msgid "editor.submissionReview.restrictFiles.hide"
+msgstr "Закрити вибір файлу"
+
+msgid "editor.submissionReview.editReview"
+msgstr "Редагувати рецензію"
+
+msgid "editor.review.anonymousReviewer"
+msgstr "Анонімний рецензент"
+
+msgid "editor.review.personalMessageToReviewer"
+msgstr "Електронний лист для надсилання рецензенту"
+
+msgid "editor.review.importantDates"
+msgstr "Важливі дати"
+
+msgid "editor.review.uploadRevision"
+msgstr "Завантажити нову версію"
+
+msgid "editor.review.newReviewRound"
+msgstr "Потрібен новий раунд рецензування"
+
+msgid "editor.review.NotifyAuthorRevisions"
+msgstr "Запит нової версії від автора."
+
+msgid "editor.review.NotifyAuthorResubmit"
+msgstr ""
+"Запит нової версії від автора, яка підлягатиме подальшому рецензуванню."
+
+msgid "editor.review.NotifyAuthorRevisions.recommendation"
+msgstr "Зміни не повинні підлягати новому раунду експертних перевірок."
+
+msgid "editor.review.NotifyAuthorResubmit.recommendation"
+msgstr "Зміни повинні підлягати новому раунду експертних перевірок."
+
+msgid "editor.review.dateAccepted"
+msgstr "Дата прийняття матеріалу на рецензування"
+
+msgid "editor.review.reviewsAdded"
+msgstr "Рецензії додані в текст повідомлення."
+
+msgid "editor.review.noReviews"
+msgstr "Немає рецензій для імпорту"
+
+msgid "editor.review.reminder"
+msgstr "Нагадування про рецензію"
+
+msgid "editor.review.thankReviewer"
+msgstr "Подяка рецензенту"
+
+msgid "editor.review.reminderError"
+msgstr "Помилка під час надсилання нагадування про рецензію"
+
+msgid "editor.review.thankReviewerError"
+msgstr "Помилка під час надсилання подяки рецензенту"
+
+msgid "editor.review.skipEmail"
+msgstr "Не надсилати електронний лист рецензенту."
+
+msgid "editor.review.sendReminder"
+msgstr "Надіслати нагадування"
+
+msgid "editor.review.readReview"
+msgstr "Прочитати рецензію"
+
+msgid "editor.review.readNewReview"
+msgstr "Прочитати нову рецензію"
+
+msgid "editor.review.responseDue"
+msgstr "Термін відповіді: {$date}"
+
+msgid "editor.review.requestSent"
+msgstr "Запит надіслано"
+
+msgid "editor.review.requestAccepted"
+msgstr "Запит прийнято"
+
+msgid "editor.review.requestDeclined"
+msgstr "Запит відхилено"
+
+msgid "editor.review.requestCancelled"
+msgstr "Запит відмінено"
+
+msgid "editor.review.requestDeclined.tooltip"
+msgstr "Рецензент відхилив цей запит на перегляд."
+
+msgid "editor.review.requestCancelled.tooltip"
+msgstr "Редактор відмінив цей запит на рецензування."
+
+msgid "editor.review.revertDecision"
+msgstr "Скасування рішення"
+
+msgid "editor.review.reviewDue"
+msgstr "Термін подання рецензії: {$date}"
+
+msgid "editor.review.reviewDueDate"
+msgstr "Термін подання рецензії"
+
+msgid "editor.review.reviewCompleted"
+msgstr "Рецензію завершено"
+
+msgid "editor.review.reviewConfirmed"
+msgstr "Рецензію підтверджено"
+
+msgid "editor.review.reviewSubmitted"
+msgstr "Рецензію надіслано"
+
+msgid "editor.review.reviewerThanked"
+msgstr "Подяку рецензенту надіслано"
+
+msgid "editor.review.ReviewerResendRequest"
+msgstr "Надіслати запит на повторне надсилання"
+
+msgid "editor.review.reviewerComments"
+msgstr "Коментарі рецензента"
+
+msgid "editor.review.rateReviewer"
+msgstr "Оцінка рецензента"
+
+msgid "editor.review.rateReviewer.description"
+msgstr ""
+"Оцініть якість поданої рецензії. Ця оцінка не повідомлятиметься рецензенту."
+
+msgid "editor.review.reviewerRating.none"
+msgstr "Немає оцінки"
+
+msgid "editor.review.mustSelect"
+msgstr "Ви маєте вибрати рецензента"
+
+msgid "editor.review.errorAddingReviewer"
+msgstr ""
+"Під час додавання рецензента сталася помилка. Будь ласка спробуйте ще раз."
+
+msgid "editor.review.errorDeletingReviewer"
+msgstr ""
+"Під час видалення рецензента сталася помилка. Будь ласка спробуйте ще раз."
+
+msgid "editor.review.errorReinstatingReviewer"
+msgstr ""
+"Трапилась помилка у відновленні рецензента. Будь ласка, спробуйте знову."
+
+msgid "editor.review.errorResendingReviewerRequest"
+msgstr ""
+"Сталася помилка з проханням до рецензента переглянути запрошення до "
+"рецензування. Спробуйте ще раз."
+
+msgid "editor.review.userGroupSelect"
+msgstr "Записати користувача до цієї групи рецензентів"
+
+msgid "editor.review.unconsiderReviewText"
+msgstr ""
+"Ви хочете позначити, що ця рецензія нерозглянута? Історія рецензування буде "
+"збережена."
+
+msgid "editor.review.unconsiderReview"
+msgstr "Позначте,що цю рецензію розглянуто"
+
+msgid "editor.review.readConfirmation"
+msgstr ""
+"Після того як прочитаєте цю рецензію, натисніть \"Підтвердити\", щоб "
+"вказати, що процес рецензування може продовжуватись. Якщо рецензент надіслав "
+"свою рецензію якимось іншим чином, ви можете завантажити файл нижче та "
+"натиснути \"Підтвердити\", щоб продовжити."
+
+msgid "editor.discussion.errorAnonymousParticipants"
+msgstr ""
+"З обраними учасниками дискусія не може бути створена, оскільки це вплине на "
+"анонімність процесу рецензування."
+
+msgid "editor.discussion.errorNotStageParticipant"
+msgstr "Обраного учасника не призначено на цю стадію."
+
+msgid "editor.submission.schedulePublication"
+msgstr "Запланувати для публікації"
+
+msgid "editor.submission.selectCopyedingFiles"
+msgstr "Файли для літературного редагування"
+
+msgid "editor.submission.selectReviewer"
+msgstr "Обрати рецензента"
+
+msgid "editor.submission.taskDueDate"
+msgstr "Термін виконання завдання"
+
+msgid "editor.submission.taskSchedule"
+msgstr "Розклад виконання завдання"
+
+msgid "editor.review.enrollReviewer"
+msgstr "Записати існуючого користувача рецензентом"
+
+msgid "editor.submission.noAuditRequested"
+msgstr "Аудит цього файлу не вимагався"
+
+msgid "editor.submission.personalMessageToUser"
+msgstr "Електронний лист для надсилання користувачу"
+
+msgid "editor.submission.proof.reminder"
+msgstr "Нагадування про коректуру"
+
+msgid "editor.submission.editorial.approveCopyeditDescription"
+msgstr ""
+"Файл після літературного редагування має бути схвалений, перш ніж його можна "
+"буде відправити на стадію виробництва. Ви хочете схвалити цей файл?"
+
+msgid "editor.submission.editorial.disapproveCopyeditDescription"
+msgstr ""
+"Відхилення цього файлу після літературного редагування зробить неможливим "
+"його відправку на стадію виробництва. Ви хочете відхилити цей файл?"
+
+msgid "editor.submission.addAuditor"
+msgstr "Призначити аудитора"
+
+msgid "editor.submission.copyedit.manageCopyeditFilesDescription"
+msgstr ""
+"Будь-які файли, які вже завантажені на будь-якій стадії подачі матеріалу, "
+"можна додати до списку \"Файли для корегування\", встановивши позначку "
+"\"Увімкнути\" внизу та натиснувши \"Пошук\": будуть показані всі доступні "
+"файли, і їх можна буде включити до списку. Додаткові файли, які ще не "
+"завантажені на цій стадії, можна додати до списку, натиснувши посилання "
+"\"Завантажити файл\"."
+
+msgid "editor.review"
+msgstr "Рецензування"
+
+msgid "editor.review.reviewDetails"
+msgstr "Деталі рецензування"
+
+msgid "editor.review.noReviewFilesUploaded"
+msgstr "Файли не вивантажені"
+
+msgid "editor.review.noReviewFilesUploaded.details"
+msgstr "Ви не завантажили жодного файлу рецензії."
+
+msgid "editor.review.emailReviewer"
+msgstr "Надіслати електронного листа рецензенту"
+
+msgid "editor.submission.production.productionReadyFiles"
+msgstr "Файли для виробництва"
+
+msgid "editor.submission.newRound"
+msgstr "Новий раунд рецензування"
+
+msgid "editor.submissionReview.recordDecision"
+msgstr "Записати рішення редакції"
+
+msgid "editor.submissionReview.recordRecommendation"
+msgstr "Записати рекомендацію редактора"
+
+msgid "editor.submissionReview.recordRecommendation.notifyEditors"
+msgstr "Повідомити редакторів"
+
+msgid "editor.submissionReview.recordRecommendation.skipEmail"
+msgstr "Не надсилати редакторам електронний лист."
+
+msgid "editor.submissionReview.recordRecommendation.createDiscussion"
+msgstr "Створити обговорення цієї рекомендації."
+
+msgid "editor.submissionReview.recordRecommendation.skipDiscussion"
+msgstr "Не створювати обговорення."
+
+msgid "editor.submission.newRoundDescription"
+msgstr ""
+"Ви збираєтеся створити новий раунд рецензування для цього матеріалу. Файли, "
+"які не використовувалися в інших раундах рецензування, наведено нижче."
+
+msgid "editor.submission.createNewRound"
+msgstr "Створити новий раунд рецензування"
+
+msgid "editor.article.reviewForms"
+msgstr "Форми рецензування"
+
+msgid "editor.article.selectReviewForm"
+msgstr "Обрати форму рецензії"
+
+msgid "editor.article.confirmChangeReviewForm"
+msgstr ""
+"Попередження: зміна форми рецензії вплине на усі рецензії, зроблені "
+"рецензентами за допомогою цієї форми. Ви впевнені, що бажаєте продовжити?"
+
+msgid "editor.submission.noReviewerFilesSelected"
+msgstr "Файли не вибрано"
+
+msgid "editor.submission.noReviewerFilesSelected.details"
+msgstr "Ви не обрали жодного файлу для рецензії рецензентом."
+
+msgid "submission.queries.subjectRequired"
+msgstr "Тема обговорення обов'язкова."
+
+msgid "submission.queries.messageRequired"
+msgstr "Текст повідомлення в обговоренні обов'язковий."
+
+msgid "submission.queries.attachedFiles"
+msgstr "Прикріплені файли"
+
+msgid "grid.action.editQuery"
+msgstr "Редагувати обговорення"
+
+msgid "editor.submission.query.manageQueryNoteFilesDescription"
+msgstr ""
+"Файли можуть бути прикріплені до цього обговорення за допомогою списку, "
+"наведеного нижче."
+
+msgid "editor.submission.selectedReviewer"
+msgstr "Вибраний рецензент"
+
+msgid "editor.submission.proofreading.approveProof"
+msgstr "Схвалити коректуру"
+
+msgid "editor.submission.proofreading.revokeProofApproval"
+msgstr "Скасувати схвалення коректури"
+
+msgid "editor.submission.proofreading.confirmCompletion"
+msgstr ""
+"Схвалити цю коректуру, щоб указати, що корегування завершено і файл готовий "
+"до опублікування."
+
+msgid "editor.submission.proofreading.confirmRemoveCompletion"
+msgstr ""
+"Скасувати схвалення цієї коректури, щоб указати, що корегування ще не "
+"завершено і файл не готовий до опублікування."
+
+msgid "editor.submission.revertDeclineDescription"
+msgstr "Ви впевнені, що хочете скасувати рішення про відхилення цього подання?"
+
+msgid "editor.publicIdentificationNumericNotAllowed"
+msgstr "Публічний ідентифікатор \"{$publicIdentifier}\" не може бути числом."
+
+msgid "editor.publicIdentificationPatternNotAllowed"
+msgstr "Шаблон {$pattern} заборонено для публічного ідентифікатора."
+
+msgid "reviewer.list.filterRating"
+msgstr "Найнижчі оцінки"
+
+msgid "reviewer.list.activeReviews"
+msgstr "{$count} активних"
+
+msgid "reviewer.list.activeReviewsDescription"
+msgstr "Поточні призначені активні рецензування"
+
+msgid "reviewer.list.assignedToLastRound"
+msgstr "Цей рецензент завершив рецензію в останньому раунді."
+
+msgid "reviewer.list.completedReviews"
+msgstr "Завершені рецензії"
+
+msgid "reviewer.list.declinedReviews"
+msgstr "Запити на рецензування відхилено"
+
+msgid "reviewer.list.cancelledReviews"
+msgstr "Запити на рецензування відмінено"
+
+msgid "reviewer.list.reviewerRating"
+msgstr "Оцінка рецензента: {$rating}"
+
+msgid "reviewer.list.daysSinceLastAssignment"
+msgstr "{$days} днів тому"
+
+msgid "reviewer.list.daySinceLastAssignment"
+msgstr "Вчора"
+
+msgid "reviewer.list.daysSinceLastAssignmentDescription"
+msgstr "Днів із часу останнього призначення рецензування"
+
+msgid "reviewer.list.averageCompletion"
+msgstr "Середня кількість днів для завершення рецензії"
+
+msgid "reviewer.list.neverAssigned"
+msgstr "Ніколи не призначалося"
+
+msgid "reviewer.list.reassign"
+msgstr "Повторно призначити"
+
+msgid "reviewer.list.reassign.withName"
+msgstr "Перепризначити {$name}"
+
+msgid "reviewer.list.currentlyAssigned"
+msgstr "Цей рецензент уже був призначений для рецензування цього матеріалу."
+
+msgid "reviewer.list.warnOnAssign"
+msgstr ""
+"Цього рецензента заблоковано, оскільки йому призначено роль, яка дає змогу "
+"переглядати особу автора. Анонімне рецензування не може бути гарантоване. Ви "
+"все одно хотіли б розблокувати цього рецензента?"
+
+msgid "reviewer.list.warnOnAssignUnlock"
+msgstr "Розблокувати"
+
+msgid "reviewer.list.reviewInterests"
+msgstr "Наукові інтереси рецензента"
+
+msgid "reviewer.list.biography"
+msgstr "Біографія"
+
+msgid "reviewer.list.empty"
+msgstr "Не знайдено жодного рецензента"
+
+msgid "reviewer.list.showOnlyReviewersFromPreviousRound"
+msgstr "Призначено до попереднього раунду"
+
+msgid "editor.decision.cancelDecision"
+msgstr "Скасувати рішення"
+
+msgid "editor.decision.cancelDecision.confirmation"
+msgstr "Ви впевнені, що хочете скасувати це рішення?"
+
+msgid "editor.decision.completeSteps"
+msgstr "Виконайте наступні кроки, щоб прийняти це рішення"
+
+msgid "editor.decision.dontSkipEmail"
+msgstr "Не пропускати цей електронний лист"
+
+msgid "editor.decision.emailSkipped"
+msgstr "Цей крок пропущено, і електронний лист надіслано не буде."
+
+msgid "editor.decision.recordDecision"
+msgstr "Записати рішення"
+
+msgid "editor.decision.skipEmail"
+msgstr "Пропустити цей електронний лист"
+
+msgid "editor.decision.stepError"
+msgstr "Виникла проблема з кроком {$stepName}."

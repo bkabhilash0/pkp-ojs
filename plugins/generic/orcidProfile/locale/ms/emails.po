@@ -1,0 +1,61 @@
+# Studiorimau <studiorimau@gmail.com>, 2021.
+# Mohamad Shabilullah <shabilhamid91@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-25 22:48+0000\n"
+"Last-Translator: Mohamad Shabilullah <shabilhamid91@gmail.com>\n"
+"Language-Team: Malay <http://translate.pkp.sfu.ca/projects/"
+"orcid-profile-plugin/emails/ms/>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "emails.orcidCollectAuthorId.body"
+msgstr ""
+"{$recipientName} yang dihormati,<br/>\n"
+"<br/>\n"
+"Anda telah disenaraikan sebagai pengarang pada penyerahan manuskrip kepada "
+"{$contextName}.<br/>\n"
+"Untuk mengesahkan kepengarangan anda, sila tambahkan id ORCID anda pada "
+"penyerahan ini dengan melawati pautan yang disediakan di bawah.<br/>\n"
+"<br/>\n"
+"<a href=\"{$authorOrcidUrl}\"><img id=\"orcid-id-logo\" src=\""
+"https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png\" "
+"width='16' height='16' alt=\"ORCID iD icon\" style=\"display: block; margin: "
+"0 .5em 0 0; padding: 0; float: left;\"/>Daftar atau sambungkan iD ORCID "
+"anda</ a><br/>\n"
+"<br/>\n"
+"<br>\n"
+"<a href=\"{$orcidAboutUrl}\">Maklumat lanjut tentang ORCID di "
+"{$contextName}</a><br/>\n"
+"<br/>\n"
+"Jika anda mempunyai sebarang pertanyaan, sila hubungi saya.<br/>\n"
+"<br/>\n"
+"{$principalContactSignature}<br/>\n"
+
+msgid "emails.orcidCollectAuthorId.subject"
+msgstr "Penyerahan ORCID"
+
+msgid "emails.orcidCollectAuthorId.description"
+msgstr "E-mel ini dihantar untuk mengumpul id ORCID daripada pengarang."
+
+msgid "emails.orcidRequestAuthorAuthorization.subject"
+msgstr "Meminta akses rekod ORCID"
+
+msgid "emails.orcidRequestAuthorAuthorization.description"
+msgstr "E-mel ini dihantar untuk meminta akses rekod ORCID daripada pengarang."
+
+msgid "plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name"
+msgstr "orcidRequestAuthorAuthorization"
+
+msgid "emailTemplate.variable.authorOrcidUrl"
+msgstr "Pautan kebenaran ORCID OAuth"
+
+msgid "emailTemplate.variable.orcidAboutUrl"
+msgstr "URL ke halaman tentang ORCID"
+
+msgid "plugins.generic.orcidProfile.orcidCollectAuthorId.name"
+msgstr "orcidCollectAuthorId"

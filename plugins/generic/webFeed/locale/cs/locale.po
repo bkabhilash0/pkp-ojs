@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:32+00:00\n"
+"PO-Revision-Date: 2023-04-27 17:49+0000\n"
+"Last-Translator: Jiří Dlouhý <jiri.dlouhy@czp.cuni.cz>\n"
+"Language-Team: Czech <http://translate.pkp.sfu.ca/projects/plugins/webFeed/"
+"cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Plugin Web Feed"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"Tento plugin vytváří webové syndikační kanály RSS/Atom.<br>Součástí pluginu "
+"je také blok postranního panelu, který umožňuje zobrazovat odkazy na kanály "
+"na postranním panelu aplikace"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Nastavení"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Zobrazit odkazy na feed pouze na stránkách čísla."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Zobrazení odkazů na webové kanály pouze na domovské stránce."
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Zobrazení odkazů na webové kanály na všech stránkách aplikace."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Zobrazit položky v aktuálně publikovaném čísle."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Zobrazovat pevný počet nejnovějších publikací."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Počet publikací ke zobrazení"
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr "Vložte prosím celé kladné číslo pro počet posledních vydaných položek."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Atom logo"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "RSS1 logo"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "RSS2 logo"
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Poslední publikace"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr ""
+"Zahrnout identifikátory (ISBN, klíčová slova, kategorie atd.) do shrnutí "
+"kanálu?"
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr ""
+"Zobrazení odkazů na webový kanál pouze na domovské stránce a na stránkách "
+"čísla."

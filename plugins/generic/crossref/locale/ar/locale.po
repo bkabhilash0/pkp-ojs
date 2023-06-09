@@ -1,0 +1,181 @@
+# M. Ali <vorteem@gmail.com>, 2022, 2023.
+# Salam Al-Khammasi <salam.alshemmari@uokufa.edu.iq>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:35+00:00\n"
+"PO-Revision-Date: 2023-04-05 09:48+0000\n"
+"Last-Translator: M. Ali <vorteem@gmail.com>\n"
+"Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/plugins/crossref/"
+"ar/>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.importexport.crossref.displayName"
+msgstr "إضافة تصدير ملفات XML لـ Crossref"
+
+msgid "plugins.importexport.crossref.description"
+msgstr "تصدير البيانات الوصفية للمقالات بصيغة Crossref XML."
+
+msgid "plugins.importexport.crossref.requirements"
+msgstr "المتطلبات"
+
+msgid "plugins.importexport.crossref.requirements.satisfied"
+msgstr "كل متطلبات الإضافة ملباة."
+
+msgid "plugins.importexport.crossref.error.publisherNotConfigured"
+msgstr "ناشر المجلة لم يتم تعريفه بعد! عليك إضافة مؤسسة النشر ضمن <a href=\"{$publisherUrl}\" target=\"_blank\">تهيئة المجلة، الخطوة 1.5</a>."
+
+msgid "plugins.importexport.crossref.error.issnNotConfigured"
+msgstr "معرف ISSN للمجلة غير معرف حتى الآن! عليك أن تضيف رمز ISSN في صفحة <a href=\"{$journalSettingsUrl}\" target=\"_blank\">إعدادات المجلة</a>."
+
+msgid "plugins.importexport.crossref.error.noDOIContentObjects"
+msgstr "لم يسبق إختيار المؤلفات لتعيين DOI في إضافة المعرف العام DOI، لذلك لن يكون لهذه الإضافة إمكانية إيداع أو تصدير حالياً."
+
+msgid "plugins.importexport.crossref.settings.depositorIntro"
+msgstr "الفقرات الآتية مطلوبة من أجل إيداع ناجح لدى Crossref."
+
+msgid "plugins.importexport.crossref.settings.form.depositorName"
+msgstr "اسم المودع"
+
+msgid "plugins.importexport.crossref.settings.form.depositorEmail"
+msgstr "البريد الالكتروني للمودع"
+
+msgid "plugins.importexport.crossref.settings.form.depositorNameRequired"
+msgstr "لطفاً، أدخل اسم المودع."
+
+msgid "plugins.importexport.crossref.settings.form.depositorEmailRequired"
+msgstr "لطفاً، أدخل البريد الالكتروني للمودع."
+
+msgid "plugins.importexport.crossref.registrationIntro"
+msgstr ""
+"إذا أردت استعمال هذه الإضافة لتسجيل معرفات المكونات الرقمية (DOIs) مباشرة في "
+"Crossref ستكون بحاجة إلى اسم مستخدم وكلمة مرور (متوافران عبر <a href=\""
+"https://www.crossref.org\" target=\"_blank\">Crossref</a>) من أجل القيام "
+"بذلك. إن لم يكن لك اسم مستخدم وكلمة مرور خاصين بك، سيكون بإمكانك أيضاً "
+"التصدير إلى Crossref بصيغة XML، لكن لن تتمكن من تسجيل DOI الخاصة بك في "
+"Crossref من داخل نظام المجلات المفتوحة."
+
+msgid "plugins.importexport.crossref.settings.form.username"
+msgstr "اسم المستخدم"
+
+msgid "plugins.importexport.crossref.settings.form.usernameRequired"
+msgstr "لطفاً، أدخل اسم المستخدم الذي حصلت عليه من Crossref."
+
+msgid "plugins.importexport.crossref.settings.form.automaticRegistration.description"
+msgstr ""
+"نظام المجلات المفتوحة سيقوم بإيداع معرفات المكونات الرقمية المعينة للمقالات "
+"تلقائيًا في Crossref. لطفاً، لاحظ أن هذا الأمر قد يستغرق وقتاً قصيراً "
+"للمعالجة بعد إجراء النشر (أي اعتماداً على إعداداتك للإضافة cronjob). بإمكانك "
+"التحقق من كل معرفات المكونات الرقمية غير المسجلة."
+
+msgid "plugins.importexport.crossref.settings.form.testMode.description"
+msgstr ""
+"استعمل واجهة برمجة التطبيق لإختبار Crossref (بيئة الاختبار) لمستودع معرف "
+"المكون الرقمي. لطفاً، لا تنس إزالة هذا الخيار عند التشغيل الفعلي."
+
+msgid "plugins.importexport.crossref.settings.form.validation"
+msgstr "التحقق من XML. استعمل هذا الخيار مع تنزيل XML من أجل التسجيل اليدوي لمعرفات المكونات الرقمية DOI."
+
+msgid "plugins.importexport.crossref.issues.description"
+msgstr "ملاحظة: الأعداد فقط (وليس مقالاتها) سيتم الأخذ بها هنا عند إجراء التصدير/التسجيل."
+
+msgid "plugins.importexport.crossref.status.failed"
+msgstr "فاشلة"
+
+msgid "plugins.importexport.crossref.status.registered"
+msgstr "فعالة"
+
+msgid "plugins.importexport.crossref.status.markedRegistered"
+msgstr "مؤشرة على أنها فاعلة"
+
+msgid "plugins.importexport.crossref.statusLegend"
+msgstr ""
+"\n"
+"\t\t<p>حالة الإيداع:</p>\n"
+"\t\t<p>\n"
+"\t\t- غير مودعة: لم تجر أي محاولة إيداع لهذا المكون الرقمي DOI.<br />\n"
+"\t\t- فعال: المكون الرقمي DOI مودع، ومتواجد بشكل صحيح.<br />\n"
+"\t\t- فاشل: إيداع المكون الرقمي DOI باء بالفشل.<br />\n"
+"\t\t- مؤشر على أنه فعال: تم تأشير المكون الرقمي DOI يدوياً على أنه فعال.\n"
+"\t\t</p>\n"
+"\t\t<p>يتم عرض حالة محاولة الإيداع الأخيرة فقط.</p>\n"
+"\t\t<p>إذا فشل الإيداع، لطفاً، عالج المشكلة ثم حاول تسجيل DOI مرة أخرى.</p>"
+
+msgid "plugins.importexport.crossref.action.export"
+msgstr "تصدير"
+
+msgid "plugins.importexport.crossref.action.markRegistered"
+msgstr "أشره فعالاً"
+
+msgid "plugins.importexport.crossref.senderTask.name"
+msgstr "مهمة التسجيل التلقائي في Crossref"
+
+msgid "plugins.importexport.crossref.cliUsage"
+msgstr ""
+"Usage: \n"
+"{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...\n"
+"{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...\n"
+""
+
+msgid "plugins.importexport.crossref.register.error.mdsError"
+msgstr "التسجيل لم ينجح بشكل كامل! ملقم تسجيل معرفات المكونات الرقمية أرجع إشارة حدوث خطأ ما."
+
+msgid "plugins.importexport.crossref.register.success.warning"
+msgstr "التسجيل ناجح لكن مع وجود التحذير الآتي: '{$param}'."
+
+msgid "plugins.importexport.crossref.export.error.issueNotFound"
+msgstr "لا يوجد عدد يطابق العدد المحدد بالرمز \"{$issueId}\"."
+
+msgid "plugins.importexport.crossref.export.error.articleNotFound"
+msgstr "لا توجد مقالة تطابق المقالة المحددة بالرمز \"{$articleId}\"."
+
+msgid "plugins.importexport.crossref.action.register"
+msgstr "إيداع"
+
+msgid "plugins.importexport.crossref.settings.form.onlyValidateExport"
+msgstr "تحقق من عملية التصدير فقط. لا تقم بتنزيل الملف."
+
+msgid "plugins.generic.crossref.registrationAgency.name"
+msgstr "Crossref"
+
+msgid "plugins.importexport.crossref.status.notDeposited"
+msgstr "غير مودع"
+
+msgid "plugins.importexport.crossref.settings"
+msgstr "إعدادات Crossref"
+
+msgid "plugins.generic.crossref.description"
+msgstr "تعالج إيداع وتصدير البيانات الوصفية لـ Crossref"
+
+msgid "plugins.generic.crossref.displayName"
+msgstr "إضافة مدير Crossref"
+
+msgid "plugins.importexport.crossref.settings.form.depositorName.description"
+msgstr ""
+"اسم المنظمة التي تسجل معرفات المكونات الرقمية. يتم تضمين ذلك مع البيانات "
+"الوصفية المودعة وتُستعمل لتسجيل من قام بتسليم الإيداع."
+
+msgid "plugins.importexport.crossref.settings.form.depositorEmail.description"
+msgstr ""
+"عنوان البريد الالكتروني للشخص المسؤول عن تسجيل المحتوى في Crossref. يتم "
+"تضمين ذلك مع البيانات الوصفية المودعة وتُستعمل عند إرسال البريد الالكتروني "
+"لتأكيد الإيداع."
+
+msgid "plugins.importexport.crossref.settings.form.username.description"
+msgstr ""
+"اسم المستخدم في Crossref الذي سيُستعمل للمصادقة على إيداعاتك. إذا كنت تستعمل "
+"حسابًا شخصيًا، يرجى معاينة النصيحة أعلاه."
+
+msgid "plugins.generic.crossref.successMessage"
+msgstr ""
+"تم إيداع البيانات الوصفية لهذا العنصر في Crossref. لمعاينة تفاصيل أكثر، أنظر "
+"طلب التقديم في <a href=\"https://doi.crossref.org/servlet/"
+"submissionAdmin?sf=detail&submissionID={$submissionId}\">لوحة إدارة "
+"Crossref</a>."

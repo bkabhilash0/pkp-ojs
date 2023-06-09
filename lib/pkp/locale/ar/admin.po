@@ -1,0 +1,857 @@
+# M. Ali <vorteem@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-28 14:09+0000\n"
+"Last-Translator: M. Ali <vorteem@gmail.com>\n"
+"Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/pkp-lib/admin/ar/"
+">\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "قيمة الإعداد"
+
+msgid "admin.adminFunctions"
+msgstr "الوظائف الإدارية"
+
+msgid "admin.deleteCache"
+msgstr "حذف المخبوءات"
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "هل أنت متأكد من رغبتك في تطهير خبء القوالب المجمعة؟"
+
+msgid "admin.contentsOfConfigFile"
+msgstr "محتويات ملف التهيئة"
+
+msgid "admin.contexts.confirmDelete"
+msgstr "هل أنت متأكد من رغبتك في حذف {$contextName} مع كل محتوياته نهائيًا؟"
+
+msgid "admin.currentVersion"
+msgstr "الإصدار الحالي"
+
+msgid "admin.dateInstalled"
+msgstr "تاريخ التنصيب"
+
+msgid "admin.displayNewSystemConfig"
+msgstr "عرض الإعداد الجديد"
+
+msgid "admin.expireSessions"
+msgstr "إنهاء صلاحية جلسات المستخدمين"
+
+msgid "admin.languages.availableLocales"
+msgstr "اللغات المتاحة"
+
+msgid "admin.languages.installLocale"
+msgstr "تنصيب اللغة"
+
+msgid "admin.languages.installLocales"
+msgstr "تنصيب"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr "لا تتوفر لغات إضافية لتنصيبها."
+
+msgid "admin.languages.reload"
+msgstr "إعادة تحميل اللغة"
+
+msgid "admin.languages.uninstall"
+msgstr "إلغاء تنصيب اللغة"
+
+msgid "admin.phpInfo"
+msgstr "معلومات PHP الموسعة"
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "توقفت معالجة المهمة."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "المهمة لم تولد أي وقوعات."
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr "أرسل بريدًا الكترونيًا إلى كل محرر لتذكيرهم بمهامهم"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr "تعريف المحررين المزمع تذكيرهم في السياق {$contextId}"
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "حذف سجلات وقوعات المهام"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "تذكير التحكيم"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "إشعار إبلاغ هيئة التحرير"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr "إزالة المستخدمين المنتهية صلاحياتهم"
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "معالجة مهمات الطابور التي قيد الانتظار"
+
+msgid "admin.systemInfo.settingName"
+msgstr "اسم الإعداد"
+
+msgid "admin.languages.installLanguages"
+msgstr "إدارة اللغات"
+
+msgid "admin.languages.installNewLocales"
+msgstr "تنصيب لغات جديدة"
+
+msgid "admin.deleteCache.description"
+msgstr "حذف ملفات الخبء من النظام. ينبغي القيام بذلك في بيئة التطوير."
+
+msgid "admin.languages.languageSettings"
+msgstr "إعدادات اللغة"
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"هذه اللغة هي اللغة الرئيسية للموقع. لا يمكنك تعطيلها حتى تختار لغة رئيسية "
+"أخرى له."
+
+msgid "admin.scheduledTask"
+msgstr "المهمة المجدولة"
+
+msgid "admin.languages.installedLocales"
+msgstr "اللغات المنصبة"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "بدأت معالجة المهمة."
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "إيداع معرفات المكونات الرقمية لدى وكالة التسجيل"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"قام تنصيب برنامجك {$softwareName} تلقائيًا بتنفيذ وإنهاء هذه المهمة وبإمكانك "
+"تنزيل ملف الوقوعات من هنا: {$url}"
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr "هل أنت متأكد من رغبتك في حذف سجلات وقوعات تنفيذ كل المهام المجدولة؟"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr "حذف سجلات وقوعات تنفيذ كل المهام المجدولة التي تم تنفيذها."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "تذكير إنتهاء الاشتراك"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr "إزالة المهمات الفاشلة الأقدم من قائمة المهمات الفاشلة."
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"تم تحديث ملف التهيئة بنجاح. يرجى ملاحظة أنه إذا لم يعد موقعك يعمل بشكل صحيح "
+"فقد تحتاج إلى إصلاحه يدويًا عبر تحرير <tt>config.inc.php</tt> مباشرة."
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"هل أنت متأكد من رغبتك في إنهاء جلسات كل المستخدمين؟ كل المستخدمين الذين "
+"يستعملون الموقع حاليًا سيصيرون مجبرين على تسجيل الدخول مجددًا (بضمنهم أنت)."
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"محتويات إعدادات التهيئة المحدثة معروضة أدناه. لتطبيق تغييرات التهيئة عليك أن "
+"تفتح <tt>config.inc.php</tt> مستعملاً محرر نصوص مناسب ثم تستبدل محتوياته "
+"بمحتويات الحقل النصي أدناه."
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"كل المستخدمين سيجري إخراجهم من البرنامج، بضمنهم أنت، وسيصير لزامًا عليهم "
+"تسجيل الدخول مجددًا."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"هل أنت متأكد من رغبتك في إعادة تحميل هذه اللغة؟ هذا من شأنه حذف كل البيانات "
+"ذات الصلة باللغة، مثل قوالب البريد الالكتروني المخصصة."
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"إطلاق {$count} من المهام لإرسال رسائل التذكير الخاصة بالتحرير إلى المستخدمين "
+"{$userIds} في السياق {$contextId}"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "نشر طلبات التقديم المجدولة للنشر"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "تحديث قاعدة بيانات DB-IP city lite"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"فشلت إعادة تسمية ملف قاعدة بيانات DB-IP city lite {$sourceFilename} إلى "
+"{$targetFilename}."
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "مهمة تحميل ملف إحصائيات الاستعمال"
+
+msgid "admin.scheduledTask.usageStatsLoader.openFileFailed"
+msgstr "تعذر فتح الملف {$file} وتم رفضه."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.assocType"
+msgstr "نوع المساعد غير مدعوم."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.country"
+msgstr "رمز البلد ليس نصًا من حرفين هجائيين."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.institutionIds"
+msgstr "مُعرَّف المؤسسة ليس مصفوفة."
+
+msgid "admin.scheduledTask.usageStatsLoader.insertError"
+msgstr "وقع خطأ عند معالجة ملف الوقوعات {$file} عند السطر {$lineNumber}: {$msg}"
+
+msgid "admin.server.dbDriver"
+msgstr "مشغل قاعدة البيانات"
+
+msgid "admin.server.dbVersion"
+msgstr "إصدار مخدم قاعدة البيانات"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "رسائل البريد الالكتروني بالجملة"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "تقييد رسائل البريد الالكتروني بالجملة"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "تعطيل الأدوار"
+
+msgid "admin.settings.siteLanguage"
+msgstr "لغة الموقع"
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "ملف أنماط الموقع"
+
+msgid "admin.settings.siteLogo"
+msgstr "شعار الموقع"
+
+msgid "admin.settings.siteTitle"
+msgstr "اسم الموقع"
+
+msgid "admin.siteManagement"
+msgstr "إدارة الموقع"
+
+msgid "admin.siteAdmin"
+msgstr "إشراف الموقع"
+
+msgid "admin.siteSettings"
+msgstr "إعدادات الموقع"
+
+msgid "admin.siteSetup"
+msgstr "تنصيب الموقع"
+
+msgid "admin.systemInformation"
+msgstr "معلومات النظام"
+
+msgid "admin.systemInformation.description"
+msgstr "معاينة معلومات عن إعدادات التهيئة والإصدار للتطبيق والمخدم."
+
+msgid "admin.systemInformation.view"
+msgstr "معاينة معلومات النظام"
+
+msgid "admin.versionBuild"
+msgstr "البناء"
+
+msgid "admin.version.checkForUpdates"
+msgstr "التحقق من وجود تحديثات"
+
+msgid "admin.version.downloadPackage"
+msgstr "تنزيل"
+
+msgid "admin.versionHistory"
+msgstr "الإصدارات السابقة"
+
+msgid "admin.versionMajor"
+msgstr "الرئيسي"
+
+msgid "admin.versionMinor"
+msgstr "الثانوي"
+
+msgid "admin.version.moreInfo"
+msgstr "مزبد من المعلومات"
+
+msgid "admin.versionRevision"
+msgstr "التنقيح"
+
+msgid "admin.version.updateAvailable"
+msgstr "يتوفر إصدار أحدث"
+
+msgid "admin.version"
+msgstr "الإصدار"
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "رافع الملفات"
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr ""
+"تعذر فك ضغط الملف. تعذرت الملف المصدري الذي بصيغة gz {$filePath} باستعمال "
+"gzread."
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr ""
+"تعذر فك ضغط الملف. تعذر إغلاق الملف المستهدف المفتوح {$filePath} باستعمال "
+"fclose."
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr ""
+"تعذر فك ضغط الملف. تعذرت إزالة الملف المصدري مفكوك الضغط الذي بصيغة gz "
+"{$filePath} باستعمال unlink."
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr "تعذر ضغط الملف. تعذر فتح الملف المصدري {$filePath} باستعمال fopen."
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr "تعذر ضغط الملف. تعذرت قراءة الملف المصدري {$filePath} باستعمال fread."
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr ""
+"تعذر ضغط الملف. تعذرت كتابة الملف المستهدف الذي بصيغة gz {$filePath} "
+"باستعمال gzwrite."
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr ""
+"تعذر ضغط الملف. تعذرت إزالة الملف المصدري المضغوط {$filePath} باستعمال "
+"unlink."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "طريقة الاستعمال:"
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"هل أنت متأكد من رغبتك في تغيير اللغة الرئيسية للموقع؟ سيتم نسخ أسماء "
+"المستخدمين، التي هي مطلوبة باللغة الرئيسية للموقع، من اللغة الرئيسية الحالية "
+"للموقع حيثما كانت مفقودة."
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"المجلد {$directory} ليس فارغًا. هذا قد يشير إلى وجود عملية سابقة فاشلة، أو "
+"عملية شغالة حاليًا. ستتم إعادة معالجة هذا الملف تلقائيًا."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"الملف {$file} هو بصيغة ملف وقوعات قديم لا تمكن معالجته ولهذا السبب ستجري "
+"إعادته إلى مجلد منصة العمل."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry"
+msgstr ""
+"مُدخل سجل وقوعات خاطئ عند السطر {$lineNumber} في ملف الوقوعات {$file}: "
+"{$error}"
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.time"
+msgstr "الوقت ليس بشكل تاريخ صالح."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.contextId"
+msgstr "مُعرَّف السياق ليس عددًا صحيحًا."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.submissionId"
+msgstr "مُعرَّف طلب التقديم ليس عددًا صحيحًا."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.representationId"
+msgstr "مُعرَّف العرض التقديمي ليس عددًا صحيحًا."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.fileType"
+msgstr "نوع الملف غير مدعوم."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.region"
+msgstr "اسم المنطقة ليس نصًا أقصاه ثلاثة حروف هجائية."
+
+msgid "admin.server.apacheVersion"
+msgstr "إصدار Apache"
+
+msgid "admin.serverInformation"
+msgstr "معلومات المخدم"
+
+msgid "admin.server.phpVersion"
+msgstr "إصدار PHP"
+
+msgid "admin.server.platform"
+msgstr "منصة نظام التشغيل"
+
+msgid "admin.settings"
+msgstr "الإعدادات"
+
+msgid "admin.settings.about"
+msgstr "عن الموقع"
+
+msgid "admin.settings.contactEmail"
+msgstr "عنوان بريد جهة الاتصال الرئيسية"
+
+msgid "admin.settings.contactName"
+msgstr "اسم جهة الاتصال الرئيسية"
+
+msgid "admin.settings.introduction"
+msgstr "المقدمة"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "أقل طول لكل المرور (محارف)"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "المشرف فقط يُسمح له بتعديل هذا الإعداد."
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr "صيغة ملف أنماط الموقع غير صالحة. الصيغة المقبولة هي css."
+
+msgid "admin.settings.siteTheme"
+msgstr "مظهر الموقع"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"ملف التهيئة <tt>config.inc.php</tt> غير موجود، غير قابل للكتابة، أو غير صالح."
+
+msgid "admin.version.downloadPatch"
+msgstr "حزمة التنزيل"
+
+msgid "admin.version.latest"
+msgstr "آخر إصدار"
+
+msgid "admin.version.upToDate"
+msgstr "نظامك بآخر إصدار"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr ""
+"تعذر فك ضغط الملف. تعذر فتح الملف المصدري الذي بصيغة gz {$filePath} باستعمال "
+"gzopen."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr "تعذر فك ضغط الملف. تعذر فتح الملف المستهدف {$filePath} باستعمال fopen."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr ""
+"تعذر فك ضغط الملف. تعذرت كتابة الملف المستهدف {$filePath} باستعمال fwrite."
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr ""
+"تعذر فك ضغط الملف. تعذر إغلاق الملف المصدري المفتوح الذي بصيغة gz {$filePath}"
+" باستعمال gzclose."
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr ""
+"تعذر ضغط الملف. تعذر فتح الملف المستهدف الذي بصيغة gz {$filePath} باستعمال "
+"gzopen."
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr ""
+"تعذر ضغط الملف. تعذر إغلاق الملف المصدري المفتوح {$filePath} باستعمال fclose."
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr ""
+"تعذر ضغط الملف. تعذر إغلاق الملف المستهدف الذي بصيغة gz {$filePath} باستعمال "
+"gzclose."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr ""
+"تم تخطي ملف الوقوعات {$file} لأن الإحصائبات من ذلك الشهر سبق وأن تم "
+"احتسابها. لإعادة إحتساب الإحصائيات لشهر سابق، ينبغي عليك استعادة كل ملفات "
+"الوقوعات العائدة له واستعمال أداة واجهة سطر الأوامر لإعادة معالجة الإحصائيات."
+
+msgid "admin.scheduledTask.usageStatsLoader.wrongLoglineFormat"
+msgstr ""
+"السطر {$lineNumber} في ملف الوقوعات {$file} هو بصيغة خاطئة ولها سيجري تخطيه."
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr ""
+"المهمة التي في الخلفية التي ستعالج ملف الوقوعات {$file} وتخزن بيانات "
+"الإحصائيات قد تم إطلاقها."
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr "المسار الأساسي {$path} ينبغي أن يكون داخل مجلد الملفات العام."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "المجلد {$path} ليس مجلدًا في الواقع أو ليس قابلاً للكتابة."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr "الملف {$filename}تعذر نقله من {$currentFilePath} إلى {$destinationPath}"
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "الملف {$filename} قد تمت معالجته وأرشفته."
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "ليست هناك لغات متاحة للتنزيل."
+
+msgid "admin.cli.tool.available.commands"
+msgstr "الأوامر المتاحة لنطاق الاسم`{$namespace}`:"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "الأمر [المعاملات]"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr "يتعذر تشغيل مهمات الطابور بسبب تمكين وضع الصيانة في التطبيق."
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr ""
+"تطهير مهمة معينة في الطابور بناءً على مُعرَّفها. إذا أردت تطهيرها كلها، مرر "
+"المعامل --all. إذا أردت تطهير كل مهام طابور معين، مرر المعامل --queue="
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr "قد اكتمل تشغيل {$jobCount} من المهام في الطابور المسمى {$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr "لا توجد مهام متاحة لتشغيلها في الطابور المسمى {$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "عرض استعمالات الأمر Jobs"
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "عرض استعمالات معاملات Jobs"
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "الخيار لا يمكن أن يكون فارغًا! تحقق من طريقة الاستعمال."
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "مهمات الطابور"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "المُعرَّف"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "الطابور"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "الاتصال"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "تسمية عرض المهمة"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "المحاولات"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr "محفوظة عند"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "متاحة عند"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "منشأة عند"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "فشلت عند"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "رسالة الاستثناء"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "الحالي"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "السابق"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "التالي"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "ترقيم الصفحات"
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "مُعرَّف المهمة غير صالح"
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "المهمة تم حذفها!"
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "لا توجد مهام لحذفها."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "كان من المستحيل حذف كل المهام."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "تم حذف كل المهام!"
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr "بنجاح تمت إزالة {$jobsCount} من المهام الفاشلة من القائمة."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "بنجاح تمت إعادة إطلاق {$jobsCount} من المهام في الطابور."
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "لدينا {$total} من المهام في الطابور"
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "لدينا {$total} من المهام الفاشلة"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "الخيار {$option} غير موجود."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "هل كنت تعني واحدًأ مما يأتي؟"
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "معاينة المهام في الطابور"
+
+msgid "navigation.tools.jobs"
+msgstr "المهام"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "المهام الفاشلة"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "تفاصيل المهمة الفاشلة"
+
+msgid "navigation.tools.jobs.description"
+msgstr "معاينة كل مهام الطابور في النظام وتتبع المحاولات الفاشلة."
+
+msgid "navigation.tools.jobs.view"
+msgstr "معاينة المهام"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "معاينة المهام الفاشلة"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "السمة"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "قيمة السمة"
+
+msgid "admin.jobs.list.id"
+msgstr "المُعرَّف"
+
+msgid "admin.jobs.list.displayName"
+msgstr "المهمة"
+
+msgid "admin.jobs.list.queue"
+msgstr "الطابور"
+
+msgid "admin.jobs.list.connection"
+msgstr "الاتصال"
+
+msgid "admin.jobs.list.attempts"
+msgstr "المحاولات"
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr ""
+"عرض كل المهام في الطابور. مرر العلم --failed لمشاهدة إجمالي كل المهام "
+"الفاشلة."
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "مهمات الطابور الفاشلة"
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr ""
+"إدراج كل مهام الطابور. إذا أردت وضع النتائج في صفحات، استعمل المعاملات --"
+"page= و --perPage=. مرر العلم --failed لإدراج المهام الفاشلة."
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr ""
+"إضافة مهمة اختبارية إلى طابور الاختبار. استعمل المعاملات الاختيارية --only= "
+"ومرر 'failed' أو 'success' لإطلاق مهمة فاشلة أو مهمة ناجحة."
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr ""
+"تشغيل منفذ مهام دائمي يقوم بمعالجة المهام بشكل مستمر. استعمل العلم --help "
+"لمشاهدة الخيارات المتاحة المرتبطة بهذا الأمر."
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr ""
+"إدراج كل المهام الفاشلة. استعمل المعامل --queue=QUEUE_NAME و --"
+"connection=CONNECTION_NAME لتصفية القائمة. أيضًا، مرر المعامل/العلم --"
+"redispatch و --clear لإعادة الإطلاق إلى الطابور أو إزالة كل المهام الفاشلة "
+"أو مهمة فاشلة بعينها."
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr ""
+"إطلاق المهام المتاحة إلى الطابور. إذا أردت إطلاق مهمة ما في طابور معين، مرر "
+"المعامل --queue=QUEUE_NAME. أيضًا يمكنك فقط تمرير --test لتشغيل المهمة "
+"الاختبارية والمعامل --once لتشغيل المهمات كل على حدة"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr ""
+"ينبغي عليك تمرير مُعرَّف المهمة على الأقل، '--all' أو '--queue=' لاستعمال "
+"هذا الأمر"
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr "أطلق المهمة الاختبارية المراد لها الفشل في الطابور المسمى {$queueName}"
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr ""
+"خيار خاطئ للمهمة الاختبارية. يمكنها فقط أن تمتلك العلم 'failed' أو 'success' "
+"مع الخيار '--only='."
+
+msgid "admin.jobs.totalCount"
+msgstr "هناك ما مجمله <strong>{$total}</strong> من المهام في الطابور"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "هناك ما مجمله <strong>{$total}</strong> من المهام من المهام الفاشلة."
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "معاينة تفاصيل المهمة الفاشلة: {$id}"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "منشأة عند"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "فشلت عند"
+
+msgid "admin.jobs.list.payload"
+msgstr "الحمولة"
+
+msgid "admin.jobs.list.exception"
+msgstr "الاستثناء"
+
+msgid "admin.jobs.list.actions"
+msgstr "الإجراءات"
+
+msgid "admin.jobs.createdAt"
+msgstr "منشأن عند {$createdAt}"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "حاول مجددًا"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "إعادة كل المهام الفاشلة إلى الطابور"
+
+msgid "admin.settings.statistics.collection"
+msgstr "تجميع البيانات"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "تعريف نوعية إحصائيات الاستعمال التي ينبغي تجميعها."
+
+msgid "admin.settings.statistics.sushi"
+msgstr "بروتوكول سوشي"
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "إحصائيات شهرية أم يومية"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr ""
+"فيما إذا يجري تتبع الإحصائيات بوتيرة يومية أم شهرية. متابعة إحصائيات يومية "
+"قد يزيد من حجم قاعدة بياناتك بشكل ملحوظ."
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "تتبع إحصائيات يومية وشهرية"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "تتبع إحصائيات شهرية فقط"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "ضغط سجل الوقوعات"
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "أترك ملفات الوقوعات في مكانها"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "إضغط ملفات الوقوعات"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr ""
+"إجعل الوصول إلى واجهة برمجة التطبيق لإحصائيات COUNTER SUSHI مقصورة على "
+"المشرفين والمدراء"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "المنصة"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "مُعرَّف المنصة"
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr "أطلق المهمة الاختبارية المراد لها النجاح في الطابور المسمى {$queueName}"
+
+msgid "admin.jobs.failedAt"
+msgstr "منشأة عند {$failedAt}"
+
+msgid "admin.settings.statistics.storage"
+msgstr "تخزين البيانات"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr "تعريف أي من إحصائيات الاستعمال ينبغي تخزينها في المخدم."
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr ""
+"تهيئة بروتوكول <a href=\"https://www.projectcounter.org/counter-sushi/\""
+">COUNTER 5 SUSHI</a>، وهو صيغة معروفة في هذا المضمار لتوزيع إحصائبات "
+"الاستعمال."
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr ""
+"المهمة التي تقوم بتحميل إحصائيات الاستعمال من الملف {$file} قد فشلت، ويتعذر "
+"نقل الملف من {$archivedFilePath} إلى {$stagingPath}."
+
+msgid "admin.job.compileMetrics.error"
+msgstr ""
+"المهمة التي تقوم بتحميل إحصائيات الاستعمال من الملف {$file} قد فشلت. تم نقل "
+"الملف إلى مجلد الخزن."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "استعمل الموقع بمثابة المنصة لكل المجلات."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr "خيارات أمر العمل"
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "طريقة الاستعمال:[--options1 --options2= ...]"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr "الخيارات المتاحة لأمر العمل"
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr "اسم العامل[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "أقصة حد للذاكرة بالميغا بايت[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr ""
+"عدد الثواني التي يمكن أن تستغرقها المهمة الفرعية[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr "عدد ثواني الخمول عندما لا تتواجد أي مهمة[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr "إجبار العامل على التنفيذ حتى في وضع الصيانة[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "التوقف عندما يكون الطابور خاليًا[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr "عدد المهام المزمعة معالجتها قبل التوقف[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr "عدد ثواني الاستراحة ما بين المهام[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "تشغيل برنامج العامل عند الطابور التجريبي"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr ""
+"تم توليد الإحصائيات من ملفات سجلات الوقوعات التي تم نقلها إلى <code>{$path}</"
+"code> بمجرد أن تمت معالجتها. هل ينبغي ضغط ملفات الوقوعات إلى ملفات <code>."
+"gz</code> بمجرد معالجتها؟ ضغط تلك الملفات من شأنه توفير مساحة الخزن في "
+"المخدم."
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr ""
+"وفقًا لبروتوكول COUNTER SUSHI، على كل تقرير إحصائي أن يُعرِّف \"المنصة\" "
+"الموفرة للإحصائيات. إفتراضيًا، سيتم اعتبار المجلة بمثابة المنصة لكل "
+"الإحصائيات. مع ذلك، إن كانت كل المجلات في هذا الموقع منشورة، مملوكة أو مدارة "
+"من قبل نفس الجهة، فقد ترغب باعتبار الموقع هو بمثابة المنصة."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr ""
+"كيفية تعريف هذه المنصة في تقارير COUNTER SUSHI. مُعرَّف المنصة ينبغي أن "
+"يتكون من 17 حرفًا أو أقل ويمكنه أن يضم حروفًا (a–z, A–Z)، أرقامًا (0–9)، شُ"
+"رط تحتانية (_)، نقاط (.) وشُرط مائلة أمامية (/). مُعرَّف المنصة يُستعمل في "
+"عدة أعمدة وينبغي أن يكون قصيرًا قدر الإمكان مع بقائه مُميزًا ما بين المنصات "
+"الأخرى. عادة ما يكون مُعرَّف المنصة مبنيًا على اسم الناشر أو اسم المنصة نفسه،"
+" اسم النطاق، أو اختصار معروف وفريد."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr ""
+"ينبغي أن يكون مُعرَّف المنصة مطلوبًا عندما يجري تعريف الموقع على أنه منصة "
+"SUSHI."
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr "اسم طابور الاتصال مع العمل[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr "اسم الطابور المؤدي إلى العمل[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr ""
+"عدد الثواني المفترض انتظارها قبل إعادة محاولة المهمة التي واجهتها أخطاء غير "
+"معالجة[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr ""
+"عدد مرات محاولة المهمة قبل الإبلاغ بأنها فاشلة[الافتراضي : '{$default}']"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr ""
+"أقصى عدد من الثواني التي على العامل التنفيذ خلالها[الافتراضي : '{$default}']"

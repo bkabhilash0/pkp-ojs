@@ -1,0 +1,210 @@
+{
+	"title": "Site",
+	"description": "The overall site hosting one or more contexts (journals/presses).",
+	"required": [
+		"title",
+		"contactName",
+		"contactEmail"
+	],
+	"properties": {
+		"about": {
+			"type": "string",
+			"multilingual": true,
+			"validation": [
+				"nullable"
+			]
+		},
+		"contactEmail": {
+			"type": "string",
+			"multilingual": true,
+			"validation": [
+				"nullable",
+				"email_or_localhost"
+			]
+		},
+		"contactName": {
+			"type": "string",
+			"multilingual": true,
+			"defaultLocaleKey": "common.software",
+			"validation": [
+				"nullable"
+			]
+		},
+		"counterR5StartDate": {
+			"type": "string",
+			"validation": [
+				"nullable"
+			]
+		},
+		"enableBulkEmails": {
+			"type": "array",
+			"description": "Which hosted journals, presses or preprint servers are allowed to send bulk emails.",
+			"items": {
+				"type": "integer"
+			}
+		},
+		"compressStatsLogs": {
+			"type": "boolean",
+			"description": "Whether or not to compress usage statistics log files after they have been processed and archived.",
+			"default": false
+		},
+		"enableGeoUsageStats": {
+			"type": "string",
+			"description": "Whether to track usage statistics by location, and whether to track at the country, region or city level.",
+			"default": "disabled",
+			"validation": [
+				"in:disabled,country,country+region,country+region+city"
+			]
+		},
+		"enableInstitutionUsageStats": {
+			"type": "boolean",
+			"description": "Whether to track usage statistics by institutions. Requires institutional IP ranges to be configured.",
+			"default": false
+		},
+		"keepDailyUsageStats": {
+			"type": "boolean",
+			"description": "Whether to retain daily usage stats or consolidate monthly stats. Daily stats can quickly result in millions of database rows for large installs with lots of submissions.",
+			"default": false
+		},
+		"isSiteSushiPlatform": {
+			"type": "boolean",
+			"description": "Whether or not to designate the site as the platform in COUNTER SUSHI statistics. Set this to true when all of the contexts (journals, presses or servers) of this site are published, owned or operated by the same provider.",
+			"default": false
+		},
+		"sushiPlatformID": {
+			"type": "string",
+			"description": "The platform ID for COUNTER SUSHI statistics. Required when isSiteSushiPlatform is true.",
+			"validation": [
+				"regex:#^[a-zA-Z0-9._/]{1,17}$#",
+				"nullable"
+			]
+		},
+		"isSushiApiPublic": {
+			"type": "boolean",
+			"description": "Whether or not the access to the COUNTER SUSHI statistics API is public. If false, only users with admin or manager roles can access the API.",
+			"default": true
+		},
+		"installedLocales": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"validation": [
+					"regex:/^([a-z]{2})((_[A-Z]{2})?)(@[a-z]{0,})?$/"
+				]
+			}
+		},
+		"minPasswordLength": {
+			"type": "integer",
+			"validation": [
+				"min:4"
+			]
+		},
+		"pageFooter": {
+			"type": "string",
+			"multilingual": true,
+			"validation": [
+				"nullable"
+			]
+		},
+		"pageHeaderTitleImage": {
+			"type": "object",
+			"multilingual": true,
+			"validation": [
+				"nullable"
+			],
+			"properties": {
+				"temporaryFileId": {
+					"type": "integer",
+					"writeOnly": true
+				},
+				"name": {
+					"type": "string"
+				},
+				"uploadName": {
+					"type": "string"
+				},
+				"width": {
+					"type": "integer"
+				},
+				"height": {
+					"type": "integer"
+				},
+				"dateUploaded": {
+					"type": "string"
+				},
+				"altText": {
+					"type": "string"
+				}
+			}
+		},
+		"primaryLocale": {
+			"type": "string",
+			"validation": [
+				"regex:/^([a-z]{2})((_[A-Z]{2})?)(@[a-z]{0,})?$/"
+			]
+		},
+		"privacyStatement": {
+			"type": "string",
+			"multilingual": true,
+			"validation": [
+				"nullable"
+			]
+		},
+		"redirect": {
+			"type": "integer",
+			"validation": [
+				"nullable"
+			]
+		},
+		"sidebar": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"validation": [
+					"alpha_num"
+				]
+			}
+		},
+		"styleSheet": {
+			"type": "object",
+			"validation": [
+				"nullable"
+			],
+			"properties": {
+				"temporaryFileId": {
+					"type": "integer",
+					"writeOnly": true
+				},
+				"name": {
+					"type": "string"
+				},
+				"uploadName": {
+					"type": "string"
+				},
+				"dateUploaded": {
+					"type": "string"
+				}
+			}
+		},
+		"supportedLocales": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"validation": [
+					"regex:/^([a-z]{2})((_[A-Z]{2})?)(@[a-z]{0,})?$/"
+				]
+			}
+		},
+		"themePluginPath": {
+			"type": "string",
+			"default": "default"
+		},
+		"title": {
+			"type": "string",
+			"multilingual": true,
+			"validation": [
+				"nullable"
+			]
+		}
+	}
+}

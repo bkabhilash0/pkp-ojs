@@ -1,0 +1,67 @@
+# TAKASHI IMAGIRE <imagire@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:06:12+00:00\n"
+"PO-Revision-Date: 2021-12-11 17:15+0000\n"
+"Last-Translator: TAKASHI IMAGIRE <imagire@gmail.com>\n"
+"Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "査読レポート"
+
+msgid "plugins.reports.reviews.description"
+msgstr "査読の割当とその情報を含むCSV報告書を作成します。"
+
+msgid "plugins.reports.reviews.round"
+msgstr "ラウンド"
+
+msgid "plugins.reports.reviews.reviewerId"
+msgstr "Reviewer ID"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "査読者"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "割当日"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "通知日"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "確認日"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "完了日"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "督促日"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "投稿へのコメント"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "査読結果"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "応答延滞日数"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "査読延滞日数"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "承認された日付"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "投稿ID"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "投稿タイトル"

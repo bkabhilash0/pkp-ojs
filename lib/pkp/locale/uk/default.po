@@ -1,0 +1,198 @@
+# Petro Bilous <petrobilous@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:08+00:00\n"
+"PO-Revision-Date: 2023-04-30 09:49+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"default/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "default.groups.name.siteAdmin"
+msgstr "Адміністратор вебсайту"
+
+msgid "default.groups.plural.siteAdmin"
+msgstr "Адміністратори вебсайту"
+
+msgid "default.groups.name.productionEditor"
+msgstr "Випусковий редактор"
+
+msgid "default.groups.plural.productionEditor"
+msgstr "Випускові редактори"
+
+msgid "default.groups.abbrev.productionEditor"
+msgstr "ВипРед"
+
+msgid "default.groups.name.copyeditor"
+msgstr "Літературний редактор"
+
+msgid "default.groups.plural.copyeditor"
+msgstr "Літературні редактори"
+
+msgid "default.groups.abbrev.copyeditor"
+msgstr "ЛітРед"
+
+msgid "default.groups.name.proofreader"
+msgstr "Коректор"
+
+msgid "default.groups.plural.proofreader"
+msgstr "Коректори"
+
+msgid "default.groups.abbrev.proofreader"
+msgstr "Кор"
+
+msgid "default.groups.name.designer"
+msgstr "Дизайнер"
+
+msgid "default.groups.plural.designer"
+msgstr "Дизайнери"
+
+msgid "default.groups.abbrev.designer"
+msgstr "Дизайн"
+
+msgid "default.groups.name.internalReviewer"
+msgstr "Внутрішній рецензент"
+
+msgid "default.groups.plural.internalReviewer"
+msgstr "Внутрішні реценезенти"
+
+msgid "default.groups.abbrev.internalReviewer"
+msgstr "ВнутрР"
+
+msgid "default.groups.name.marketing"
+msgstr "Координатор з маркетингу та збуту"
+
+msgid "default.groups.plural.marketing"
+msgstr "Координатори з маркетингу та збуту"
+
+msgid "default.groups.abbrev.marketing"
+msgstr "МіЗ"
+
+msgid "default.groups.name.funding"
+msgstr "Координатор з фінансування"
+
+msgid "default.groups.plural.funding"
+msgstr "Координатори з фінансування"
+
+msgid "default.groups.abbrev.funding"
+msgstr "КФ"
+
+msgid "default.groups.name.indexer"
+msgstr "Індексатор"
+
+msgid "default.groups.plural.indexer"
+msgstr "Індексатори"
+
+msgid "default.groups.abbrev.indexer"
+msgstr "Інд"
+
+msgid "default.groups.name.layoutEditor"
+msgstr "Верстальник"
+
+msgid "default.groups.plural.layoutEditor"
+msgstr "Верстальники"
+
+msgid "default.groups.abbrev.layoutEditor"
+msgstr "Верс"
+
+msgid "default.groups.name.author"
+msgstr "Автор"
+
+msgid "default.groups.plural.author"
+msgstr "Автори"
+
+msgid "default.groups.abbrev.author"
+msgstr "Авт"
+
+msgid "default.groups.name.translator"
+msgstr "Перекладач"
+
+msgid "default.groups.plural.translator"
+msgstr "Перекладачі"
+
+msgid "default.groups.abbrev.translator"
+msgstr "Перекл"
+
+msgid "default.groups.name.reader"
+msgstr "Читач"
+
+msgid "default.groups.plural.reader"
+msgstr "Читачі"
+
+msgid "default.groups.abbrev.reader"
+msgstr "Чит"
+
+msgid "default.genres.other"
+msgstr "Інше"
+
+msgid "default.genres.multimedia"
+msgstr "Мультимедія"
+
+msgid "default.genres.image"
+msgstr "Зображення"
+
+msgid "default.genres.styleSheet"
+msgstr "Таблиця стилів HTML"
+
+msgid "default.contextSettings.emailSignature"
+msgstr ""
+"<br><br>–<br><p> Це автоматичне повідомлення від <a href=\"{$contextUrl}\">\""
+"{$contextName}\"</a>.</p>"
+
+msgid "default.submission.step.beforeYouBegin"
+msgstr ""
+"<p>Дякуємо, що подали заявку до \"{$contextName}\". Вам буде запропоновано "
+"завантажити файли, визначити співавторів і надати таку інформацію, як назва "
+"та анотація. <p><p>Будь ласка, прочитайте наші <a href=\""
+"{$submissionGuidelinesUrl}\" target=\"_blank\">Правила подання</a>, якщо ви "
+"ще цього не зробили. Заповнюючи форми, надайте якомога більше подробиць, щоб "
+"допомогти нашим редакторам оцінити вашу роботу.</p><p>Почавши, ви можете "
+"зберегти подання та повернутися до нього пізніше. Ви зможете переглянути та "
+"виправити будь-яку інформацію, перш ніж надсилати.</p>"
+
+msgid "default.submission.step.uploadFiles"
+msgstr ""
+"<p>Надайте будь-які файли, які можуть знадобитися нашій редакції для оцінки "
+"вашого подання. На додаток до основної роботи ви можете надіслати набори "
+"даних, заяви про конфлікт інтересів або інші додаткові файли, якщо вони "
+"будуть корисними для наших редакторів.</p>"
+
+msgid "default.submission.step.contributors"
+msgstr ""
+"<p>Додайте подробиці для всіх осіб, які взяли участь у цьому поданні. Таким "
+"особам, доданим тут, електронною поштою буде надіслано підтвердження "
+"подання, а також копію всіх редакційних рішень, записаних проти цього "
+"подання.</p> <p>Якщо з особою, яка взяла участь у цьому поданні, неможливо "
+"зв'язатися електронною поштою, оскільки вона повинна залишатися анонімною "
+"або не має облікового запису електронної пошти, будь ласка, не вводьте "
+"підроблену адресу електронної пошти. Ви можете додати інформацію про цю "
+"особу в повідомленні редактору на більш пізній стадії процесу подачі. </p>"
+
+msgid "default.submission.step.details"
+msgstr ""
+"<p>Будь ласка, надайте наступні дані, щоб допомогти нам керувати вашим "
+"поданням у нашій системі.</p>"
+
+msgid "default.submission.step.forTheEditors"
+msgstr ""
+"<p>Будь ласка, надайте наступні дані, щоб допомогти нашій редакції керувати "
+"вашим поданням.</p> <p>Вводячи метадані, надайте записи, які, на вашу думку, "
+"будуть найкориснішими для особи, яка керує вашим поданням. Ця інформація "
+"може бути змінена перед публікацією.</p>"
+
+msgid "default.submission.step.review"
+msgstr ""
+"<p>Перегляньте введену інформацію, перш ніж завершити надсилання. Ви можете "
+"змінити будь-які відомості, що відображаються тут, натиснувши кнопку "
+"редагування у верхній частині кожного розділу.</p> <p>Після того, як ви "
+"завершите свою роботу, для її розгляду буде призначено члена нашої "
+"редакційної команди. Будь ласка, переконайтеся, що дані, які ви ввели тут, є "
+"максимально точними.</p>"

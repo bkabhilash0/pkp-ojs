@@ -1,0 +1,953 @@
+# Petro Bilous <petrobilous@ukr.net>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:08+00:00\n"
+"PO-Revision-Date: 2023-05-02 16:13+0000\n"
+"Last-Translator: Petro Bilous <petrobilous@ukr.net>\n"
+"Language-Team: Ukrainian <http://translate.pkp.sfu.ca/projects/pkp-lib/admin/"
+"uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.systemInfo.settingName"
+msgstr "Назва налаштування"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "Значення налаштування"
+
+msgid "admin.adminFunctions"
+msgstr "Адміністративні функції"
+
+msgid "admin.deleteCache"
+msgstr "Очистити кеші"
+
+msgid "admin.deleteCache.description"
+msgstr ""
+"Видалити файли кешу із системи. Це слід робити лише в середовищах розробки."
+
+msgid "admin.clearDataCache"
+msgstr "Очистити кеш даних"
+
+msgid "admin.clearTemplateCache"
+msgstr "Очистити кеш шаблонів"
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"Ваш файл конфігурації успішно оновлено. Будь ласка, зауважте, що в разі, "
+"якщо ваш вебсайт тепер не функціонує коректно, можливо, потрібно вручну "
+"виправити вашу конфігурацію шляхом безпосереднього редагування файлу "
+"<tt>config.inc.php</tt>."
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "Ви впевнені, що хочете очистити кеш скомпільованих шаблонів?"
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"Ви впевнені, що хочете закінчити всі користувацькі сеанси? Усі користувачі, "
+"які наразі увійшли в систему, будуть змушені увійти знову (у тому числі і "
+"ви)."
+
+msgid "admin.contentsOfConfigFile"
+msgstr "Зміст файлу конфігурації"
+
+msgid "admin.contexts.confirmDelete"
+msgstr ""
+"Ви впевнені, що хочете назавжди видалити \"{$contextName}\" і весь його "
+"вміст?"
+
+msgid "admin.currentVersion"
+msgstr "Поточна версія"
+
+msgid "admin.dateInstalled"
+msgstr "Дата встановлення"
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"Зміст вашої оновленої конфігурації наведено нижче. Для застосування змін "
+"конфігурації ви повинні відкрити <tt>config.inc.php</tt> у текстовому "
+"редакторі та замінити його зміст змістом текстового поля, наведеного нижче."
+
+msgid "admin.displayNewSystemConfig"
+msgstr "Показати нову конфігурацію"
+
+msgid "admin.expireSessions"
+msgstr "Припинити користувацькі сесії"
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"Усіх користувачів буде негайно виведено з програми, включно з вами, і їм "
+"потрібно буде увійти знову."
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"Ця локалізація є основною мовою вебсайту. Ви не можете відключити її, доки "
+"не оберете іншу основну локалізацію."
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"Ви впевнені, що хочете змінити основну локалізацію вебсайту? Ім'я "
+"користувачів, які необхідні для основної локалізації сайту, буде скопійовано "
+"з чинної основної локалізації, де вони відсутні."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"Ви впевнені, що хочете перезавантажити локалізацію? Це призведе до знищення "
+"всіх наявних специфічних локалізаційних даних, таких як шаблони електронних "
+"листів."
+
+msgid "admin.languages.installedLocales"
+msgstr "Установлені локалізації"
+
+msgid "admin.languages.installLanguages"
+msgstr "Керування локалізаціями"
+
+msgid "admin.languages.availableLocales"
+msgstr "Доступні локалізації"
+
+msgid "admin.languages.installLocale"
+msgstr "Установити локалізацію"
+
+msgid "admin.languages.installLocales"
+msgstr "Установити"
+
+msgid "admin.languages.installNewLocales"
+msgstr "Установити нові локалізації"
+
+msgid "admin.languages.languageSettings"
+msgstr "Мовні налаштування"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr "Жодної додаткової локалізації не доступно для встановлення."
+
+msgid "admin.languages.reload"
+msgstr "Перезавантажити локалізацію"
+
+msgid "admin.languages.uninstall"
+msgstr "Демонтувати локалізацію"
+
+msgid "admin.phpInfo"
+msgstr "Розширена інформація про PHP"
+
+msgid "admin.scheduledTask"
+msgstr "Заплановане завдання"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "Розпочато виконання завдання."
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "Завершено виконання завдання."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "Завдання не створювало запису в журналі подій."
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "Депонувати DOI з налаштованим реєстраційним агентством"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"Ваша інсталяція {$softwareName} автоматично виконала і завершила це "
+"завдання, ви можете завантажити файл з журналом подій за цим посиланням: "
+"{$url}"
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr ""
+"Надіслати електронний лист кожному редактору, нагадуючи їм про їхні "
+"невиконані завдання"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr "Визначення редакторів для нагадування в контексті {$contextId}"
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"Відправлені {$count} завдання для надсилання редакційних нагадувань "
+"електронною поштою користувачам {$userIds} у контексті {$contextId}"
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr ""
+"Ви впевнені, що хочете видалити всі журнали подій, що містять інформацію про "
+"виконання запланованих завдань?"
+
+msgid "admin.scheduledTask.clearLogs"
+msgstr ""
+"Видалити журнали подій з інформацією про виконання запланованих завдань"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr "Видалити всі журнали запланованих завдань для запущених процесів."
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "Видалити журнали завдань"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "Опублікувати подання, заплановані до публікації"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Нагадування рецензенту"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "Повідомлення про редакційний звіт"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Нагадування про закінчення строку дії підписки"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr ""
+"Видалення неперевірених користувачів, строк дії підписки яких закінчився"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr "Видалити набагато старіші невдалі завдання зі списку невдалих завдань."
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "Обробка завдань, що очікують на розгляд у черзі"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "Оновити базу даних DB-IP city lite"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"Не вдалося перейменувати файл бази даних DB-IP city lite {$sourceFilename} "
+"на {$targetFilename}."
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "Завдання завантажувача файлів статистики використання"
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"Каталог \"{$directory}\" не порожній. Це може вказувати на попередній "
+"невдалий процес або процес, що наразі триває. Цей файл буде автоматично "
+"оброблено."
+
+msgid "admin.scheduledTask.usageStatsLoader.openFileFailed"
+msgstr "Не вдалося відкрити файл \"{$file}\", і він був відхилений."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"Файл \"{$file}\" має старий формат файлу журналу, який не може бути "
+"оброблений і, таким чином, буде переміщений назад до каталогу стадії."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr ""
+"Пропущено файл журналу \"{$file}\", оскільки статистику за цей місяць уже "
+"обчислено. Щоб перерахувати статистику за попередній місяць, потрібно "
+"відновити всі файли журналів за цей місяць і повторно обробити статистику за "
+"допомогою інструмента командного рядка."
+
+msgid "admin.scheduledTask.usageStatsLoader.wrongLoglineFormat"
+msgstr ""
+"Рядок {$lineNumber} у файлі журналу \"{$file}\" має неправильний формат і, "
+"таким чином, буде пропущений."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry"
+msgstr ""
+"Неприпустимий запис журналу в рядку {$lineNumber} у файлі журналу \"{$file}\""
+": {$error}"
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.time"
+msgstr "Час не є припустимою датою."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.contextId"
+msgstr "ID контексту не є цілим числом."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.submissionId"
+msgstr "ID подання не є цілим числом."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.representationId"
+msgstr "ID представництва не є цілим числом."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.assocType"
+msgstr "Тип assoc не підтримується."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.fileType"
+msgstr "Тип файлу не підтримується."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.country"
+msgstr "Країна не є рядком із двох буквених символів."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.region"
+msgstr "Регіон не є довгим рядком до трьох буквено-цифрових символів."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.institutionIds"
+msgstr "ID установ не є масивом."
+
+msgid "admin.scheduledTask.usageStatsLoader.insertError"
+msgstr ""
+"Сталася помилка при обробці файлу журналу \"{$file}\" у рядку {$lineNumber}: "
+"{$msg}"
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr ""
+"Відправлено фонове завдання, яке оброблятиме файл журналу \"{$file}\" та "
+"зберігатиме статистичні дані."
+
+msgid "admin.server.apacheVersion"
+msgstr "Версія Apache"
+
+msgid "admin.server.dbDriver"
+msgstr "Драйвер бази даних"
+
+msgid "admin.server.dbVersion"
+msgstr "Версія серверу баз даних"
+
+msgid "admin.serverInformation"
+msgstr "Інформація про сервер"
+
+msgid "admin.server.phpVersion"
+msgstr "Версія PHP"
+
+msgid "admin.server.platform"
+msgstr "Операційна платформа"
+
+msgid "admin.settings"
+msgstr "Налаштування"
+
+msgid "admin.settings.about"
+msgstr "Про цей вебсайт"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Масові електронні листи"
+
+msgid "admin.settings.contactEmail"
+msgstr "Електронна пошта основної контактної особи"
+
+msgid "admin.settings.contactName"
+msgstr "Ім'я основної контактної особи"
+
+msgid "admin.settings.introduction"
+msgstr "Вступ"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "Мінімальна довжина пароля"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "Обмежити масові електронні листи"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "Вимкнути ролі"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "Змінювати цей параметр може лише адміністратор."
+
+msgid "admin.settings.siteLanguage"
+msgstr "Мова вебсайту"
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr ""
+"Неприпустимий формат таблиці стилю вебсайту. Припустимим форматом є .css."
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "Таблиця стилю вебсайту"
+
+msgid "admin.settings.siteLogo"
+msgstr "Логотип вебсайту"
+
+msgid "admin.settings.siteTitle"
+msgstr "Назва вебсайту"
+
+msgid "admin.settings.siteTheme"
+msgstr "Тема вебсайту"
+
+msgid "admin.siteAdmin"
+msgstr "Адміністрування вебсайту"
+
+msgid "admin.siteManagement"
+msgstr "Керування вебсайтом"
+
+msgid "admin.siteSettings"
+msgstr "Налаштування вебсайту"
+
+msgid "admin.siteSetup"
+msgstr "Налаштування вебсайту"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"Файл конфігурації <tt>config.inc.php</tt> не існує, не доступний для читання "
+"або пошкоджений."
+
+msgid "admin.systemInformation"
+msgstr "Інформація про систему"
+
+msgid "admin.systemInformation.description"
+msgstr ""
+"Переглянути інформацію про версію і конфігураційні параметри програми та "
+"сервера."
+
+msgid "admin.systemInformation.view"
+msgstr "Переглянути відомості про систему"
+
+msgid "admin.versionBuild"
+msgstr "Збірка"
+
+msgid "admin.version.checkForUpdates"
+msgstr "Перевірити наявність оновлень"
+
+msgid "admin.version.downloadPackage"
+msgstr "Завантажити"
+
+msgid "admin.version.downloadPatch"
+msgstr "Завантажити виправлення"
+
+msgid "admin.versionHistory"
+msgstr "Історія версій"
+
+msgid "admin.version.latest"
+msgstr "Остання версія"
+
+msgid "admin.versionMajor"
+msgstr "Базова"
+
+msgid "admin.versionMinor"
+msgstr "Додаткова"
+
+msgid "admin.version.moreInfo"
+msgstr "Більше інформації"
+
+msgid "admin.versionRevision"
+msgstr "Ревізія"
+
+msgid "admin.version.updateAvailable"
+msgstr "Доступна оновлена версія"
+
+msgid "admin.version.upToDate"
+msgstr "Ваша система використовує поточну версію"
+
+msgid "admin.version"
+msgstr "Версія"
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr ""
+"Основний каталог {$path} повинен знаходитись у каталозі загальнодоступних "
+"файлів."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "Папка {$path} це не каталог або вона недоступна для читання."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr ""
+"Файл {$filename} не можна перенести з {$currentFilePath} в {$destinationPath}"
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "Файл {$filename} був оброблений та заархівований."
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "Завантажувач файлів"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr ""
+"Файл не вдалося розпакувати. Вихідний gz-файл {$filePath} не вдалося "
+"відкрити за допомогою gzopen."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr ""
+"Файл не вдалося розпакувати. Цільовий файл {$filePath} не вдалося відкрити "
+"fopen."
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr ""
+"Не вдалося розпакувати файл. Вихідний gz-файл \"{$file}\" не вдалося "
+"прочитати за допомогою gzread."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr ""
+"Файл не вдалося розпакувати. Кінцевий файл {$filePath} не вдалося записати "
+"за допомогою fwrite."
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr ""
+"Файл не вдалося розпакувати. Відкритий цільовий файл {$filePath} не вдалося "
+"закрити за допомогою fclose."
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr ""
+"Файл не вдалося розпакувати. Відкритий вихідний gz-файл {$filePath} не "
+"вдалося закрити за допомогою gzclose."
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr ""
+"Файл не вдалося розпакувати. Розпакований вихідний gz-файл {$filePath} не "
+"вдалося видалити за допомогою скасування зв'язку."
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr ""
+"Файл не вдалося упакувати. Кінцевий gz-файл {$filePath} не вдалося відкрити "
+"за допомогою gzopen."
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr ""
+"Файл не вдалося упакувати. Вихідний файл {$filePath} не вдалося відкрити за "
+"допомогою fopen."
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr ""
+"Файл не вдалося упакувати. Вихідний файл {$filePath} не вдалося прочитати за "
+"допомогою fread."
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr ""
+"Файл не вдалося упакувати. Кінцевий gz-файл {$filePath} не вдалося записати "
+"за допомогою gzwrite."
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr ""
+"Файл не вдалося упакувати. Відкритий вихідний файл {$filePath} не вдалося "
+"закрити за допомогою fclose."
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr ""
+"Файл не вдалося упакувати. Відкритий кінцевий gz-файл {$filePath} не вдалося "
+"закрити за допомогою gzclose."
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr ""
+"Файл не вдалося упакувати. Упакований вихідний файл {$filePath} не вдалося "
+"видалити за допомогою скасування зв'язку."
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "Відсутні локалізації для завантаження."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "Використання:"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "команда [аргументи]"
+
+msgid "admin.cli.tool.available.commands"
+msgstr "Доступні команди для простору імен \"{$namespace}\":"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr ""
+"Не вдається запустити завдання черги, оскільки ввімкнуто режим "
+"обслуговування програми."
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr ""
+"Перерахуйте всі завдання в черзі. Якщо ви хочете розбити результати на "
+"сторінки, використовуйте параметри --page= (--сторінка=) та --perPage= (--на "
+"сторінку=). Використовуйте позначку --невдалі (--failed), щоб перерахувати "
+"всі невдалі завдання."
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr ""
+"Очистіть конкретну роботу в черзі на основі її ID. Якщо ви хочете очистити "
+"все, використайте параметр --усі (--all). Якщо ви хочете очистити все з "
+"певної черги, використайте параметр --черга= (--queue=)"
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr ""
+"Додайте завдання до тестової черги. Використовуйте факультативні параметри --"
+"тільки= (--only=) і позначте \"невдалий\" або \"успішний\", щоб надіслати "
+"невдалу або успішну роботу."
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr ""
+"Запустіть нескінченний процес daemon worker, який продовжить обробляти "
+"завдання. Використовуйте позначку --допомога (--help), щоб переглянути "
+"доступні параметри, пов'язані з цією командою."
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr ""
+"Перерахуйте всі невдалі роботи. Встановіть параметри --черга=ІМ'Я_ЧЕРГИ "
+"(--queue=QUEUE_NAME) та --зв'язок=ІМ'Я_ЗВ'ЯЗКУ (--connection=CONNECTION_NAME)"
+" для фільтрації списку. Також використайте параметр / прапорець --"
+"перевідправити (--redispatch) та --очистити (--clear), щоб перевідправити "
+"назад у чергу або очистити всі / конкретні невдалі завдання."
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr ""
+"Відправ наявні роботи в чергу. Якщо ви хочете відправити завдання в певну "
+"чергу, використайте параметр --черга=ІМ'Я_ЧЕРГИ (--queue=QUEUE_NAME). Також "
+"можна просто позначити --тест (--test), щоб запустити тестове завдання і --"
+"одноразово (--once) , щоб запустити одну роботу за раз"
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr ""
+"Завершено виконання {$jobCount} завдань у черзі з іменем \"{$queueName}\"."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr "Немає завдань, доступних для запуску в черзі з іменем \"{$queueName}\"."
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr ""
+"Відобразити загальну кількість завдань у черзі. Включити позначку --невдало "
+"(--failed), щоб побачити загалом невдалі з невдалих робіт."
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "Відобразити використання команди \"Завдання\""
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "Відобразити параметри використання \"Завдань\""
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "Параметр не може бути порожнім! Перевірте метод використання."
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "Невдалі завдання в черзі"
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "Завдання в черзі"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "ID"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "Черга"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "Зв'язок"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "Коротке ім'я завдання"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "Спроби"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr "Зарезервовано"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "Доступно"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "Створено"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "Не вдалося"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "Повідомлення про виняток"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "Нумерація"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "Поточне"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "Попереднє"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "Наступне"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr ""
+"Ви повинні вказати принаймні ID завдання, --усі (--all) або --черга= "
+"(--queue=), щоб використовувати цю команду"
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr ""
+"Відправлене тестове завдання, пов'язане з невдачею в черзі з іменем \""
+"{$queueName}\""
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr ""
+"Відправлене тестове завдання, пов'язане з успіхом у черзі з іменем \""
+"{$queueName}\""
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr ""
+"Неприпустимий параметр тестового завдання. Для параметра --тільки= (--only=) "
+"може бути прийнято лише \"невдало\" або \"успішно\" ."
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "Недійсний ID завдання"
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "Завдання видалено!"
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "Завдань для видалення не знайдено."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "Неможливо було видалити всі завдання."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "Усі завдання видалено!"
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr "{$jobsCount} невдалих завдань успішно видалено зі списку невдалих."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "{$jobsCount} завдань успішно перенаправлено назад у чергу."
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "У нас є {$total} невдалих завдань"
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "У нас є {$total} завдань у черзі"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "Параметр {$option} не існує."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "Ви мали на увазі одне з наступного?"
+
+msgid "admin.jobs.totalCount"
+msgstr "Загалом у черзі <strong>{$total}</strong> завдань"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "Загалом існує <strong>{$total}</strong> невдалих завдань."
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "Переглянути завдання в черзі"
+
+msgid "navigation.tools.jobs"
+msgstr "Завдання"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "Невдалі завдання"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "Подробиці невдалих завдань"
+
+msgid "navigation.tools.jobs.description"
+msgstr ""
+"Переглянути всі поставлені в чергу завдання в системі та відстежувати "
+"невдалі спроби."
+
+msgid "navigation.tools.jobs.view"
+msgstr "Переглянути завдання"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "Переглянути невдалі завдання"
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "Переглянути подробиці невдалого завдання {$id}"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "Атрибут"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "Значення атрибута"
+
+msgid "admin.jobs.list.id"
+msgstr "ID"
+
+msgid "admin.jobs.list.displayName"
+msgstr "Завдання"
+
+msgid "admin.jobs.list.queue"
+msgstr "Черга"
+
+msgid "admin.jobs.list.connection"
+msgstr "Зв'язок"
+
+msgid "admin.jobs.list.attempts"
+msgstr "Спроби"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "Створено"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "Не вдалося"
+
+msgid "admin.jobs.list.payload"
+msgstr "Корисне навантаження"
+
+msgid "admin.jobs.list.exception"
+msgstr "Виняток"
+
+msgid "admin.jobs.list.actions"
+msgstr "Дії"
+
+msgid "admin.jobs.failedAt"
+msgstr "Створено"
+
+msgid "admin.jobs.createdAt"
+msgstr "Створено"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "Спробуйте ще"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "Оновити чергу всіх невдалих завдань"
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr ""
+"Завдання, яке завантажує дані статистики використання з файлу \"{$file}\", "
+"не вдалося, і файл не вдалося перемістити з {$archivedFilePath} до "
+"{$stagingPath}."
+
+msgid "admin.job.compileMetrics.error"
+msgstr ""
+"Завдання, яке завантажує дані статистики використання з файлу \"{$file}\", "
+"не вдалося. Файл переміщено до каталогу stage."
+
+msgid "admin.settings.statistics.collection"
+msgstr "Збір даних"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "Налаштуйте, яку статистику використання потрібно збирати."
+
+msgid "admin.settings.statistics.storage"
+msgstr "Зберігання даних"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr "Налаштуйте, яка статистика використання повинна зберігатися на сервері."
+
+msgid "admin.settings.statistics.sushi"
+msgstr "Протокол Sushi"
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr ""
+"Налаштуйте протокол <a href=\"https://www.projectcounter.org/counter-sushi/\""
+">ЛІЧИЛЬНИК 5 SUSHI</a>, визнаний у галузі формат розповсюдження статистики "
+"використання."
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "Щомісячна або щоденна статистика"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr ""
+"Відстежувати чи ні щоденну чи щомісячну статистику використання. Відстеження "
+"щоденної статистики може значно збільшити розмір вашої бази даних."
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "Відстежувати щоденну і щомісячну статистику"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "Відстежувати лише щомісячну статистику"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "Стиснути журнали"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr ""
+"Статистика генерується з файлів журналів доступу, які переміщуються в "
+"<code>{$path}</code> після їх обробки. Чи слід стискати файли журналу у "
+"файли <code>.gz</code> після їх обробки? Стиснення файлів журналу може "
+"заощадити дисковий простір на сервері."
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "Залишити файли журналу на місці"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "Стиснути файли журналу"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr "Обмежити доступ до API статистики ЛІЧИЛЬНИКА SUSHI менеджерам і адмінам"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "Платформа"
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr ""
+"Відповідно до протоколу ЛІЧИЛЬНИКА SUSHI кожен статистичний звіт повинен "
+"ідентифікувати \"платформу\", що надає статистику. За замовчуванням журнал "
+"буде позначений як платформа для всієї статистики. Однак, якщо всі журнали "
+"на цьому вебсайті публікуються, належать або керуються одним і тим же "
+"постачальником, ви можете призначити платформою сайт."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Використовувати вебсайт як платформу для всіх журналів."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "ID платформи"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr ""
+"Як визначити цю платформу у звітах ЛІЧИЛЬНИКА SUSHI. Ідентифікатор платформи "
+"повинен містити не більше 17 символів і може містити букви (a–z, A–Z), цифри "
+"(0–9), підкреслення (_), крапки (.) та навскісні риски (/). ID платформи "
+"використовується в декількох стовпцях і повинен бути якомога коротшим, "
+"залишаючись упізнаваним. ID платформи зазвичай базується на імені видавця "
+"або платформи, доменному імені або відомій унікальній абревіатурі."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr ""
+"ID платформи повинен бути обов'язково, коли як платформу SUSHI буде "
+"ідентифіковано вебсайт."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr "параметри робочої команди"
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "використання: [--options1 --options2= ...]"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr "Доступні параметри для робочої команди"
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr "Ім'я черги підключення до worker-а [за замовчуванням: \"{$default}\"]"
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr "Ім'я черги до worker-а [за замовчуванням: \"{$default}\"]"
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr "Ім'я worker-а [за замовчуванням: \"{$default}\"]"
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr ""
+"Кількість секунд, які потрібно зачекати, перш ніж повторити спробу роботи, "
+"яка зіткнулася з неспійманим винятком [за замовчуванням: {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "Обмеження пам'яті в мегабайтах [за замовчуванням: {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr ""
+"Кількість секунд, які може тривати дочірній процес [за замовчуванням: "
+"{$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr ""
+"Кількість секунд сну, коли жодне завдання не є доступним [за замовчуванням: "
+"{$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr ""
+"Кількість спроб виконати завдання перед тим, як зареєструвати його не "
+"вдалося [за замовчуванням: {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr ""
+"Змусити worker працювати навіть у режимі обслуговування [за замовчуванням: "
+"{$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "Зупинитися, коли черга пуста [за замовчуванням: {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr ""
+"Кількість завдань, які потрібно обробити перед зупинкою [за замовчуванням: "
+"{$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr ""
+"Максимальна кількість секунд, які повинен працювати worker [за замовчуванням:"
+" {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr ""
+"Кількість секунд відпочинку між завданнями [за замовчуванням: {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "Запустити worker deamon для черги тестів"
+
+#~ msgid "admin.settings.aboutDescription"
+#~ msgstr "Інформація про сайт"
+
+#~ msgid "admin.settings.form.contactEmailRequired"
+#~ msgstr ""
+#~ "Необхідно вказати адресу електронної пошти основної контактної особи."
+
+#~ msgid "admin.settings.form.contactNameRequired"
+#~ msgstr "Необхідно вказати ім'я основної контактної особи."
+
+#~ msgid "admin.settings.form.minPasswordLengthRequired"
+#~ msgstr "Необхідно вказати мінімальну довжину пароля (не менше 4 символів)."
+
+#~ msgid "admin.settings.form.titleRequired"
+#~ msgstr "Необхідно вказати назву."
+
+#~ msgid "admin.settings.homeHeaderImage.altText"
+#~ msgstr "Логотип сайту"
+
+#~ msgid "admin.settings.homeHeaderImageInvalid"
+#~ msgstr ""
+#~ "Неприпустимий формат зображення логотипу. Припустимі формати .gif, .jpg, "
+#~ "або .png."

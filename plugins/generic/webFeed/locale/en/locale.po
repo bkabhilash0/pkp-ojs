@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T06:56:43-07:00\n"
+"PO-Revision-Date: 2023-04-27 17:49+0000\n"
+"Last-Translator: Marc Bria <marc.bria@gmail.com>\n"
+"Language-Team: English <http://translate.pkp.sfu.ca/projects/plugins/webFeed/"
+"en/>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Web Feed Plugin"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"This plugin produces RSS/Atom web syndication feeds.<br>The plugin also "
+"includes a sidebar block which enables you to display the feed links on your "
+"application's sidebar"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Settings"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Display web feed links on issue pages only."
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr "Display web feed links on homepage and issue pages only."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Display web feed links on homepage only."
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Display web feed links on all application pages."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Display items in current published issue."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Display a fixed number of the most recent publications."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Number of publications to display"
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr "Please enter a positive integer for recent published items."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Atom logo"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "RSS1 logo"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "RSS2 logo"
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Latest publications"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr "Include identifiers (ISBN, keywords, categories, etc.) in the feed summary?"

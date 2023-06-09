@@ -1,0 +1,240 @@
+# Osman Durmaz <osmandurmaz@hotmail.de>, 2022, 2023.
+# Gadirova <leylakb@yahoo.com>, 2022, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-16 23:48+0000\n"
+"Last-Translator: Gadirova <leylakb@yahoo.com>\n"
+"Language-Team: Azerbaijani <http://translate.pkp.sfu.ca/projects/ojs/admin/"
+"az/>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.hostedContexts"
+msgstr "Nəşr Olunan Jurnallar"
+
+msgid "admin.settings.redirect"
+msgstr "Jurnal Yönləndirməsi"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Sayta giriş birbaşa jurnalın əsas səhifəsinə yönləndirilir. OJS üzərində "
+"sadəcə bir jurnal dərc edilirsə bu seçim əlverişlidir."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Bu dili deaktiv etmək istədiyinizdən əminsinizmi? Bu, hazırda yayımlanan "
+"jurnallar arasında bu dildən istifadə edənlərə təsir göstərə bilər."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "Bu dil sayt və nəşr olunan jurnallar üçün standart dil olacaq."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Saytın dəstəklədiyi bütün dilləri seçin. Seçilən dillər saytda yayımlanan "
+"bütün jurnallar üçün istifadə edilə biləcək və xüsusi jurnal səhifələri "
+"xaricində, seçdiyiniz dillərdən ibarət bir dil seçmə vasitəsi oxucuların "
+"xidmətinə təqdim ediləcəkdir (jurnala xas səhifələrdə bağlı ola bilər). Əgər "
+"birdən çox dil seçilibsə, dil seçmə vasitəsi göstərilməyəcək və jurnallar "
+"üçün genişləndirilmiş dil imkanları işləməyəcəkdir."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "İşarələnən dillər tamamlanmamış ola bilər."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Bu dili istifadədən çıxarmaq istədiyinizdən əminsinizmi? Dil istifadədən "
+"çıxarıldığında bu dili istifadə edən jurnallarda problem ola bilər."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Sistemin dəstəkləyəcəyi əlavə bir dil seçin. Saytdakı jurnallar istifadə "
+"etməyə başlamadan əvvəl, dillər sistemə yüklənməlidir. Yeni bir dilin əlavə "
+"edilməsi xüsusunda OJS dəstək sənədlərində daha çox məlumat tapa bilərsiniz."
+
+msgid "admin.systemVersion"
+msgstr "OJS Versiyası"
+
+msgid "admin.systemConfiguration"
+msgstr "OJS Konfiqurasiyası"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "<tt>config.inc.php</tt> dosyesindəki OJS konfiqurasiya tənzimləmələri."
+
+msgid "admin.journals.createInstructions"
+msgstr ""
+"Bu jurnalın inzibatçısı kimi avtomatik olaraq qeyd olunacaqsınız. Yeni bir "
+"jurnal yaratdıqdan sonra jurnalın başlanğıc parametrlərini başa çatdırmaq "
+"üçün bu jurnalın parametr səhifəsinə yönəldiləcəksiniz."
+
+msgid "admin.journals.journalSettings"
+msgstr "Jurnal Tənzimləmələri"
+
+msgid "admin.journals.noneCreated"
+msgstr "Hələ ki jurnal yaradılmayıb."
+
+msgid "admin.contexts.create"
+msgstr "Jurnal Yarad"
+
+msgid "admin.journals.urlWillBe"
+msgstr ""
+"Bu, jurnalı bildirən qısa bir söz ya da qısaltma olmalıdır. Jurnalın URL "
+"adresi {$sampleUrl} olacaqdır."
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "Başlıq daxil edilməlidir."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Yol daxil edilməlidir."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"Yol, sadəcə hərf, rəqəm və alt xətt (_) ilə tire (-) xarakterindən ibarət "
+"ola bilər. Əvvəlində və sonunda sadəcə hərf vəya rəqəm ola bilər."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "Əlavə etdiyiniz yol başqa bir jurnal tərəfindən istifadə edilir."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr ""
+"Əsas yerli tənzim, jurnalın dəstəklədiyi yerli tənzimlərdən biri olmalıdır."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Bu jurnalı saytda hər kəs görsün"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Jurnal təsviri"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr "Mövcud jurnal yolu və ya yaradılacaq yol (məsələn, \"ojs\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Abunəlikləri idxal edin"
+
+msgid "admin.journals.transcode"
+msgstr "Məqalənin üst datasını ISO8859-1`dən dəyişdirin"
+
+msgid "admin.journals.redirect"
+msgstr ""
+"OJS 1 URL adreslərinin OJS 2 URL adresləri ilə uyğunlaşması üçün kod yaradın"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "Data almağın yolu məcburidir."
+
+msgid "admin.journals.importErrors"
+msgstr "İdxaletmə prosesi uğursuz oldu"
+
+msgid "admin.mergeUsers"
+msgstr "İstifadəçiləri Birləşdir"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "İstifadəçi Birləşdir"
+
+msgid "admin.mergeUsers.into.description"
+msgstr ""
+"Əvvəlki istifadəçinin müəlliflik redaktorluq təyinatları və başqa "
+"özəlliklərin əlaqələndiriləcəyi bir istifadəçi seçin."
+
+msgid "admin.mergeUsers.from.description"
+msgstr ""
+"Başqa bir istifadəçi hesabı ilə birləşdirmək üçün bir istifadəçi (və ya "
+"istifadəçiləri) seçin (məsələn, bir nəfər iki istifadəçi hesabı varsa). İlk "
+"seçilmiş istifadəçi(lər) silinəcək və Məqalə (məlumat/konsiqnasiya), "
+"təyinatlar və s. xüsusiyyətlər ikinci seçilmiş istifadəçi hesabına "
+"köçürüləcəkdir."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Bütün Səlahiyyətli İstifadəçilər"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Seçilən {$oldAccountCount} adlı istifadəçi hesabını (hesablarını), \""
+"{$newUsername}\" adlı istifadəçi hesabında birləşdirmək istədiyinizdən "
+"əminsinizmi? Seçilən {$oldAccountCount} hesab(lar) ləğv ediləcək və daha "
+"sonra istifadə edilə bilməyəcək. Bu hərəkət geri qaytarılmır."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Səlahiyyətli istifadəçi yoxdur."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Abunəliyin Başa Çatma Xatırladıcısı"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Açıq Giriş Bildirişi"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Dəyərləndirmə Xatırladıcısı"
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueId"
+msgstr "Nömrə tam ədəd deyil."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueGalleyId"
+msgstr "Nömrə düzümü ID rəqəmi tam ədəd deyil."
+
+msgid ""
+"admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueAssocTypeNoMatch"
+msgstr "Nömrə ID rəqəmi qeydiyyatdakı ID ilə eyni deyil."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Toplu e-poçt göndərmək üçün icazə verilməli olan jurnalları seçin. Bu "
+"funksiya aktiv olduqda, jurnal meneceri jurnalında qeydiyyatdan keçmiş bütün "
+"istifadəçilərə e-poçt göndərə biləcək.<br><br>Arzuolunmayan e-poçt göndərmək "
+"üçün bu funksiyadan sui-istifadə bəzi qanunvericilikdəki spam əleyhinə "
+"qanunları poza bilər və serverinizin e-poçtlarının spam kimi bloklanması ilə "
+"nəticələnə bilər. Bu funksiyanı aktivləşdirməzdən əvvəl texniki məsləhət "
+"alın və onun düzgün istifadə olunmasını təmin etmək üçün jurnal menecerləri "
+"ilə məsləhətləşməyi nəzərə alın.<br><br>Bu funksiya ilə bağlı əlavə "
+"məhdudiyyətlər hər jurnal üçün onun <a href= \"{$hostedContextsUrl}\""
+">Yerləşdirilmiş Jurnallar</a> siyahısında onun parametrlər sehrbazına baş "
+"çəkməklə aktivləşdirilə bilər."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"Jurnal rəhbəri aşağıda seçilən rolların heç birinə toplu email göndərə "
+"bilməz. Email bildiriş funksiyasından sui-istifadəni məhdudlaşdırmaq üçün bu "
+"parametri istifadə edin. Məsələn, bu cür emailləri almağa icazə verilməyən "
+"oxuculara, müəlliflərə və ya digər böyük istifadəçi qruplarına toplu "
+"emailləri deaktiv etmək daha təhlükəsiz ola bilər. <br> <br> Toplu email "
+"funksiyası bu Jurnal üçün <a href=\"{$siteSettingsUrl}\">İdarəçi>Sayt "
+"Tənzimləmələri</a> bölümündən tamamilə deaktiv edilə bilər."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"Toplu email funksiyası bu jurnal üçün deaktiv edildi. Bu funksiyanı <a href="
+"\"{$siteSettingsUrl}\">İdarəçi>Sayt Tənzimləmələri</a> qismindən "
+"aktivləşdirin."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Bu sayta yeni jurnal əlavə edin, redaktə edin və ya silin və bütün saytdakı "
+"tənzimləmələri idarə edin."
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Bu saytda jurnallar tərəfindən toplana bilən coğrafi istifadə "
+"statistikasının növünü seçin. Daha ətraflı coğrafi statistika verilənlər "
+"bazanızın ölçüsünü əhəmiyyətli dərəcədə artıra bilər və bəzi nadir hallarda "
+"ziyarətçilərinizin anonimliyinə xələl gətirə bilər. Hər jurnal bu parametri "
+"fərqli şəkildə konfiqurasiya edə bilər, lakin jurnal heç vaxt burada "
+"konfiqurasiya ediləndən daha ətraflı məlumatları toplaya bilməz. Məsələn, "
+"sayt yalnız ölkə və regionu dəstəkləyirsə, jurnal ölkə və region və ya "
+"yalnız ölkə seçə bilər. Jurnal ölkə, bölgə və şəhəri izləyə bilməyəcək."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Bu saytdakı jurnalların qurumlar üzrə istifadə statistikasını toplaya "
+"bilməsini istəyirsinizsə, institusional statistikanı aktiv edin. Jurnallar "
+"bu funksiyadan istifadə etmək üçün qurumu və onun IP diapazonlarını əlavə "
+"etməlidirlər. İnstitular üzrə statistikanın aktivləşdirilməsi bazanızın "
+"ölçüsünü xeyli artıra bilər."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"SUSHI API son nöqtələrini bu saytdakı bütün jurnallar üçün ictimaiyyətə açıq "
+"etmək və ya etməmək. İctimai API-ni aktivləşdirsəniz, hər bir jurnal öz "
+"statistikasını şəxsi etmək üçün bu parametri ləğv edə bilər. Bununla belə, "
+"ictimai API-ni söndürsəniz, jurnallar öz API-lərini ictimai edə bilməzlər."

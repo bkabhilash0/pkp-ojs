@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "../../../dtd/xmlData.dtd">
+
+<!--
+  * tests/classes/db/data-table.xml
+  *
+  * Copyright (c) 2014-2021 Simon Fraser University
+  * Copyright (c) 2003-2021 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * XML data test file.
+  -->
+<data>
+	<table name="mytable">
+		<row>
+			<field name="notnullable_col" null="0" />
+			<field name="nullable_col" null="1" />
+			<field name="normal_col">MY_VALUE_1</field>
+		</row>
+		<row>
+			<field name="notnullable_col" null="0" />
+			<field name="nullable_col" null="1" />
+			<field name="normal_col">MY_VALUE_2</field>
+			<field name="default_col">DEFAULT_OVERRIDDEN</field>
+		</row>
+	</table>
+</data>
+

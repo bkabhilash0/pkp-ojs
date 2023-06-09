@@ -1,0 +1,24 @@
+# Albena Vassileva <albena.ava@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-04 12:28+0000\n"
+"Last-Translator: Albena Vassileva <albena.ava@gmail.com>\n"
+"Language-Team: Bulgarian <http://translate.pkp.sfu.ca/projects/plugins/"
+"makeSubmission/bg_BG/>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.block.makeSubmission.linkLabel"
+msgstr "Подаване на материал"
+
+msgid "plugins.block.makeSubmission.description"
+msgstr ""
+"Този плъгин предоставя блок в страничната лента с линк \"Подаване на "
+"материал\"."
+
+msgid "plugins.block.makeSubmission.displayName"
+msgstr "Блок \"Подаване на материал\""

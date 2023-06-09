@@ -1,0 +1,129 @@
+# Cyril Kamburov <cc@intermedia.bg>, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T13:44:50+00:00\n"
+"PO-Revision-Date: 2023-02-27 16:48+0000\n"
+"Last-Translator: Cyril Kamburov <cc@intermedia.bg>\n"
+"Language-Team: Bulgarian <http://translate.pkp.sfu.ca/projects/plugins/"
+"citation-style-language-plugin/bg/>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.citationStyleLanguage.displayName"
+msgstr "Език за стил на цитиране"
+
+msgid "plugins.generic.citationStyleLanguage.description"
+msgstr "Позволява на читателите да получат цитиранията от публикувана статия в един от няколко формата, поддържани от Езика за стил на цитиране."
+
+msgid "plugins.generic.citationStyleLanguage.style.acm-sig-proceedings"
+msgstr "ACM"
+
+msgid "plugins.generic.citationStyleLanguage.style.acs-nano"
+msgstr "ACS"
+
+msgid "plugins.generic.citationStyleLanguage.style.apa"
+msgstr "APA"
+
+msgid "plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas"
+msgstr "ABNT"
+
+msgid "plugins.generic.citationStyleLanguage.style.chicago-author-date"
+msgstr "Чикаго"
+
+msgid "plugins.generic.citationStyleLanguage.style.harvard-cite-them-right"
+msgstr "Харвард"
+
+msgid "plugins.generic.citationStyleLanguage.style.ieee"
+msgstr "IEEE"
+
+msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
+msgstr "MLA"
+
+msgid "plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography"
+msgstr "Турабиан"
+
+msgid "plugins.generic.citationStyleLanguage.style.vancouver"
+msgstr "Ванкувър"
+
+msgid "plugins.generic.citationStyleLanguage.download.bibtex"
+msgstr "БибТекс (BibTeX)"
+
+msgid "plugins.generic.citationStyleLanguage.download.ris"
+msgstr "Endnote/Zotero/Mendeley (РИС - RIS)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Формати за изтегляне"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr "Определете кои формати за изтегляне искате да предложите на читателите. Форматите за изтегляне типично се използват за импортиране в софтуер за библиография на трета страна, като EndNote или Zotero."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Допълнителни формати за цитирания"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Изберете кои формати бихте искали допълнително да предложите на читателите."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Първоначален формат за цитирания"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr "Изберете кой формат бихте искали да се показва по подразбиране на страницата на статия."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Местоположение на издателя"
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr "Някои формати за цитирания изискват географско местоположение, като \"Sofia, Bulgaria\"."
+
+msgid "plugins.generic.citationStyleLanguage.style.ama"
+msgstr "AMA"
+
+msgid "plugins.generic.citationStyleLanguage.description.omp"
+msgstr ""
+"Позволете на читателите да получат цитат за публикувана книга в един от "
+"няколкото формата, поддържани от Citation Style Language."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroupsDescription"
+msgstr ""
+"В някои стилове на цитиране съавторите трябва да бъдат идентифицирани по "
+"различен начин в зависимост от тяхната роля. Моля, идентифицирайте "
+"подходящите роли."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseAuthor"
+msgstr "Автори"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseTranslator"
+msgstr "Изберете ролите, които трябва да бъдат идентифицирани като преводачи."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseChapterAuthor"
+msgstr ""
+"Изберете ролите, които трябва да бъдат идентифицирани като автори на раздел."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseEditor"
+msgstr "Редактори"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseTranslator"
+msgstr "Преводачи"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseChapterAuthor"
+msgstr "Автори на раздел"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseEditor"
+msgstr "Изберете ролите, които трябва да бъдат идентифицирани като редактори."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp"
+msgstr ""
+"Изберете кой формат на цитиране искате да се показва по подразбиране на "
+"целевата страница на вашата книга."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroups"
+msgstr "Съавтори"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseAuthor"
+msgstr "Изберете ролите, които трябва да бъдат идентифицирани като автори."

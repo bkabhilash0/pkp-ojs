@@ -1,0 +1,244 @@
+# Diego José Macêdo <diegojmacedo@gmail.com>, 2022.
+# cicilia conceiçao de maria <ccmaria@uem.br>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T11:58:53-07:00\n"
+"PO-Revision-Date: 2022-09-29 18:01+0000\n"
+"Last-Translator: cicilia conceiçao de maria <ccmaria@uem.br>\n"
+"Language-Team: Portuguese (Brazil) <http://translate.pkp.sfu.ca/projects/ojs/"
+"admin/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "admin.hostedContexts"
+msgstr "Revistas Hospedadas"
+
+msgid "admin.settings.redirect"
+msgstr "Redirecionamento da revista"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"As solicitações realizadas ao portal serão direcionadas a esta revista. Esta "
+"opção pode ser útil caso o Portal hospede apenas uma revista."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Tem certeza de que deseja desativar este idioma? Isso pode afetar qualquer "
+"revistas hospedadas utilizando o idioma."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr ""
+"Este será o idioma padrão para o portal e todas as revistas hospedadas."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Os idiomas selecionados estarão disponíveis para todas as revistas no "
+"portal, e constarão da lista de idiomas que aparece em cada página do "
+"sistema (esta opção pode ser desativada individualmente por revista). Caso "
+"não sejam selecionados vários idiomas, a lista de idiomas não estará "
+"disponível e a opção \"configurações de idioma\" não estará disponível para "
+"as revistas."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "As configurações dos Idiomas marcados podem estar incompletos."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Deseja realmente remover este idioma? A execução pode afetar revistas "
+"hospedas que podem estar utilizando o idioma."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Selecione idiomas adicionais para uso no sistema. Os idiomas devem ser "
+"instalados antes que possam ser utilizados pelas revistas hospedadas. "
+"Consulte a documentação do OJS para obter informações sobre como adicionar "
+"suporte para novos idiomas."
+
+msgid "admin.systemVersion"
+msgstr "Versão do OJS"
+
+msgid "admin.systemConfiguration"
+msgstr "Configuração do OJS"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "Configurações do OJS no arquivo <tt>config.inc.php</tt>."
+
+msgid "admin.journals.createInstructions"
+msgstr ""
+"Seu cadastro como Gerente da Revista será automático. Após criar uma nova "
+"revista, você será redirecionado para o assistente de configurações, para "
+"concluir a configuração inicial da revista."
+
+msgid "admin.journals.journalSettings"
+msgstr "Configurações da Revista"
+
+msgid "admin.journals.noneCreated"
+msgstr "Nenhuma revista foi criada."
+
+msgid "admin.contexts.create"
+msgstr "Criar Revista"
+
+msgid "admin.journals.urlWillBe"
+msgstr ""
+"Deve ser uma única palavra curta ou acrônimo para identificar a revista. O "
+"endereço URL da revista será {$sampleUrl}."
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "O título é obrigatório."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "O caminho é obrigatório."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"O caminho deve conter apenas caracteres alfanuméricos, sublinhado, hífens. "
+"Deve começar e terminar com um caractere alfanumérico."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "O caminho selecionado já está em uso por outra revista."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr "O idioma principal deve ser um dos idiomas disponíveis da revista."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Permitir Acesso Livre da revista no portal"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Descrição da revista"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr "Caminho existente ou caminho a ser criado (ex.: \"ojs\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Importar assinaturas"
+
+msgid "admin.journals.transcode"
+msgstr "Transcodificar metadados de ISO8859-1"
+
+msgid "admin.journals.redirect"
+msgstr "Gerar código para mapear URLs da versão 1 do OJS para URLs da versão 2"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "O caminho para importação é necessário."
+
+msgid "admin.journals.importErrors"
+msgstr "Não foi possível concluir a importação corretamente"
+
+msgid "admin.mergeUsers"
+msgstr "Mesclar usuários/as"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "Mesclar Usuário"
+
+msgid "admin.mergeUsers.into.description"
+msgstr ""
+"Escolha um usuário a quem deseja atribuir as submissões e histórico de "
+"tarefas do cadastro anterior."
+
+msgid "admin.mergeUsers.from.description"
+msgstr ""
+"Selecione um usuário (ou vários) para mesclar em outra conta de usuário (por "
+"exemplo, quando alguém tem duas contas de usuário). A(s) conta(s) "
+"selecionada(s) primeiro será(ão) excluída(s) e quaisquer submissões, "
+"atribuições, etc. serão atribuídos à segunda conta."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Todos os usuários cadastrados"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Deseja realmente mesclar os \"{$oldAccountCount}\" cadastro(s) "
+"selecionado(s) no cadastro do usuário \"{$newUsername}\"? As contas "
+"selecionadas \"{$oldAccountCount}\" serão excluídas permanentemente. Esta "
+"ação é irreversível."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Nenhum usuário cadastrado."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Lembrete de Expiração da Assinatura"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Notificação de Acesso Aberto"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Lembrete de Avaliação"
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueId"
+msgstr "O ID da edição não é um número inteiro."
+
+msgid "admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueGalleyId"
+msgstr "O ID da composição da edição não é um número inteiro."
+
+msgid ""
+"admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueAssocTypeNoMatch"
+msgstr "O ID da edição não corresponde ao ID assoc."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Um gerente de revista não poderá enviar e-mails em massa para nenhuma das "
+"funções selecionadas abaixo. Use esta configuração para limitar o abuso do "
+"recurso de notificação por e-mail. Por exemplo, pode ser mais seguro "
+"desabilitar e-mails em massa para leitores, autores ou outros grandes grupos "
+"de usuários que não consentiram em receber tais e-mails.<br><br>O recurso de "
+"e-mail em massa pode ser desabilitado completamente para este periódico em "
+"<a href=\"{$siteSettingsUrl}\">Administração > Configurações do Portal</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"Um gerente de revista não poderá enviar e-mails em massa para nenhuma das "
+"funções selecionadas abaixo. Use esta configuração para limitar o abuso do "
+"recurso de notificação por e-mail. Por exemplo, pode ser mais seguro "
+"desabilitar e-mails em massa para leitores, autores ou outros grandes grupos "
+"de usuários que não consentiram em receber tais e-mails.<br><br>O recurso de "
+"e-mail em massa pode ser desabilitado completamente para este periódico em "
+"<a href=\"{$siteSettingsUrl}\">Administração > Configurações do Portal</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"O recurso de e-mail em massa foi desativado para esta revista. Habilite este "
+"recurso em <a href=\"{$siteSettingsUrl}\"> Administração> Configurações do "
+"Portal </a>."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Adicione, edite ou remova revistas deste portal e gerencie as configurações "
+"de todo o portal."
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Selecione o tipo de estatísticas de uso geográfico que podem ser coletadas "
+"pelos periódicos neste site. Estatísticas geográficas mais detalhadas podem "
+"aumentar consideravelmente o tamanho do seu banco de dados e, em alguns "
+"casos raros, podem prejudicar o anonimato de seus visitantes. Cada revista "
+"pode definir essa configuração de forma diferente, mas uma revista nunca "
+"pode coletar registros mais detalhados do que o que está configurado aqui. "
+"Por exemplo, se o site suporta apenas país e região, a revista pode "
+"selecionar país e região ou apenas país. A revista não poderá rastrear país, "
+"região e cidade."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Ative as estatísticas institucionais se desejar que os periódicos deste site "
+"possam coletar estatísticas de uso por instituição. As revistas precisarão "
+"adicionar a instituição e seus intervalos de IP para usar esse recurso. A "
+"ativação das estatísticas institucionais pode aumentar consideravelmente o "
+"tamanho do seu banco de dados."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"Se deve ou não tornar os endpoints da SUSHI API acessíveis publicamente para "
+"todos as revistas neste site. Se você habilitar a API pública, cada revista "
+"pode substituir essa configuração para tornar suas estatísticas privadas. No "
+"entanto, se você desabilitar a API pública, as revistas não poderão tornar "
+"sua própria API pública."
+
+#~ msgid "admin.contexts.confirmDelete"
+#~ msgstr ""
+#~ "Deseja realmente excluir permanentemente esta revista e seu conteúdo?"

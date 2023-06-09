@@ -1,0 +1,373 @@
+# Emilija Andonoska <emilija-andonoska@hotmail.com>, 2023.
+# Mirko Spiroski <mspiroski@id-press.eu>, 2023.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-06 11:49+0000\n"
+"Last-Translator: Mirko Spiroski <mspiroski@id-press.eu>\n"
+"Language-Team: Macedonian <http://translate.pkp.sfu.ca/projects/pkp-lib/api/"
+"mk/>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "api.400.paramNotSupported"
+msgstr "Параметарот {$param} не е поддржан."
+
+msgid "api.400.propReadOnly"
+msgstr "Својството {$prop} не може да се измени."
+
+msgid "api.400.invalidApiToken"
+msgstr ""
+"АПИ токенот не можеше да се потврди. Ова може да укажува кон грешка во АПИ "
+"токенот или дека АПИ токенот не е повеќе важечки."
+
+msgid "api.400.tokenCouldNotBeDecoded"
+msgstr "apiToken не можеше да се декодира заради следната грешка: {$error}"
+
+msgid "api.400.requireEmailSubjectBody"
+msgstr "Мора да наведете тема и содржина за емаил."
+
+msgid "api.files.400.notAllowedCreatedAt"
+msgstr "Не е можно да се промени времето кога е создадено."
+
+msgid "api.dois.403.prefixRequired"
+msgstr "Потребен е префикс DOI за да се генерираат DOI."
+
+msgid "api.403.unauthorized"
+msgstr "Не сте овластени да пристапите до бараниот ресурс."
+
+msgid "api.404.resourceNotFound"
+msgstr "Бараниот ресурс не беше пронајден."
+
+msgid "api.404.endpointNotFound"
+msgstr "Бараната URL адреса не беше препознаена."
+
+msgid "api.500.apiSecretKeyMissing"
+msgstr ""
+"АПИ токенот не може да се користи за пристап до оваа веб-страница бидејќи "
+"администраторот на страницата нема конфигурирано таен клуч."
+
+msgid "api.announcements.404.announcementNotFound"
+msgstr "Известувањето што го побаравте не беше пронајдено."
+
+msgid "api.institutions.404.institutionNotFound"
+msgstr "Институцијата што ја побаравте не беше пронајдена."
+
+msgid "api.contexts.400.localesNotSupported"
+msgstr "Следните локализации не се поддржани: {$locales}."
+
+msgid "api.dois.403.editItemOutOfContext"
+msgstr "Не можете да уредувате DOI на ставка што не е во овој контекст."
+
+msgid "api.dois.403.pubTypeNotRecognized"
+msgstr "Типот на публикација не беше препознаен."
+
+msgid "api.dois.404.contextNotFound"
+msgstr ""
+"Оваа крајна точка не е достапна од именскиот простор на целата локација и "
+"мора да се бара за даден контекст."
+
+msgid "api.dois.404.doiNotFound"
+msgstr "DOI што го баравте не беше пронајден."
+
+msgid "api.dois.404.pubObjectNotFound"
+msgstr "Објектот за објавување што го баравте не е пронајден."
+
+msgid "api.dois.404.submissionNotFound"
+msgstr "Поднесокот што го побаравте не беше пронајден."
+
+msgid "api.dois.400.noUnpublishedItems"
+msgstr ""
+"Необјавените ставки не може да се извезуваат/депонираат. Поништете го "
+"изборот на необјавени ставки и обидете се повторно."
+
+msgid "api.dois.400.creationFailed"
+msgstr "Се појави грешка и објектот DOI не може да се креира."
+
+msgid "api.dois.400.xmlExportFailed"
+msgstr "Настана грешка во валидацијата на XML и XML не може да се извезе."
+
+msgid "api.dois.400.markRegisteredFailed"
+msgstr ""
+"Настана грешка и некои од доставените ставки не беа означени како "
+"регистрирани."
+
+msgid "api.dois.400.depositFailed"
+msgstr ""
+"Некои ставки не беа успешно депонирани. Проверете ги поединечните ставки за "
+"нивните специфични пораки за грешка."
+
+msgid "api.dois.404.noPubObjectIncluded"
+msgstr "Во барањето не беа вклучени валидни објекти за објавување."
+
+msgid "api.dois.400.invalidPubObjectIncluded"
+msgstr ""
+"Еден или повеќе неважечки објекти за објавување беа вклучени во барањето."
+
+msgid "api.dois.400.invalidPluginType"
+msgstr ""
+"Тековно конфигурираниот приклучок мора да биде приклучок за агенција за "
+"регистрација."
+
+msgid "api.decisions.403.alreadyPublished"
+msgstr ""
+"Не можете да снимате одлука или да препорачате одлука за овој поднесок "
+"бидејќи е веќе објавен."
+
+msgid "api.emails.400.missingBody"
+msgstr "Мора да вклучите е-пошта за испраќање."
+
+msgid "api.emails.400.missingSubject"
+msgstr "Мора да наведете предмет за е-поштата."
+
+msgid "api.emails.400.missingUserGroups"
+msgstr ""
+"Мора да ги наведете улогите на корисникот што треба да ја примат оваа е-"
+"пошта."
+
+msgid "api.emails.403.notAllowedUserGroup"
+msgstr ""
+"Не ви е дозволено да испраќате е-пошта до корисниците во една или повеќе од "
+"избраните улоги."
+
+msgid "api.emailTemplates.400.invalidAlternateTo"
+msgstr "Ова не е стандарден образец за порака за познатиот емаил."
+
+msgid "api.emailTemplates.400.invalidContext"
+msgstr "Ова не е валиден контекст."
+
+msgid "api.emailTemplates.404.templateNotFound"
+msgstr "Образецот за е-пошта што го побаравте не е пронајден."
+
+msgid "api.files.400.noUpload"
+msgstr ""
+"Ниту една датотека што треба да се постави не може да се најде со барањето."
+
+msgid "api.files.400.uploadFailed"
+msgstr "Една или повеќе датотеки не може да се постават ."
+
+msgid "api.files.400.fileSize"
+msgstr "Датотеките поголеми од {$maxSize} не можат да се поставуваат."
+
+msgid "api.files.400.config"
+msgstr ""
+"Датотеката не може да се подигне поради грешка во конфигурацијата на "
+"серверот. Ве молиме контактирајте го администраторот на системот."
+
+msgid "api.publication.403.alreadyPublished"
+msgstr "Публикацијата што сакате да ја објавите е веќе објавена."
+
+msgid "api.publication.403.alreadyUnpublished"
+msgstr "Публикацијата што сакате да ја објавите не е објавена."
+
+msgid "api.publication.403.cantEditPublished"
+msgstr "Не можете да ја уредувате оваа публикација затоа што веќе е објавена."
+
+msgid "api.publication.403.cantEditStatus"
+msgstr ""
+"Не можете да го менувате статусот директно преку API. Наместо тоа, користете "
+"ги / објави и / необјави крајните точки."
+
+msgid "api.publication.403.cantDeletePublished"
+msgstr "Мора да ја одобјавите оваа публикација пред да ја избришете."
+
+msgid "api.publicFiles.400.extensionNotSupported"
+msgstr "Може да ги поставите само следниве типови датотеки: {$fileTypes}."
+
+msgid "api.publicFiles.400.invalidImage"
+msgstr "Сликата што ја поставивте не е валидна."
+
+msgid "api.publicFiles.400.mimeTypeNotMatched"
+msgstr ""
+"Датотеката што ја поставивте не се совпаѓа со наставката на датотеката. Ова "
+"може да се случи кога датотеката е преименувана во некомпатибилен тип, на "
+"пример, промена на photo.png во photo.jpg."
+
+msgid "api.publicFiles.403.unauthorized"
+msgstr "Не ви е дозволено да аплодирате датотеки."
+
+msgid "api.publicFiles.413.noDirSpace"
+msgstr ""
+"Немате доволно простор во вашиот кориснички директориум. Датотеката што ја "
+"испраќате е {$fileUploadSize}kb и имате уште {$dirSizeLeft}kb."
+
+msgid "api.publicFiles.500.badFilesDir"
+msgstr ""
+"Јавниот директориумот за датотеки не е пронајден или датотеките не можат да "
+"се зачуваат. Контактирајте го вашиот администратор."
+
+msgid "api.stats.400.wrongDateFormat"
+msgstr "Датумот мора да биде во форматот YYYY-MM-DD."
+
+msgid "api.stats.400.wrongDateRange"
+msgstr "Датумот на започнување не може да биде подоцна од крајниот датум."
+
+msgid "api.stats.400.earlyDateRange"
+msgstr "Датумот на започнување не може да биде порано од 2001-01-01."
+
+msgid "api.stats.400.lateDateRange"
+msgstr "Датумот на завршување не може да биде подоцна од вчера."
+
+msgid "api.stats.400.wrongTimelineInterval"
+msgstr ""
+"Вашето барање не беше валидно. Временскиот интервал треба да биде „ден“ или "
+"„месец“."
+
+msgid "api.stats.400.invalidOrderDirection"
+msgstr ""
+"Вашето барање не беше валидно. Насоката мора да биде „надолу“ или „нагоре“."
+
+msgid "api.stats.400.invalidTimelineInterval"
+msgstr ""
+"Вашето барање не беше валидно. Временскиот интервал мора да биде „ден“ или "
+"„месец“."
+
+msgid "api.submissionFiles.400.assocTypeAndIdRequired"
+msgstr ""
+"Не можете да ја измените асоцијацијата на датотеки без да поминете "
+"assocTypeи assocId."
+
+msgid "api.submissionFiles.400.badDependentFileAssocType"
+msgstr ""
+"Не можете да поврзете датотека од оваа фаза на датотека со друга датотека за "
+"поднесување."
+
+msgid "api.submissionFiles.400.badNoteAssocType"
+msgstr ""
+"Не можете да поврзете датотека од оваа фаза на датотека со белешка за "
+"дискусија."
+
+msgid "api.submissionFiles.400.badReviewAssignmentAssocType"
+msgstr ""
+"Не можете да поврзете датотека од оваа фаза на датотека со задача за преглед."
+
+msgid "api.submissionFiles.400.badReviewRoundAssocType"
+msgstr ""
+"Не можете да поврзете датотека од оваа фаза на датотека со круг за преглед."
+
+msgid "api.submissionFiles.400.missingReviewRoundAssocType"
+msgstr ""
+"Мора да наведете круг за преглед кога барате датотеки во фаза на преглед."
+
+msgid "api.submissionFiles.400.noFileStageId"
+msgstr "Мора да наведете фаза на датотека."
+
+msgid "api.submissionFiles.400.invalidFileStage"
+msgstr "Фазата на датотеката што ја наведовте не е валидна."
+
+msgid "api.submissionsFiles.400.noParams"
+msgstr "Не беа пронајдени промени во барањето за уредување на оваа датотека."
+
+msgid "api.submissionFiles.400.reviewRoundIdRequired"
+msgstr ""
+"Мора да обезбедите ID на круг за преглед кога преместувате датотека во оваа "
+"фаза на датотека."
+
+msgid "api.submissionFiles.400.reviewRoundSubmissionNotMatch"
+msgstr "Кругот за преглед што ја дадовте не е дел од овој поднесок."
+
+msgid "api.submissionFiles.403.unauthorizedFileStageId"
+msgstr "Не ви е дозволен пристап до овие датотеки."
+
+msgid "api.submissionFiles.403.unauthorizedFileStageIdWrite"
+msgstr "Не ви е дозволено да ги додавате и уредувате овие датотеки."
+
+msgid "api.submissionFiles.403.unauthorizedReviewRound"
+msgstr "Немате пристап до датотеките во овој круг на рецензирање."
+
+msgid "api.submissions.400.missingRequired"
+msgstr ""
+"Вашето барање не може да се исполни затоа што недостасуваат потребни "
+"информации."
+
+msgid "api.submissions.400.invalidIssueIdentifiers"
+msgstr "Бараниот волумен, број или година не е валиден."
+
+msgid "api.submissions.400.invalidSubmitAs"
+msgstr "Не ви е дозволено да поднесувате во оваа корисничка улога."
+
+msgid "api.submissions.403.csrfTokenFailure"
+msgstr ""
+"Вашето барање беше одбиено. Ова може да биде затоа што најавувањето е "
+"истечено. Повторно вчитајте ја страницата и обидете се повторно."
+
+msgid "api.submissions.403.deleteSubmissionOutOfContext"
+msgstr "Не можете да избришете поднесок што не е доделен на овој контекст."
+
+msgid "api.submissions.403.requestedOthersUnpublishedSubmissions"
+msgstr "Може да видите само необјавени поднесоци кои ви се доделени."
+
+msgid "api.submissions.403.unauthorizedDeleteSubmission"
+msgstr "Немате дозвола да го избришете овој поднесок."
+
+msgid "api.submissions.403.userCantEdit"
+msgstr "Не можете да ја уредувате оваа публикација."
+
+msgid "api.submissions.404.siteWideEndpoint"
+msgstr ""
+"Оваа крајна точка не е достапна од контекст. Треба да се пристапи од "
+"именскиот простор на целата страница."
+
+msgid "api.themes.404.themeUnavailable"
+msgstr ""
+"Активната тема, {$themePluginPath}, не е овозможена и може да не е "
+"инсталирана."
+
+msgid "api.vocabs.400.localeNotSupported"
+msgstr "Локализацијата { {$locale} не е поддржана."
+
+msgid "api.mailables.404.mailableNotFound"
+msgstr "Емаил адресата што ја побаравте не беше пронајдена."
+
+msgid "api.jobs.404.failedJobNotFound"
+msgstr "Неуспешната работа не е пронајдена во неуспешната листа."
+
+msgid "api.jobs.406.failedJobPayloadMissing"
+msgstr "На неуспешната работа и недостасува товарот да биде повторно испратен."
+
+msgid "api.jobs.406.failedJobEmpty"
+msgstr "Не е пронајдена неуспешна работа во списокот."
+
+msgid "api.jobs.400.failedJobRedispatchedFailed"
+msgstr "Не може повторно да се испрати неуспешната работа."
+
+msgid "api.jobs.200.failedJobRedispatchedSucceed"
+msgstr "Неуспешната работа е повторно испратена успешно."
+
+msgid "api.jobs.200.allFailedJobRedispatchedSucceed"
+msgstr ""
+"Сите неуспешни работни места што може да се препратат со валидност се "
+"успешно испратени."
+
+msgid "api.jobs.400.failedJobDeleteFailed"
+msgstr "Не може да се избрише неуспешната работа од неуспешната листа."
+
+msgid "api.jobs.200.failedJobDeleteSucceed"
+msgstr "Неуспешната работа е успешно избришана од неуспешната листа."
+
+#~ msgid "api.vocabs.400.vocabNotSupported"
+#~ msgstr "Вокапот {$vocab} не е поддржан."
+
+#~ msgid "api.temporaryFiles.400.config"
+#~ msgstr ""
+#~ "Датотеката не може да се аплоадира заради грешка во конфигурацијата на "
+#~ "серверот. Ве молиме контактирајте го систем администраторот."
+
+#~ msgid "api.temporaryFiles.400.fileSize"
+#~ msgstr "Датотеките поголеми од  {$maxSize} не можат да се аплоадираат."
+
+#~ msgid "api.temporaryFiles.409.uploadFailed"
+#~ msgstr "Не може да се аплоадираат една или повеќе датотеки."
+
+#~ msgid "api.temporaryFiles.400.noUpload"
+#~ msgstr ""
+#~ "Ниту една датотека што треба да се аплоадира не може да се најде со "
+#~ "барањето."
+
+#~ msgid "api.submissions.unknownError"
+#~ msgstr ""
+#~ "Се случи неочекувана грешка. Вчитајте ја страницата повторно и обидете се "
+#~ "повторно."

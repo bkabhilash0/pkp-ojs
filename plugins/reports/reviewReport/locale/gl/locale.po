@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-12 09:54+0000\n"
+"Last-Translator: Real Academia Galega <reacagal@gmail.com>\n"
+"Language-Team: Galician <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/gl_ES/>\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Comentarios sobre o envío"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Recomendación"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Días de atraso na revisión"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Días de atraso da resposta"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Data recordatoria"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Data de finalización"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Data de acuse de recibo"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Data de confirmación"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Data de notificación"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Data de asignación"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Revisor/a"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "ID do envío"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Título do envío"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Rolda"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Este complemento implementa un informe CSV que contén unha lista de tarefas "
+"de revisión dunha publicación."
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Informe de revisión"

@@ -1,0 +1,334 @@
+# Carla Marques <carla.marques@usdb.uminho.pt>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02T16:17:18-08:00\n"
+"PO-Revision-Date: 2022-01-07 11:25+0000\n"
+"Last-Translator: Carla Marques <carla.marques@usdb.uminho.pt>\n"
+"Language-Team: Portuguese (Portugal) <http://translate.pkp.sfu.ca/projects/"
+"ojs/emails/pt_PT/>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+#, fuzzy
+msgid "emails.submissionAck.subject"
+msgstr "Obrigado pela sua submissão a {$contextName}"
+
+#, fuzzy
+msgid "emails.submissionAck.body"
+msgstr ""
+"{$recipientName},<br />\n"
+"<br />\n"
+"Agradecemos a submissão do seu manuscrito &quot;{$submissionTitle}&quot; à "
+"revista {$contextName}. Através do sistema de gestão editorial online que "
+"estamos a utilizar, conseguirá acompanhar o progresso no processo editorial, "
+"bastando entrar no sistema disponível em:<br />\n"
+"<br />\n"
+"URL do Manuscrito: {$submissionUrl}<br />\n"
+"Nome de utilizador: {$recipientUsername}<br />\n"
+"<br />\n"
+"Em caso de dúvidas,  entre em contacto connosco.\n"
+"Agradecemos mais uma vez considerar a nossa revista como meio de transmitir "
+"ao público o seu trabalho científico.<br />\n"
+"<br />\n"
+"{$contextSignature}"
+
+msgid "emails.submissionAck.description"
+msgstr ""
+
+#, fuzzy
+msgid "emails.reviewAck.subject"
+msgstr "Agradecimento pela revisão"
+
+#, fuzzy
+msgid "emails.reviewAck.body"
+msgstr ""
+"{$recipientName}:<br />\n"
+"<br />\n"
+"Agradecemos ter concluído a revisão da submissão &quot;{$submissionTitle}"
+"&quot; à revista {$contextName}. A sua contribuição é fundamental para a "
+"qualidade dos trabalhos publicados."
+
+msgid "emails.decision.notifyReviewers.subject"
+msgstr ""
+
+msgid "emails.decision.notifyReviewers.body"
+msgstr ""
+
+msgid "emails.decision.notifyOtherAuthors.subject"
+msgstr ""
+
+msgid "emails.decision.notifyOtherAuthors.body"
+msgstr ""
+
+#, fuzzy
+msgid "emails.editorDecisionSendToExternal.subject"
+msgstr "Decisão editorial"
+
+#, fuzzy
+msgid "emails.editorDecisionSendToExternal.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Foi tomada uma decisão sobre o artigo submetido a {$contextName}, &quot;"
+"{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"A decisão é: Enviar para Revisão<br />\n"
+"<br />\n"
+"URL da submissão: {$submissionUrl}"
+
+#, fuzzy
+msgid "emails.editorDecisionSendToProduction.subject"
+msgstr "Próximos passos para publicar a sua submissão"
+
+#, fuzzy
+msgid "emails.editorDecisionSendToProduction.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"A edição da sua submissão, &quot;{$submissionTitle},&quot; está concluída.  "
+"O artigo foi enviado para a produção.<br />\n"
+"<br />\n"
+"URL da submissão : {$submissionUrl}"
+
+#, fuzzy
+msgid "emails.editorDecisionRevisions.subject"
+msgstr "A sua submissão foi revista e encorajamo-lo a inserir revisões"
+
+#, fuzzy
+msgid "emails.editorDecisionRevisions.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Foi tomada uma decisão sobre o artigo submetido à {$contextName}, &quot;"
+"{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"A decisão é: Revisões Requeridas"
+
+#, fuzzy
+msgid "emails.editorDecisionResubmit.subject"
+msgstr "A sua submissão foi revista - por favor reveja e volte a submeter"
+
+#, fuzzy
+msgid "emails.editorDecisionResubmit.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Foi tomada uma decisão sobre o artigo enviado à revista {$contextName}, "
+"&quot;{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"A decisão é: Submeter Novamente Para Revisão"
+
+#, fuzzy
+msgid "emails.editorDecisionDecline.subject"
+msgstr "A sua submissão foi recusada"
+
+#, fuzzy
+msgid "emails.editorDecisionDecline.body"
+msgstr ""
+"{$authors}:<br />\n"
+"<br />\n"
+"Foi tomada uma decisão sobre o artigo submetido à revista {$contextName}, "
+"&quot;{$submissionTitle}&quot;.<br />\n"
+"<br />\n"
+"A decisão é: Rejeitar"
+
+#, fuzzy
+msgid "emails.editorRecommendation.subject"
+msgstr "Recomendação Editorial"
+
+#, fuzzy
+msgid "emails.editorRecommendation.body"
+msgstr ""
+"Caro {$editors}:<br />\n"
+"<br />\n"
+"Após considerar os comentários dos revisores, envio a minha recomendação "
+"relativamente à submissão {$submissionTitle}.</p><p>A minha recomendação é:"
+"<br />{$recommendation}.</p><p>Visite o <a href=\"{$submissionUrl}\">fluxo "
+"editorial</a> da submissão para agir de acordo com a recomendação.</"
+"p><p>Encontro-me ao dispor para responder a qualquer pergunta.</"
+"p><p>Cumprimentos,</p><p>{$senderName}</p>"
+
+#, fuzzy
+msgid "emails.copyeditRequest.subject"
+msgstr ""
+"A submissão {$submissionId} está pronta para edição de texto para "
+"{$contextAcronym}"
+
+#, fuzzy
+msgid "emails.copyeditRequest.body"
+msgstr ""
+"{$recipientName},<br />\n"
+"<br />\n"
+"Solicito a revisão do texto do manuscrito &quot;{$submissionTitle}&quot;, "
+"submetido à revista {$contextName}, conforme os seguintes passos:<br />\n"
+"1. Clique no URL da submissão, indicado mais adiante nesta mensagem.<br />\n"
+"2. Abra quaisquer ficheiros disponíveis nos Ficheiros de Rascunho e reveja o "
+"texto; pode adicionar Discussões de Edição de texto conforme for necessário."
+"<br />\n"
+"3. Guarde o(s) ficheiro(s) revisto(s) e envie o ficheiro para o Painel de "
+"Edição de Texto.<br />\n"
+"4. Notifique o Editor que todos os ficheiros estão pronto, e o processo de "
+"Produção pode ser iniciado.<br />\n"
+"<br />\n"
+"URL da {$contextName}: {$contextUrl}<br />\n"
+"URL da Submissão: {$submissionUrl}<br />\n"
+"Nome de utilizador: {$recipientUsername}"
+
+msgid "emails.editorDecisionNewReviewRound.subject"
+msgstr ""
+
+msgid "emails.editorDecisionNewReviewRound.body"
+msgstr ""
+
+msgid "emails.editorDecisionRevertDecline.subject"
+msgstr ""
+
+msgid "emails.editorDecisionRevertDecline.body"
+msgstr ""
+
+msgid "emails.editorDecisionRevertInitialDecline.subject"
+msgstr ""
+
+msgid "emails.editorDecisionRevertInitialDecline.body"
+msgstr ""
+
+#, fuzzy
+msgid "emails.editorDecisionInitialDecline.subject"
+msgstr "A sua submissão foi recusada"
+
+#, fuzzy
+msgid "emails.editorDecisionInitialDecline.body"
+msgstr ""
+"\n"
+"\t\t\t{$authors}:<br />\n"
+"<br />\n"
+"Em relação à sua submissão à revista {$contextName}, &quot;{$submissionTitle}"
+"&quot; foi tomada uma decisão.<br />\n"
+"<br />\n"
+"A decisão é: Rejeitar a Submissão"
+
+msgid "emails.editorialReminder.subject"
+msgstr ""
+
+msgid "emails.editorialReminder.body"
+msgstr ""
+
+msgid "discussion.notification.description"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromProduction.subject"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromProduction.body"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromCopyediting.subject"
+msgstr ""
+
+msgid "emails.editorDecisionBackFromCopyediting.body"
+msgstr ""
+
+msgid "emails.editorDecisionCancelReviewRound.subject"
+msgstr ""
+
+msgid "emails.editorDecisionCancelReviewRound.body"
+msgstr ""
+
+msgid "emails.reviewResendRequest.subject"
+msgstr ""
+
+msgid "emails.reviewResendRequest.body"
+msgstr ""
+
+msgid "emails.footer.unsubscribe"
+msgstr ""
+
+msgid "emails.footer.unsubscribe.discussion"
+msgstr ""
+
+msgid "emails.footer.unsubscribe.automated"
+msgstr ""
+
+msgid "emailTemplate.variable.unsubscribe"
+msgstr ""
+
+#, fuzzy
+msgid "emails.discussion.subject"
+msgstr "Uma mensagem relativa {$contextName}"
+
+msgid "emails.discussion.body"
+msgstr "Escreva a sua mensagem."
+
+msgid "emails.versionCreated.subject"
+msgstr ""
+
+msgid "emails.versionCreated.body"
+msgstr ""
+
+msgid "emails.reviewComplete.subject"
+msgstr ""
+
+msgid "emails.reviewComplete.body"
+msgstr ""
+
+msgid "emails.reviewEdit.subject"
+msgstr ""
+
+msgid "emails.reviewEdit.body"
+msgstr ""
+
+#, fuzzy
+msgid "emails.reviewConfirm.subject"
+msgstr "Disponível para realizar a revisão"
+
+#, fuzzy
+msgid "emails.reviewConfirm.body"
+msgstr ""
+"Cara(o) Editor:<br />\n"
+"<br />\n"
+"Estou disponível e interessado em rever a submissão &quot;{$submissionTitle}"
+"&quot; a {$contextName}. Agradeço a consideração e estimo concluir a revisão "
+"até à data definida, {$reviewDueDate}, ou antes do prazo.<br />\n"
+"<br />\n"
+"{$senderName}"
+
+msgid "emails.submissionSavedForLater.subject"
+msgstr ""
+
+msgid "emails.submissionSavedForLater.body"
+msgstr ""
+
+msgid "emails.submissionNeedsEditor.subject"
+msgstr ""
+
+msgid "emails.submissionNeedsEditor.body"
+msgstr ""
+
+msgid "emails.submissionAckNotUser.description"
+msgstr ""
+
+msgid "emails.submissionAckNotAuthor.subject"
+msgstr "Confirmação da submissão"
+
+#, fuzzy
+msgid "emails.submissionAckNotAuthor.body"
+msgstr ""
+"<p>Caro {$recipientName},</p><p>Foi nomeado como coautor da submissão à "
+"{$contextName}. A pessoa que submeteu, {$submitterName} forneceu os "
+"seguintes detalhes:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</"
+"p><p> Se alguma destas informações estiver incorreta, ou desejar ser "
+"designado para esta submissão, entre em contacto connosco.</p><p>Agradecemos "
+"a escolhada da nossa revista para publicar o seu trabalho.</p><br /"
+"><p>Atentamente,</p>{$contextSignature}"
+
+#, fuzzy
+#~ msgid "emails.reviewAck.description"
+#~ msgstr ""
+#~ "Este e-mail é enviado pelo Editor de Secção ao Revisor para confirmar a "
+#~ "receção e agradecer ao revisor pela conclusão da revisão."
