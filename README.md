@@ -34,3 +34,4 @@ This software is released under the the GNU General Public License. See the file
 
 Third parties are welcome to modify and redistribute OJS in entirety or parts according to the terms of this license. PKP also welcomes patches for improvements or bug fixes to the software.
 # pkp-ojs
+# pkp-ojs
